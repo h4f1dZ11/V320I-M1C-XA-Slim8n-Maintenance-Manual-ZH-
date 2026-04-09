@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" modified="2026-04-07T13:59:49.436Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.8.2 Establishing Tool Change Position (Z-Axis)</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">建立刀具更换位置（Z 轴）</para>
+    </header>
+    <para styleclass="Normal" style="line-height:1.50;"><text style="font-weight:bold;">操作步骤</text></para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">设置 ATC 维护参数 K61.4=1，禁用 ATC。这将绕过一些联锁，帮助确定刀具更换位置。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">通过更改 NC 参数 N1320(Y) 0.2<text styleclass="" style="font-family:Symbol; font-size:11pt; color:#000000;">®</text>81.2 来更改冲程限制。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">打开操作门。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">在 &quot;手柄 &quot;模式下，将穿梭机线性轴移至 U 0，并将穿梭机臂分度至 V 0（滚筒夹具位置）。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">将 HSK-A63 刀具插入滚轮夹具</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">将夹具放在 HSK-A63 刀架的量规平面上。(参照<text style="color:#0000ff;">&#32;</text><link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig2.9" target="_blank" style="color:#0000ff;">图 2.9</link>）。</li>
+    </list>
+    <para styleclass="Normal" style="text-align:center; text-indent:-24px; margin-bottom:10px; margin-left:24px;"><image src="Establishing Tool Change Position_Fig 2.9(New).jpg" imagestyleclass="Default" scale="50.00%" width="422" height="282" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><anchor id="Fig2.9" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; 建立刀具更换位置（Z 轴）</text></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="7" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">将主轴移至 X -450 Y 80</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">在手柄模式下缓慢移动 Z 轴，直到主轴面与夹具轻微接触。(用手旋转夹具以确认接触）。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">记下机床 Z 轴位置值 A。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">用以下公式计算 Z 轴刀具更换位置。 </li>
+    </list>
+    <list id="2" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:Arial; font-size:11pt; color:#000000;">
+      <list id="2" level="1" type="ol" listtype="lower-alpha" formatstring="&#37;&#49;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:Arial; font-size:11pt; color:#000000;">
+        <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">Z 轴刀具更换位置 = [值 A] + [夹具高度] - [0.25］ </li>
+      </list>
+    </list>
+    <list id="3" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="11" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">在 ATC 维护屏幕中输入此值，<link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig2.10" style="color:#0000ff;">如图 2.10</link>所示（ATC 维护模式需要打开）。</li>
+    </list>
+    <para styleclass="Normal" style="text-align:center; text-indent:-24px; margin-bottom:10px; margin-left:24px;"><image src="Establishing Tool Change Position_Fig 2.10(New).png" imagestyleclass="Default" scale="40.00%" width="320" height="240" styleclass="Image Caption" figurelistinclude="0"></image><text styleclass="Image Caption">.</text></para>
+    <para styleclass="Normal" style="text-align:center;"><anchor id="Fig2.10" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; ATC 维护屏幕刀具更换位置（Z 轴）</text></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal"></para>
+    <list id="4" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="12" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">确定刀具更换位置后，将主轴移出 ATC 区域。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">从滚轮夹具上取下夹具和 HSK-A63 刀具。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">将飞梭线性轴移至 U 235，确保飞梭臂分度为 V 0。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">在 MDI 模式下使用 M6 命令检查刀具定位位置是否正确。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">返回 ATC 维护参数 K61.4 1<text styleclass="" style="font-family:Symbol; font-size:11pt; color:#000000;">® </text>0。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">返回冲程限制参数 N1320(Y) 81.2<text styleclass="" style="font-family:Symbol; font-size:11pt; color:#000000;">® </text>0.2。</li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;">至此，建立刀具更换位置（Z 轴）程序完成。</para>
+    <para styleclass="Normal" style="margin-bottom:10px;">在启用 SINGLE block（单个程序块）的情况下，以较低的超控速度尝试换刀。</para>
+    <para styleclass="Normal">如果 ATC 不够平稳，重复建立刀具更换位置（XY 轴和 Z 轴）步骤。</para>
+    <para styleclass="Normal" style="text-align:center; page-break-before:always;"></para>
+  </body>
+</topic>

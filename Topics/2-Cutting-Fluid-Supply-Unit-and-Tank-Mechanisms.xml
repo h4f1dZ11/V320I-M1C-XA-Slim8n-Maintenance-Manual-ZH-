@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T15:40:44.853Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2 Cutting Fluid Supply Unit and Tank Mechanism</title>
+  <body>
+    <header>
+      <para styleclass="Heading2">切削液供应装置和储液罐装置</para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:6px;"><table styleclass="Default" rowcount="1" colcount="1" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td style="width:259px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:5px; margin-bottom:5px;"><text style="font-weight:bold;">带选配的标准机床</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:10px;"><image src="Fig 2.1 Cutting Fluids and Tank Mechanism.png" imagestyleclass="Default" scale="60.00%" width="349" height="349" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:6px;"><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER14=2%&gt;.&lt;%HMFIGURECOUNTER=1%&gt; &#160;切削液供应和储液罐装置 1</text></para>
+    <para styleclass="Normal" style="margin-bottom:3px;"><table styleclass="Default" rowcount="1" colcount="1" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td style="width:259px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:5px; margin-bottom:5px;"><text style="font-weight:bold;">带选配的 APC 机床</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:10px;"><image src="Fig 2.1 Cutting Fluids and Tank Mechanism for APC.png" imagestyleclass="Default" scale="60.00%" width="356" height="366" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER14=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160;切削液供应和储液罐装置 2</text></para>
+    <para styleclass="Normal" style="text-align:center; page-break-before:always;"></para>
+  </body>
+</topic>

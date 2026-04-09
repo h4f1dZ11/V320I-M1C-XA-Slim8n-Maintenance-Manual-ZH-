@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" modified="2026-04-08T09:41:27.966Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>7.3 Calibration</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">校准</para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:10px;">在启用 BT 检查之前，必须确保 BTS 校准。 </para>
+    <para styleclass="Normal" style="margin-bottom:10px;">在下列情况下需要重新校准 BTS </para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;">更换 BT 开关或 BT 开关位置受到干扰。</li>
+      <li styleclass="Normal" style="margin-bottom:14px;">由于更换机械项目或更换电机或基准狗位置移动等原因，轴的参照点发生变化。</li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">校准步骤</text></para>
+    <para styleclass="Normal" style="margin-bottom:10px;">此校准的目的是教授机床主轴面与 BT 传感器驱动点之间的距离。</para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:10px;"><image src="Fig 7.1 BTS.png" imagestyleclass="Default" scale="60.00%" width="409" height="298" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:16px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:159px left ;"><anchor id="Fig7.1" styleclass="Normal" style="font-size:11pt;"></anchor><text styleclass="Normal" style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER3=7%&gt;.&lt;%HMFIGURECOUNTER=1%&gt; &#160; 刀具破损传感器 (BTS) 视图</text></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:19px;"><table rowcount="3" colcount="4" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:middle">
+        <td style="width:53px; height:21px; background-color:#dddddd;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">编号</text></para>
+        </td>
+        <td style="width:189px; height:21px; background-color:#dddddd;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">名称</text></para>
+        </td>
+        <td style="width:53px; height:21px; background-color:#dddddd;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">编号</text></para>
+        </td>
+        <td style="width:189px; height:21px; background-color:#dddddd;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">名称</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:53px; height:22px;">
+          <para styleclass="" style="text-align:center; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:1px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000; letter-scaling:99%;">1</text></para>
+        </td>
+        <td style="vertical-align:middle; width:189px; height:22px;">
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">工具</text></para>
+        </td>
+        <td style="vertical-align:middle; width:53px; height:22px;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">3</text></para>
+        </td>
+        <td style="vertical-align:middle; width:189px; height:22px;">
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">工作台</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:53px; height:22px;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:1px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000; letter-scaling:99%;">2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:189px; height:22px;">
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">刀具破损传感器 (BTS)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:53px; height:22px;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">-</text></para>
+        </td>
+        <td style="vertical-align:middle; width:189px; height:22px;">
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">-</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">使用标准刀具。用工具测量仪测量其长度。该值为 &quot;n&quot;。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-left:24px;">确保带刀具的主轴在 XY 方向上位于 BT 传感器的中心。如果不是，则调整限位开关和限位开关支架，使其处于中心位置。</li>
+    </list>
+    <para styleclass="Notes" style="margin-bottom:10px; page-break-before:always;"><text style="font-size:10pt;">-注-</text></para>
+    <para styleclass="Notes" style="margin-bottom:14px;"><text style="font-size:10pt;">标准机床：BTS 装置大约安装在 X-500.0 和 Y0.0 处。由于支架可能不是加工项目，因此可能需要进行 XY 位置调整，以使机床接触传感器中心。该 XY 轴 BTS 位置可在 NC 参数中设置。</text></para>
+    <para styleclass="Normal" style="margin-bottom:10px;">X 轴 BTS 位置参数 - N8815</para>
+    <para styleclass="Normal" style="margin-bottom:10px;">Y 轴 BTS 位置参数 - N8816</para>
+    <para styleclass="Normal" style="margin-bottom:10px;">举例说明：X 轴 BTS 位置为 -1.1234，Y 轴 BTS 位置为 2.2345。</para>
+    <para styleclass="Normal" style="margin-bottom:10px; margin-left:65px;">N8815= -1.1234 x 10000= -11234</para>
+    <para styleclass="Normal" style="margin-bottom:10px; margin-left:65px;">N8816= 2.2345 x 10000= 22345</para>
+    <list id="2" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="3" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">以慢进给速度，通过手柄模式将 Z 轴向下（负方向）移向 BT 传感器。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">当主轴刀具接触 BT 传感器时，BT 传感器（信号 LS300）从 1 变为 0（在低进给速度下进行此接触过程）。当信号 LS300 从 1 变为 0 时，停止轴运动。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:14px; margin-left:24px;">记下 Z 轴的机床位置。该值为 &quot;m&quot;。</li>
+    </list>
+    <para styleclass="Normal" style="text-align:center; text-indent:-24px; margin-bottom:10px; margin-left:24px;"><image src="Z-Axis Position (‘m’ value).jpg" scale="25.00%" width="348" height="243" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:16px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:159px left ;"><anchor id="Fig7.2" styleclass="Normal" style="font-size:11pt;"></anchor><text styleclass="Normal" style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER3=7%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; Z 轴位置（&apos;m&apos;值）</text></para>
+    <list id="3" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="6" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">重复步骤 4) 和步骤 5) 以确保读数一致。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">设置参数 D0212(p) = (m-n-1.0mm) x 10000；这里的 1.0mm 是刀具向下方向的额外移动量，以确保 BT 传感器正确动作并避免误报。</li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px; margin-left:24px;">例如</para>
+    <para styleclass="Normal" style="margin-bottom:10px; margin-left:24px;">n = 100.0000 毫米（刀具长度）</para>
+    <para styleclass="Normal" style="margin-bottom:10px; margin-left:24px;">m = -395.1234mm（刀具接触传感器时 Z 轴的机床位置）</para>
+    <para styleclass="Normal" style="margin-bottom:10px; margin-left:24px;">p = (-395.1234-100.0000-1.0000) x 10000 = -4961234</para>
+    <para styleclass="Normal" style="margin-left:24px;">设置 PMC 参数 D0212 = -4961234</para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:10px;"></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:10px;"><image src="PMC Maintenance Screen.jpg" scale="25.00%" width="420" height="240" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:16px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:159px left ;"><anchor id="Fig7.3" styleclass="Normal" style="font-size:11pt;"></anchor><text styleclass="Normal" style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER3=7%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; PMC 维护屏幕</text></para>
+    <list id="3" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="6" styleclass="Normal" style="text-indent:-24px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-left:24px;">至此，OMRON BTS 的校准完成。</li>
+    </list>
+    <para styleclass="Normal" style="text-indent:-24px; margin-left:24px; page-break-before:always;"></para>
+  </body>
+</topic>

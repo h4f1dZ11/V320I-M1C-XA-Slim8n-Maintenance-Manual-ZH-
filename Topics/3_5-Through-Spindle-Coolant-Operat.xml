@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:48:29.227Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.5 Through Spindle Coolant Operation Timing Chart</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">贯穿主轴冷却液运行时序表</para>
+    </header>
+    <para styleclass="Normal">下表描述了用于控制直通主轴功能的 M 代码和信号。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Table_E" style="margin-bottom:11px;"><text style="font-size:11pt;">表 &#160;</text><var style="font-size:11pt;" translate="false">&lt;%HMTABLECOUNTER3=3%&gt;</var><text style="font-size:11pt;">.</text><var style="font-size:11pt;" translate="false">&lt;%HMTABLECOUNTER%&gt;</var><text style="font-size:11pt;"> &#160; M 代码和信号的细节</text></para>
+    <para styleclass="Table_E" style="margin-bottom:11px;"><table styleclass="Default" rowcount="6" colcount="2" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; head-row-background-color:#dddddd; alt-row-background-color:none;">
+      <thead style="vertical-align:top">
+        <td style="width:30%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt; font-weight:bold;">名称</text></para>
+        </td>
+        <td style="width:70%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt; font-weight:bold;">说明</text></para>
+        </td>
+      </thead>
+      <tr style="vertical-align:top">
+        <td style="width:30%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">MS8 （信号）</text></para>
+        </td>
+        <td style="vertical-align:middle; width:70%;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-size:10pt;">控制贯穿主轴冷却液泵电机的运行。</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:30%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">M09（M 代码）</text></para>
+        </td>
+        <td style="vertical-align:middle; width:70%;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-size:10pt;">执行指定程序块后停止冷却液供给。</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:30%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">M319（M 代码）</text></para>
+        </td>
+        <td style="vertical-align:middle; width:70%;">
+          <para styleclass="Normal" style="margin-bottom:5px; margin-left:4px;"><text style="font-size:10pt;">不等轴行程结束即停止冷却液供给，并开始主轴定位。</text></para>
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-size:10pt;">该命令不会停止贯穿主轴冷却液回抽功能（参照 </text><link displaytype="text" defaultstyle="false" type="topiclink" href="" target="_blank" style="font-size:10pt; color:#0000ff;">注</link><text style="font-size:10pt;">）。因此，刀具内侧冷却液的清除（通过抽回）和轴行程同时进行，缩短了所需时间。</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:30%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">M06（M 代码）</text></para>
+        </td>
+        <td style="vertical-align:middle; width:70%;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-size:10pt;">指定刀具更换。主轴刀具与分度到下一个刀具位置的刀具交换。在此过程中不能执行轴移动。</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:30%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">M26（M 代码）</text></para>
+        </td>
+        <td style="vertical-align:middle; width:70%;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-size:10pt;">启动贯穿主轴冷却液供给。</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Table_E" style="text-align:left;"></para>
+    <para styleclass="Notes" style="margin-bottom:10px;"><text style="font-size:10pt;">-注-</text></para>
+    <para styleclass="Notes"><text style="font-size:10pt;">机床参数 07051 用于指定冷却液停止过程后是否停止贯穿主轴冷却液泵。该功能在冷却液排放过程中指定 M319 时使用。</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text style="font-weight:bold;">通过 M06/M09/M319 停止贯穿主轴冷却液时更换刀具</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><image src="Tool change when TSC stopped by M code.jpg" scale="30.00%" width="577" height="172" styleclass="Image Caption" figurelistinclude="0"></image></para>
+  </body>
+</topic>

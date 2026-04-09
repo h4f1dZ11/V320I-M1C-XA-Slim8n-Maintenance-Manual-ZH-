@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T09:39:16.465Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>6.5 M-Code and Related Operations</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">M 代码及相关操作</para>
+    </header>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="19" colcount="9" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; head-row-background-color:#dddddd; alt-row-background-color:none;">
+      <thead style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:9pt; font-weight:bold;">M 代码</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:9pt; font-weight:bold;">输入/输出类型</text></para>
+        </td>
+        <td rowspan="3" style="vertical-align:top; border-bottom:none;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:9pt; font-weight:bold;">输入</text></para>
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:9pt; font-weight:bold;">确认</text></para>
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:9pt; font-weight:bold;">&#32;</text></para>
+          <para styleclass="Normal" style="margin-left:3px;"></para>
+          <para styleclass="Normal" style="margin-left:3px;"></para>
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:9pt; font-weight:bold;">(0：否</text></para>
+          <para styleclass="Normal" style="margin-bottom:5px; margin-left:3px;"><text style="font-size:9pt; font-weight:bold;">1: 是） </text></para>
+          <para styleclass="Normal" style="margin-bottom:5px; margin-left:3px;"></para>
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:9pt; font-weight:bold;">*1</text></para>
+        </td>
+        <td rowspan="3" style="vertical-align:top; border-bottom:none; border-left:none;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:9pt; font-weight:bold;">O/P 关闭</text></para>
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:9pt; font-weight:bold;">操作完成后关闭</text></para>
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:9pt; font-weight:bold;">操作完成</text></para>
+          <para styleclass="Normal" style="margin-left:3px;"></para>
+          <para styleclass="Normal" style="margin-left:3px;"></para>
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:9pt; font-weight:bold;">(0：否</text></para>
+          <para styleclass="Normal" style="margin-bottom:5px; margin-left:3px;"><text style="font-size:9pt; font-weight:bold;">1: 是） </text></para>
+          <para styleclass="Normal" style="margin-bottom:5px; margin-left:3px;"></para>
+          <para styleclass="Normal" style="margin-top:2px; margin-left:3px;"><text style="font-size:9pt; font-weight:bold;">*2</text></para>
+        </td>
+        <td rowspan="3" style="border-bottom:none; border-left:none;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:9pt; font-weight:bold;">延迟</text></para>
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:9pt; font-weight:bold;">计时器</text></para>
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:9pt; font-weight:bold;">(单位 0.1 秒）</text></para>
+          <para styleclass="Normal" style="margin-left:3px;"></para>
+          <para styleclass="Normal" style="margin-left:3px;"></para>
+          <para styleclass="Normal" style="margin-left:3px;"></para>
+          <para styleclass="Normal" style="margin-left:3px;"></para>
+          <para styleclass="Normal" style="margin-bottom:6px; margin-left:3px;"></para>
+          <para styleclass="Normal" style="margin-top:4px; margin-left:3px;"><text style="font-size:9pt; font-weight:bold;">*3</text></para>
+        </td>
+        <td rowspan="2" style="vertical-align:top; border-bottom:none; border-left:none;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:9pt; font-weight:bold;">超时</text></para>
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:9pt; font-weight:bold;">(单位：秒）</text></para>
+        </td>
+      </thead>
+      <tr style="vertical-align:middle">
+        <td colspan="2" style="background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:9pt; font-weight:bold;">单</text></para>
+        </td>
+        <td colspan="2" style="background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:9pt; font-weight:bold;">对</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="height:76px; background-color:#dddddd;">
+        </td>
+        <td style="vertical-align:middle; height:76px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:9pt; font-weight:bold;">输出</text></para>
+        </td>
+        <td style="vertical-align:middle; height:76px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:9pt; font-weight:bold;">输入</text></para>
+        </td>
+        <td style="vertical-align:middle; height:76px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:9pt; font-weight:bold;">输出</text></para>
+        </td>
+        <td style="vertical-align:middle; height:76px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:9pt; font-weight:bold;">输入</text></para>
+        </td>
+        <td style="vertical-align:bottom; height:76px; background-color:#dddddd; border-top:none; border-left:none;">
+          <para styleclass="Normal" style="margin-left:3px;"></para>
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:9pt; font-weight:bold;">*4</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">M580</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO1</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI1</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO1</text></para>
+          <para styleclass="Normal" style="margin-bottom:3px; margin-left:2px;"><text style="font-size:8pt;">ON</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO2</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI1</text></para>
+          <para styleclass="Normal" style="margin-bottom:3px; margin-left:2px;"><text style="font-size:8pt;">ON</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI2</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0050.0</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0052.0</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D0642</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D1100</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">M581</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO1</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI1</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO1</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO2</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI1</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI2</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0050.1</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0052.1</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D0644</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D1101</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">M582</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO2</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI2</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">封锁</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">封锁</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0050.2</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0052.2</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D0646</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D1102</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">M583</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO2</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI2</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">封锁</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">封锁</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0050.3</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0052.3</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D0648</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D1103</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">M584</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO3</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI3</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO3</text></para>
+          <para styleclass="Normal" style="margin-bottom:3px; margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO4</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI3</text></para>
+          <para styleclass="Normal" style="margin-bottom:3px; margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI4</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0050.4</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0052.4</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D0650</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D1104</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">M585</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO3</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI3</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO3</text></para>
+          <para styleclass="Normal" style="margin-bottom:3px; margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO4</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI3</text></para>
+          <para styleclass="Normal" style="margin-bottom:3px; margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI4</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0050.5</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0052.5</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D0652</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D1105</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">M586</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO4</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI4</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">封锁</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">封锁</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0050.6</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0052.6</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D0654</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D1106</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">M587</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO4</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI4</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">封锁</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">封锁</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0050.7</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0052.7</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D0656</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D1107</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">M588</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO5</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI5</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO5</text></para>
+          <para styleclass="Normal" style="margin-bottom:3px; margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO6</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI5</text></para>
+          <para styleclass="Normal" style="margin-bottom:3px; margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI6</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0051.0</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0053.0</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D0658</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D1108</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">M589</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO5</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI5</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO5</text></para>
+          <para styleclass="Normal" style="margin-bottom:3px; margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO6</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI5</text></para>
+          <para styleclass="Normal" style="margin-bottom:3px; margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI6</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0051.1</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0053.1</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D0660</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D1109</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">M590</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO6</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI6</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">封锁</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">封锁</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0051.2</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0053.2</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D0662</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D1110</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">M591</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO6</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI6</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">封锁</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">封锁</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0051.3</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0053.3</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D0664</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D1111</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">M592</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO7</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI7</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO5</text></para>
+          <para styleclass="Normal" style="margin-bottom:3px; margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO6</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI5</text></para>
+          <para styleclass="Normal" style="margin-bottom:3px; margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI6</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0051.4</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0053.4</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D0666</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D1112</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">M593</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO7</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI7</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO5</text></para>
+          <para styleclass="Normal" style="margin-bottom:3px; margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO6</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI5</text></para>
+          <para styleclass="Normal" style="margin-bottom:3px; margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI6</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0051.5</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0053.5</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D0668</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D1113</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">M594</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO8</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI8</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关闭</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">封锁</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">封锁</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0051.6</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0053.6</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D0670</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D1114</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">M595</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDO8</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">USDI8</text></para>
+          <para styleclass="Normal" style="margin-left:2px;"><text style="font-size:8pt;">关于</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">封锁</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">封锁</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0051.7</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">K0053.7</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D0672</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:8pt;">D1115</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#42;&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; page-break-before:always; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; page-break-before:always;"><text style="font-weight:bold;">确认输入信号为 1 / 0 并完成 M-指挥 的功能</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;">通过 M 代码将输出信号变为 1 或 0 后，该功能用于确认同步输入信号为 1 或 0 并完成 M 命令。可以为每个输出信号设置相应的机床参数，或者设置为 1，以便在确认输入信号变为 1/0 后结束 M-指挥 ；或者设置为 0，以便在不确认输入信号变为 1/0 的情况下结束 M-指挥。</para>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#42;&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="2" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;"><text style="font-weight:bold;">将输出信号变为 0 的功能。</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;">当发出将输出信号变为 1 的 M 代码命令时，该功能用于在完成后将输出信号从 1 变为 0。M-代码 的完成方式有两种，一种是确认输入信号为 1/0，另一种是设置时间限制，或两者兼而有之。</para>
+    <list id="2" type="ol" listtype="decimal" formatstring="&#42;&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="3" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;"><text style="font-weight:bold;">操作完成延迟时间</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;">通过该选项可以延迟 M-代码 结束时的操作完成时间。</para>
+    <list id="3" type="ol" listtype="decimal" formatstring="&#42;&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="4" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;"><text style="font-weight:bold;">超时</text></li>
+    </list>
+    <para styleclass="Normal">如果选择了确认输入信号状态为 1 或 0 的功能，且输出信号变为 1 后输入信号未发生变化，则会在指定时限结束时触发机床警报。使用机床参数设置确认输入信号变为 1 或 0 所需的时限。计时单位为秒。</para>
+    <para styleclass="Normal" style="margin-bottom:10px; page-break-before:always;"></para>
+  </body>
+</topic>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T15:52:10.487Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.1 Rotary Work Head Unit</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">旋转工作头装置</para>
+    </header>
+    <list id="0" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:9px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:9px;">C 轴旋转过程中紧急停止</li>
+      <li styleclass="Normal" style="margin-bottom:9px;">旋转未停止</li>
+      <li styleclass="Normal" style="margin-bottom:9px;">异常噪音</li>
+      <li styleclass="Normal" style="margin-bottom:9px;">漏油</li>
+      <li styleclass="Normal" style="margin-bottom:9px;">冷却油位迅速下降</li>
+      <li styleclass="Normal" style="margin-bottom:9px;">运行过程中发生伺服报警</li>
+      <li styleclass="Normal" style="margin-bottom:9px;">动力组油位过低 </li>
+      <li styleclass="Normal">G 代码 </li>
+    </list>
+  </body>
+</topic>

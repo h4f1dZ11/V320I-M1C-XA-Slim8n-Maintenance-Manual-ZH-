@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T15:51:58.032Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.9 Oil Cooling Circuit Diagram</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">机油冷却电路图</para>
+    </header>
+    <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:11px; margin-left:0px; line-height:1.15; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><image src="Fig 2.20 Oil Cooling CircuitDiagram.png" imagestyleclass="Default" scale="70.00%" width="582" height="578" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER18=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; 机油冷却电路图</text></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:14px; page-break-before:always;"></para>
+  </body>
+</topic>

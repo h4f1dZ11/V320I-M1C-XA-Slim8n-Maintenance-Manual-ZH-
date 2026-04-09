@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T15:51:05.168Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.5 Rotary Joint Sub Unit</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">旋转接头子单元</para>
+    </header>
+    <para styleclass="Normal">旋转接头是作为子单元组件提供的。建议将整个子单元组件作为一个完整的单元进行更换。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="Fig 2.14 Rotary Joint Sub Unit.png" imagestyleclass="Default" scale="70.00%" width="309" height="337" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:14px;"><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER18=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; 旋转接头子单元</text></para>
+    <para styleclass="Normal" style="text-align:center;"><table rowcount="3" colcount="4" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:middle">
+        <td style="width:53px; height:21px; background-color:#dddddd;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">编号</text></para>
+        </td>
+        <td style="width:210px; height:21px; background-color:#dddddd;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">名称</text></para>
+        </td>
+        <td style="width:52px; height:21px; background-color:#dddddd;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">编号</text></para>
+        </td>
+        <td style="width:221px; height:21px; background-color:#dddddd;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">名称</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:53px; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">1</text></para>
+        </td>
+        <td style="vertical-align:middle; width:210px; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 旋转接头分股</text></para>
+        </td>
+        <td style="vertical-align:middle; width:52px; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">3</text></para>
+        </td>
+        <td style="vertical-align:middle; width:221px; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> O 形圈 G90 NBR2（1 个）</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:53px; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:210px; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> O 形圈 P8 NBR2（12 个） </text></para>
+        </td>
+        <td style="vertical-align:middle; width:52px; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">4</text></para>
+        </td>
+        <td style="vertical-align:middle; width:221px; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> O 形圈 G115 NBR2（1 个） </text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

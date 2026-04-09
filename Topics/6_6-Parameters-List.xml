@@ -1,0 +1,796 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:33:59.866Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>6.6 Parameters List</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">参数列表</para>
+    </header>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><table styleclass="Default" rowcount="34" colcount="3" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:11px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt; font-weight:bold;">参数</text></para>
+        </td>
+        <td style="width:35%; height:11px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt; font-weight:bold;">说明</text></para>
+        </td>
+        <td style="width:40%; height:11px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt; font-weight:bold;">设置值的含义</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D0315</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">用户 I/O 接口</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0: 禁用 1: 启用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D0642</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">操作延迟 M580</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位： 秒0.1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D0644</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">操作延迟 M581</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位： 秒0.1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D0646</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">操作延迟 M582</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位： 秒0.1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D0648</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">操作延迟 M583</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位： 秒0.1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D0650</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">操作延迟 M584</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位： 秒0.1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D0652</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">操作延迟 M585</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位： 秒0.1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D0654</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">操作延迟 M586</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位： 秒0.1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D0656</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">操作延迟 M587</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位： 秒0.1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D0658</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">操作延迟 M588</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位： 秒0.1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D0660</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">操作延迟 M589</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位： 秒0.1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D0662</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">操作延迟 M590</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位： 秒0.1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D0664</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">操作延迟 M591</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位： 秒0.1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D0666</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">操作延迟 M592</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位： 秒0.1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D0668</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">操作延迟 M593</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位： 秒0.1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D0670</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">操作延迟 M594</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位： 秒0.1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D0672</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">操作延迟 M595</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位： 秒0.1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D1100</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">超时 M580</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位: 1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D1101</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">超时 M581</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位: 1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D1102</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">超时 M582</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位: 1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D1103</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">超时 M583</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位: 1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D1104</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">超时 M584</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位: 1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D1105</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">超时 M585</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位: 1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D1106</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">超时 M586</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位: 1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D1107</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">超时 M587</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位: 1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D1108</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">超时 M588</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位: 1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D1109</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">超时 M589</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位: 1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D1110</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">超时 M590</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位: 1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D1111</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">超时 M591</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位: 1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D1112</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">超时 M592</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位: 1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D1113</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">超时 M593</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位: 1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D1114</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">超时 M594</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位: 1 秒</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D1115</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">超时 M595</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">单位: 1 秒</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-before:always; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><table styleclass="Default" rowcount="37" colcount="3" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:11px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt; font-weight:bold;">参数</text></para>
+        </td>
+        <td style="width:35%; height:11px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt; font-weight:bold;">说明</text></para>
+        </td>
+        <td style="width:40%; height:11px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt; font-weight:bold;">设置值的含义</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0050.0</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">与 M580 输入确认</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不确认 1：确认</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0050.1</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">与 M581 输入确认</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不确认 1：确认</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0050.2</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">与 M582 输入确认</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不确认 1：确认</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0050.3</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">与 M583 输入确认</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不确认 1：确认</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0050.4</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">与 M584 输入确认</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不确认 1：确认</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0050.5</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">与 M585 输入确认</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不确认 1：确认</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0050.6</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">与 M586 输入确认</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不确认 1：确认</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0050.7</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">与 M587 输入确认</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不确认 1：确认</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0051.0</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">与 M588 输入确认</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不确认 1：确认</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0051.1</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">与 M589 输入确认</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不确认 1：确认</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0051.2</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">与 M590 输入确认</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不确认 1：确认</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0051.3</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">与 M591 输入确认</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不确认 1：确认</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0051.4</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">与 M592 输入确认</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不确认 1：确认</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0051.5</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">与 M593 输入确认</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不确认 1：确认</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0051.6</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">与 M594 输入确认</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不确认 1：确认</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0051.7</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">与 M595 输入确认</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不确认 1：确认</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0052.0</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">使用 M580 关闭输出</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不关闭 1：操作完成后关闭</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0052.1</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">使用 M581 关闭输出</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不关闭 1：操作完成后关闭</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0052.2</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">使用 M582 关闭输出</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不关闭 1：操作完成后关闭</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0052.3</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">使用 M583 关闭输出</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不关闭 1：操作完成后关闭</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0052.4</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">使用 M584 关闭输出</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不关闭 1：操作完成后关闭</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0052.5</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">使用 M585 关闭输出</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不关闭 1：操作完成后关闭</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0052.6</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">使用 M586 关闭输出</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不关闭 1：操作完成后关闭</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0052.7</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">使用 M587 关闭输出</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不关闭 1：操作完成后关闭</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0053.0</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">使用 M588 关闭输出</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不关闭 1：操作完成后关闭</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0053.1</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">使用 M589 关闭输出</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不关闭 1：操作完成后关闭</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0053.2</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">使用 M590 关闭输出</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不关闭 1：操作完成后关闭</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0053.3</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">使用 M591 关闭输出</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不关闭 1：操作完成后关闭</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0053.4</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">使用 M592 关闭输出</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不关闭 1：操作完成后关闭</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0053.5</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">使用 M593 关闭输出</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不关闭 1：操作完成后关闭</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0053.6</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">使用 M594 关闭输出</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不关闭 1：操作完成后关闭</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0053.7</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">使用 M595 关闭输出</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：不关闭 1：操作完成后关闭</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0054.0</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">用户 IO 1 和 2 类型</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：未配对（1 Bit） 1：已配对（2 Bit）</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0054.1</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">用户 IO 3 和 4 类型</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：未配对（1 Bit） 1：已配对（2 Bit）</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0054.2</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">用户 IO 5 和 6 类型</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：未配对（1 Bit） 1：已配对（2 Bit）</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:25%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">K0054.3</text></para>
+        </td>
+        <td style="width:35%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">用户 IO 7 和 8 类型</text></para>
+        </td>
+        <td style="vertical-align:middle; width:40%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">0：未配对（1 Bit） 1：已配对（2 Bit）</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-before:always; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"></para>
+  </body>
+</topic>

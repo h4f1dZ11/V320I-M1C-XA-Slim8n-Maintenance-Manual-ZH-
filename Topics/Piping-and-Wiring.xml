@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:53:48.361Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>管道和布线</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">管道和布线</para>
+    </header>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="Fig1.2 Piping Route.png" imagestyleclass="Default" scale="70.00%" width="673" height="693" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:159px left ;"><text styleclass="Normal" style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER7=1%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; 管道线路</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="Fig1.3 Wiring Route.png" imagestyleclass="Default" scale="70.00%" width="577" height="692" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:159px left ;"><text styleclass="Normal" style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER7=1%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; 布线路线</text></para>
+  </body>
+</topic>

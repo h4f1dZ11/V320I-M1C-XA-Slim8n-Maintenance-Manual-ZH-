@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T11:21:18.772Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2 Spindle Temperature Control Circuit</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">主轴温度控制器电路</para>
+    </header>
+    <para styleclass="Normal"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">主轴温度控制器提供冷却油以冷却主轴。</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="Figure 2.1 Spindle cooler circuit.png" scale="50.00%" width="524" height="528" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:10px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:159px left ;"><text styleclass="Normal" style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER=1%&gt; &#160; 主轴冷却器电路</text></para>
+  </body>
+</topic>

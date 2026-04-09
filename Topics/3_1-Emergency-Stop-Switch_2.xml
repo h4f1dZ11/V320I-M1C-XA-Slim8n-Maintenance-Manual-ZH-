@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T13:36:52.128Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.1 &quot;Emergency Stop&quot; Switch</title>
+  <keywords>
+    <keyword>#MCVIEW</keyword>
+    <keyword>#MECHOK</keyword>
+    <keyword>#MPG</keyword>
+    <keyword>#OPPANEL</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading3">“紧急停止”开关</para>
+    </header>
+    <para styleclass="Normal" style="margin-top:8px;"><table styleclass="Default" rowcount="1" colcount="2" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:top">
+        <td style="width:112px; border-right:none;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:8px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><image src="Danger symbol no text.png" scale="16.00%" width="42" height="37" styleclass="Image Caption" figurelistinclude="0"></image></para>
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#231f20;">警告</text></para>
+        </td>
+        <td style="vertical-align:middle; width:589px; border-left:none;">
+          <list id="0" type="ul" listtype="bullet" formatstring="&#8226;" levelreset="true" legalstyle="false" startfrom="0" styleclass="" style="text-align:left; text-indent:-11px; margin-top:8px; margin-right:0px; margin-bottom:8px; margin-left:11px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:117px left ; font-family:Arial; font-size:11pt; color:#000000;">
+            <li styleclass="" style="text-align:left; text-indent:-11px; margin-top:8px; margin-right:0px; margin-bottom:8px; margin-left:11px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:117px left ;"><text styleclass="" style="font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">在执行机床操作或维护之前，确保操作人员知道所有“紧急停止”开关的位置，以便在机床异常或危险时刻立即触发此类开关。</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:justify; margin-bottom:8px;"><text style="font-size:11pt;">按下“紧急停止”开关之后，机床会呈现下述状态:</text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-align:justify; margin-left:26px; line-height:1.30; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-align:justify; margin-left:26px; line-height:1.30;"><text style="font-size:11pt;">每个轴的进给会立即停止。</text></li>
+      <li styleclass="Normal" style="text-align:justify; margin-left:26px; line-height:1.30;"><text style="font-size:11pt;">如果主轴在旋转的话会立即停止。</text></li>
+      <li styleclass="Normal" style="text-align:justify; margin-left:26px; line-height:1.30;"><text style="font-size:11pt;">如果主轴未夹紧的话会夹紧。</text></li>
+      <li styleclass="Normal" style="text-align:justify; margin-left:26px; line-height:1.30;"><text style="font-size:11pt;">如果主轴按既定方向行进的话，该方向会被复位。</text></li>
+      <li styleclass="Normal" style="text-align:justify; margin-left:26px; line-height:1.18;"><text style="font-size:11pt;">换刀或刀库正在运转时，运转会立即停止（即使在运动之中）。</text></li>
+      <li styleclass="Normal" style="text-align:justify; margin-left:26px; line-height:1.30;"><text style="font-size:11pt;">操作过程中的排屑器和内部碎屑输送器会立即停止。</text></li>
+      <li styleclass="Normal" style="text-align:justify; margin-left:26px; line-height:1.30;"><text style="font-size:11pt;">液压装置停止。</text></li>
+      <li styleclass="Normal" style="text-align:justify; margin-left:26px; line-height:1.30;"><text style="font-size:11pt;">切削液供给停止。</text></li>
+      <li styleclass="Normal" style="text-align:justify; margin-left:26px; line-height:1.30;"><text style="font-size:11pt;">加工室吹扫供气停止。</text></li>
+      <li styleclass="Normal" style="text-align:justify; margin-left:26px; line-height:1.30;"><text style="font-size:11pt;">所有通电的电磁阀被复位。</text></li>
+      <li styleclass="Normal" style="text-align:justify; margin-left:26px; line-height:1.30;"><text style="font-size:11pt;">数控复位。</text></li>
+    </list>
+    <para styleclass="Normal" style="text-align:justify; margin-top:8px; margin-bottom:8px; line-height:1.18;"><text style="font-size:11pt;">一旦按下“紧急停止”开关，它就会被锁定在这个位置上。通过拨动方向开关或拔出开关就可以脱开门锁。然后，按下</text><text style="font-size:11pt; font-weight:bold;">[控制电源开]</text><text style="font-size:11pt;">开关取消紧急停止状态。</text></para>
+    <para styleclass="Normal" style="text-align:justify; line-height:1.18;"><text style="font-size:11pt;">因按下“紧急停止”开关致使操作停止之后相关恢复程序(请参阅</text><text style="font-size:11pt; color:#0000ff;">第5章故障排除2.2紧急停止恢复</text><text style="font-size:11pt;">)。</text></para>
+    <para styleclass="Normal" style="margin-bottom:15px; page-break-before:always;"><text style="font-size:11pt;">于下列位置处安装有“紧急停止”开关。所有按钮的功能都相同。</text></para>
+    <para styleclass="Normal" style="margin-bottom:15px;"></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:8px;"><image src="Fig 3.1_1.png" scale="10.00%" width="328" height="376" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:8px;"><image src="Fig 3.1_2.png" scale="14.00%" width="326" height="412" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:15px; page-break-before:always;"><image src="Portable Manual Pulse Generator (Option)_CX19.ipp" scale="12.00%" width="234" height="309" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:8px;"><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER1=3%&gt;.&lt;%HMFIGURECOUNTER=1%&gt; &#160;“紧急停止”开关</text></para>
+    <para styleclass="Normal" style="text-align:center;"><table styleclass="Default" rowcount="2" colcount="2" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:top">
+        <td style="width:45px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000; letter-scaling:105%;">序号</text></para>
+        </td>
+        <td style="width:444px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000; letter-scaling:105%;">名称</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:45px; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:2px; margin-bottom:2px;"><text style="font-size:10pt;">1</text></para>
+        </td>
+        <td style="width:444px; height:22px;">
+          <para styleclass="Normal" style="text-align:justify; margin-top:2px; margin-bottom:2px; margin-left:4px;"><text style="font-size:10pt;">“紧急停止”开关</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal" style="text-align:center; margin-top:8px; margin-bottom:15px;"><image src="Fig 3.1_3.png" scale="10.00%" width="285" height="387" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center; margin-top:8px; margin-bottom:8px;"><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER1=3%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160;</text><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#1a1a1a;">选装件“紧急停止”开关</text></para>
+    <para styleclass="Normal" style="text-align:center;"><table rowcount="2" colcount="4" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:55px; height:21px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000; letter-scaling:105%;">序号</text></para>
+        </td>
+        <td style="width:212px; height:21px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000; letter-scaling:105%;">名称</text></para>
+        </td>
+        <td style="width:55px; height:21px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000; letter-scaling:105%;">序号</text></para>
+        </td>
+        <td style="width:212px; height:21px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000; letter-scaling:105%;">名称</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:55px; height:22px;">
+          <para styleclass="" style="text-align:center; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:1px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000; letter-scaling:99%;">1</text></para>
+        </td>
+        <td style="vertical-align:middle; width:212px; height:22px;">
+          <para styleclass="Normal" style="text-align:justify; margin-top:2px; margin-bottom:2px; margin-left:4px;"><text style="font-size:10pt;">“紧急停止”开关</text></para>
+        </td>
+        <td style="vertical-align:middle; width:55px; height:22px;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000; letter-scaling:99%;">2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:212px; height:22px;">
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">滚筒输送机（选配）</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-align:center; page-break-before:always;"></para>
+  </body>
+</topic>

@@ -1,0 +1,729 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T09:24:30.578Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>4.3.4 Fixture Signal Details</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">夹具信号细节</para>
+    </header>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:7px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:Arial; font-size:11pt; color:#000000;">输出信号</text></para>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:10px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><table styleclass="Default" rowcount="24" colcount="4" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td rowspan="2" style="width:15%; height:22px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">地址</text></para>
+        </td>
+        <td rowspan="2" style="width:15%; height:22px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">符号</text></para>
+        </td>
+        <td rowspan="2" style="width:55%; height:11px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">说明</text></para>
+        </td>
+        <td style="width:15%; height:11px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center; margin-bottom:2px;"><text style="font-size:10pt; font-weight:bold;">机床类型</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:15%; height:11px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">标准</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0285.0</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LHY1CL</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 灯夹</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0285.1</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LHY1UC</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 灯管松开</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0290.0</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SL2601</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 液压螺线管 1 - 夹钳（堆叠 1）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0291.0</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SL2602</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 液压电磁阀 2 - 松开（堆叠 1）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0290.2</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SL2605</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 液压电磁阀 5 - 夹紧（叠片 3）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0291.2</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SL2606</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 液压电磁阀 6 - 松开（叠片 3）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0290.3</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SL2607</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 液压电磁阀 7 - 夹紧（叠片 4）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0291.3</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SL2608</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 液压电磁阀 8 - 松开（叠片 4）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0005.7</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">M260</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 液压马达开启</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0285.3</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LAIRS</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 灯座检查 </text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0290.4</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SL2701</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 液压电磁阀 101 - 夹紧（叠片 5）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0291.4</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SL2702</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 液压电磁阀 102 - 松开（5 号叠片）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0290.5</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SL2703</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 液压电磁阀 103 - 夹紧（叠片 6）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0291.5</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SL2704</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 液压电磁阀 104 - 松开（叠片 6）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0290.1</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SL2603</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 液压电磁阀 3 - 夹紧（叠片 2）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0291.1</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SL2604</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 液压电磁阀 4 - 松开（2 号叠片）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0001.3</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SL1801</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 夹具冷却剂溶液1</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0001.4</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SL1802</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 夹具冷却剂溶液 2</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">不适用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0279.0</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SL1803</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 夹具吹气 1</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0063.3</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SL1804</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 夹具吹气 2</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">不适用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0261.1</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SL1781</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 气座检查电磁阀 1</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0278.6</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SL1782</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal"><text styleclass="" style="font-family:Arial; font-size:10pt; color:#000000;">&#32;</text><text style="font-size:10pt;">气座检查电磁阀 2</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">不适用</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">NA - 不适用</text></para>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:7px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-before:always; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">输入信号</text></para>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:10px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><table styleclass="Default" rowcount="28" colcount="4" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td rowspan="2" style="width:15%; height:22px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">地址</text></para>
+        </td>
+        <td rowspan="2" style="width:15%; height:22px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">符号</text></para>
+        </td>
+        <td rowspan="2" style="width:55%; height:5px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">说明</text></para>
+        </td>
+        <td style="width:15%; height:11px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center; margin-bottom:2px;"><text style="font-size:10pt; font-weight:bold;">机床类型</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:15%; height:11px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">标准</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0284.0</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">HY1CL</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">液压夹钳 1 按钮</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0284.1</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">HY1UC</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">液压松开 1 按钮</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0288.0</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">PS2601</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-right:14px; margin-left:3px;"><text style="font-size:10pt;">液压压力开关 1 - 夹紧（堆叠 1）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0289.0</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">PS2602</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">液压压力开关 2 - 松开（堆叠 1）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0288.2</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">PS2605</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">液压压力开关 5 - 夹紧（堆叠 3）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0289.2</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">PS2606</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">液压压力开关 6 - 松开（叠片 3）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0288.3</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">PS2607</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">液压压力开关 7 - 夹紧（堆叠 4）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0289.3</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">PS2608</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">液压压力开关 8 - 松开（叠片 4）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0011.7</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">TH260</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">液压马达过载</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0285.4</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LS1785</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">气座检查 5</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0285.5</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LS1786</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">气座检查 6</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0285.6</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LS1787</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">气座检查 7</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0287.0</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LS1788</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">气座检查 8</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0288.4</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">PS2701</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">液压 PR 开关 101 - 夹钳（5 号叠片）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0289.4</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">PS2702</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">液压 PR 开关 102 - 松开（第 5 组）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0288.5</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">PS2703</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">液压 PR 开关 103 - 夹紧（第 6 组）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0289.5</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">PS2704</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">液压 PR 开关 104 - 松开（6 号叠片）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0288.1</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">PS2603</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">液压压力开关 3 - 夹紧（堆叠 2）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0289.1</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">PS2604</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">液压压力开关 4 - 松开（2 号叠片）</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0284.4</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LS1781</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">气座检查 1</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0284.5</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LS1782</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">气座检查 2</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0284.6</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LS1783</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">气座检查 3</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0284.7</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LS1784</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">气座检查 4</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">可用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0065.0</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SYSPS</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">系统压力开关</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0065.2</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LS2604</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">液压油温度开关</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0065.3</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LS2603</text></para>
+        </td>
+        <td style="width:55%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">液压油位浮动开关</text></para>
+        </td>
+        <td style="width:15%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:Arial; font-size:11pt; color:#000000;">NA - 不适用</text></para>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-before:always; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"></para>
+  </body>
+</topic>

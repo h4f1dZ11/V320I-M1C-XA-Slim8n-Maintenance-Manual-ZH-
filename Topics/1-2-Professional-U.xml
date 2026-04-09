@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-03-18T15:59:22.817Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>1.2 Professional U</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">Professional <text style="font-family:&apos;Baguet Script&apos;; font-style:italic;">U</text></para>
+    </header>
+    <para styleclass="Normal">机床控制器（Professional <text styleclass="" style="font-family:&apos;Baguet Script&apos;; font-size:11pt; font-style:italic; color:#000000;">U</text>：Pro <text styleclass="" style="font-family:&apos;Baguet Script&apos;; font-size:11pt; font-style:italic; color:#000000;">U</text>）包括一个 FANUC 数字控制器<text style="color:#000000;">（FS0i-MF Plus 系列）</text>和牧野开发的控制软件。该装置可控制机床自动操作, 单个组件, 轴伺服电机和主轴电机。</para>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

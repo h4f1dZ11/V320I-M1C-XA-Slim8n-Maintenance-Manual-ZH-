@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" modified="2026-04-08T09:21:00.317Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>4.3.2 Fixture Condition Screen</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">夹具状况屏幕</para>
+    </header>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:8px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">在夹具状态屏幕上，夹具可以在堆叠之间联锁。 </text></para>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:8px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">要浏览夹具状态屏幕，请按夹具屏幕下的</text><text styleclass="" style="font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">[状态]</text><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">软键。</text></para>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"></para>
+    <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:19px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><image src="17. Fixture Condition Screen_1.png" scale="42.00%" width="336" height="252" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><anchor id="Fig4.6" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER3=4%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; </text><text styleclass="" style="font-family:Arial; font-size:11pt; color:#000000;">夹具状态屏幕</text></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal"><text styleclass="" style="font-family:Arial; font-size:11pt; color:#000000;">可以设置堆栈之间的联锁。</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">在上述屏幕截图中，&quot;*&quot;表示联锁激活。按<text style="font-weight:bold;">[设置]</text>软键可设置联锁，按<text style="font-weight:bold;">[重置]</text>软键可解除联锁。(参照<link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig4.6" style="color:#0000ff;">图 4.6</link>）。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">例如，在上述屏幕截图示例中，只有当 STACK 1 被松开时，才会设置 STACK 2 的夹紧/松开。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">假设夹具中有 2 个元件：</para>
+    <para styleclass="Normal">主夹紧/松开 - STACK 1</para>
+    <para styleclass="Normal">用于工件顶出的撞击气缸 - STACK 2</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">在此，只有当主夹具松开时，撞击缸才能工作。否则主夹紧元件可能会损坏或断裂。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">在这种情况下，可以通过此屏幕设置堆叠之间的联锁。</para>
+    <para styleclass="Normal">如果上述屏幕<link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig4.6" style="color:#0000ff;">（图 4.6</link>）显示 &quot;*&quot;，则表示联锁已应用。</para>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T15:26:19.112Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>4.3.4 Disabling Fixture Power Pack</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">禁用夹具电源盒</para>
+    </header>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:6px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:6px;">打开机床电源，通过设置 <text style="font-weight:bold;">K4.2=1</text> 禁用 C 轴液压动力单元。</li>
+      <li styleclass="Normal" style="margin-bottom:6px;">通过设置 <text style="font-weight:bold;">D320=0</text>，禁用 A 轴液压动力单元。</li>
+      <li styleclass="Normal" style="margin-bottom:6px;">按下<text style="font-weight:bold;">[紧急停止]</text>按钮并关闭机床电源。</li>
+      <li styleclass="Normal" style="margin-bottom:6px;">再次打开机床电源。</li>
+    </list>
+  </body>
+</topic>

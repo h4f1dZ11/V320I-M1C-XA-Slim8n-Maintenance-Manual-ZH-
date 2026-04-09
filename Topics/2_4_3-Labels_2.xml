@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T13:36:42.025Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.4.3 Labels</title>
+  <meta name="DESCRIPTION" translate="true" value="Update stickers" />
+  <keywords>
+    <keyword>#MECHOK</keyword>
+    <keyword>#STICKERS</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading4" style="page-break-before:always;">标签</para>
+    </header>
+    <para styleclass="Normal" style="text-align:center; margin-top:4px; margin-bottom:8px;"><text styleclass="Image Caption"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text><text style="font-size:11pt;">&#32;</text><image src="Labels.png" scale="80.00%" width="569" height="355" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:justify; margin-bottom:8px;">-注-</para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-align:justify; text-indent:-21px; margin-bottom:8px; margin-left:21px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-align:justify; text-indent:-21px; margin-bottom:8px; margin-left:21px;">根据型号和规格的不同，警告标签的位置和类型也有所不同（如上图所示）。</li>
+    </list>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="2" styleclass="Normal" style="text-align:justify; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-align:justify;">在实际机床上确认警告标签。</li>
+    </list>
+    <para styleclass="Normal" style="text-align:justify; page-break-before:always;"></para>
+  </body>
+</topic>

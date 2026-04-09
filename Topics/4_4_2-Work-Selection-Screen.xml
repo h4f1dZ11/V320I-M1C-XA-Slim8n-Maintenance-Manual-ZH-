@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T09:27:18.164+08:00" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd" status="Needs Review">
+  <title>4.4.2 Work Selection Screen</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">工作选择屏幕</para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:10px;">在 &quot;工件选择&quot; 屏幕中，每个托盘最多可设置 10 个型号。</para>
+    <para styleclass="Normal" style="margin-bottom:10px;">用于导航至夹具屏幕、</para>
+    <list id="0" type="ol" listtype="decimal" formatstring="%0:s)" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">按下<text style="font-weight:bold;">[CSTM/GRPH]</text>。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">显示主菜单。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">通过移动光标<text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11pt; font-weight:bold; color:#000000;">¬</text><text style="font-weight:bold;">]</text>或<text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11pt; font-weight:bold; color:#000000;">®</text><text style="font-weight:bold;">]</text> 选择<text style="font-weight:bold;">[设置]</text>。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">选择<text style="font-weight:bold;">[工件]</text>，然后按<text style="font-weight:bold;">[选择]</text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">显示工作选择屏幕。</li>
+    </list>
+    <para styleclass="Normal" style="text-indent:-24px; margin-left:24px;"></para>
+    <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:16px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:159px left ;"><image src="8. Work Selection Screen - R flicker.png" imagestyleclass="Default" scale="40.00%" width="320" height="240" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:159px left ;"><anchor id="Fig4.10" styleclass="Normal" style="font-size:11pt;"></anchor><text styleclass="Normal" style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER3=4%&gt;.&lt;%HMFIGURECOUNTER%&gt;   工作选择</text><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">屏幕</text></para>
+    <para styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">项目说明</text></para>
+    <list id="1" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">NO.（工作模式编号）</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;">最多可选择 10 个工件型号（型号 0 至 9）。通过 <text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11.5pt; font-weight:bold; color:#000000;">­</text><text style="font-weight:bold;">] </text>或 <text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11pt; font-weight:bold; color:#000000;">¯</text><text style="font-weight:bold;">] </text>光标键将光标移至相应的编号，然后按 <text style="font-weight:bold;">[选择]</text> 即可选择工件型号。所选型号用 &quot;*&quot; 表示，如下图所示。在此屏幕截图中，选择的是 0 号机型。</para>
+    <para styleclass="Normal" style="margin-bottom:10px;"><image src="Work Model Number.jpg" scale="30.00%" width="207" height="97" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <list id="2" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="2" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">型号名称</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;">为便于识别，可在此输入型号名称。最多可输入 6 个字符作为型号名称。</para>
+    <para styleclass="Normal" style="margin-bottom:10px;"><image src="Model Name.jpg" scale="30.00%" width="196" height="84" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <list id="3" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="3" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">程序编号[程序编号］</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;">在此字段中输入相应型号在自动循环中执行的程序编号。有效范围为 1 至 7999。</para>
+    <list id="4" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="4" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">空气座椅</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;">在此字段中设置需要对相应型号进行监控的空气座。&apos; * &apos; 表示在夹具夹紧后检查传感器。要设置或重置，请使用 <text style="font-weight:bold;">[设置] </text>或 <text style="font-weight:bold;">[重置] </text>软键。</para>
+    <list id="5" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="5" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">车型检查</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;">为区分不同型号，可通过座椅传感器进行型号检查。需要进行 &quot;关于&quot; 检查的传感器设置在此文件中。&apos;*&apos; 表示传感器已接受&apos;ON&apos;检查。要设置或重置，请使用 <text style="font-weight:bold;">[设置] </text>或 <text style="font-weight:bold;">[重置]</text>软键。</para>
+    <list id="6" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="6" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">型号关闭检查</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;">为区分不同型号，可通过座椅传感器进行型号检查。需要进行 &quot;关闭&quot; 检查的传感器在此字段中进行设置。&apos;*&apos; 表示传感器已接受 &apos;关闭&apos; 检查。要设置或重置，请使用 <text style="font-weight:bold;">[设置] </text>或<text style="font-weight:bold;">[重置] </text>软键。</para>
+    <list id="7" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="7" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">A-RWH 位置</text></li>
+    </list>
+    <para styleclass="Normal">夹具应在 RWH（旋转工作头）的哪个角度夹紧/松开，可根据各型号进行设置。</para>
+    <para styleclass="Normal" style="margin-bottom:10px; page-break-before:always;"></para>
+  </body>
+</topic>

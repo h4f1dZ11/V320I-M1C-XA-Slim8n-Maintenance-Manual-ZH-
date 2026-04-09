@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T15:51:11.560Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.6 Hydraulic and Pneumatic Port Identification</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">液压和气动端口识别</para>
+    </header>
+    <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.15; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><image src="Fig 2.6 Hyd and Pne Port Ident 1.png" imagestyleclass="Default" scale="72.00%" width="457" height="624" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:14px;"><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER18=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; </text><text styleclass="Heading3" style="font-size:11pt; font-weight:normal;">液压和气动端口识别</text></para>
+    <para styleclass="Normal" style="margin-bottom:10px;"><text style="font-size:10pt;">-注-</text></para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:6px; font-family:Arial; font-size:10pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:6px;"><text style="font-size:10pt;">液压端口只能使用 #1 至 #8。至于气动，则使用 #1 至 #12。</text></li>
+      <li styleclass="Normal" style="text-indent:-15px; margin-bottom:6px; margin-left:15px;"><text style="font-size:10pt;">切削油端口和液压端口不应相邻。相邻使用会导致污染。</text></li>
+      <li styleclass="Normal" style="text-indent:-15px; margin-bottom:6px; margin-left:15px;"><text style="font-size:10pt;">在相邻使用不同流体时，建议在端口之间插入一个空端口（排空口）以防止污染。在这种情况下，可用接口的数量将少于 12 个。</text></li>
+      <li styleclass="Normal" style="text-indent:-15px; margin-bottom:6px; margin-left:15px;"><text style="font-size:10pt;">用于盖住台面液压/气动供油端口的盖子，以及用于密封端口孔的 O 形圈 (P8) 均作为运输工具提供。如果安装了夹具，请确保在安装前正确装配 O 形圈 (P8)。</text></li>
+    </list>
+  </body>
+</topic>

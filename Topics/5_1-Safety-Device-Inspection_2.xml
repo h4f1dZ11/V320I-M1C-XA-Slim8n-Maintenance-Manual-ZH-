@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T13:54:02.217Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>5.1 Safety Device Inspection</title>
+  <keywords>
+    <keyword>#MECHOK</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading3">安全装置检查</para>
+    </header>
+    <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:8px; margin-right:0px; margin-bottom:8px; margin-left:0px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">为了确保机床功能持续正常，请对机床上所用安全装置进行定期检查和维护。在执行任何维护作业之前，确保所有维护人员都完全了解安全装置的类型，功能和位置(请参阅</text><link displaytype="text" defaultstyle="false" type="topiclink" href="3-Safety-Devices_3_2" styleclass="" style="font-family:SimSun; font-size:11pt; color:#0000ff;">3安全装置</link><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">)。</text></para>
+    <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">在开始操作或维护工作之前，请检查安全装置的功能是否正常，如果功能不正常，请取消机床操作。</text></para>
+  </body>
+</topic>

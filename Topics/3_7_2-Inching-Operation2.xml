@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T08:57:42.291Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.7.2 Inching Operation</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">寸进操作</para>
+    </header>
+    <para styleclass="Normal">通过这种操作，可以对 APC 操作轴进行寸动。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="line-height:1.50;"><text style="font-weight:bold;">操作程序</text></para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">打开维护模式。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">使用 <text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11pt; font-weight:bold; color:#000000;">¬</text><text style="font-weight:bold;">]</text>或<text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11pt; font-weight:bold; color:#000000;">®</text><text style="font-weight:bold;">]</text>光标键选择 APC 模式为 INCH。所选模式将以黄色背景高亮显示。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">使用<text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11pt; font-weight:bold; color:#000000;">¬</text><text style="font-weight:bold;">]</text>或<text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11pt; font-weight:bold; color:#000000;">®</text><text style="font-weight:bold;">]</text>光标键选择 APC 需要旋转 100% / 50% / 25% / 0% 的进给量。选定的进给量将以黄色背景高亮显示。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">在 &quot;英寸数据&quot; 字段中输入英寸数据量。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">要移动 APC 操作轴，按操作面板上的<text style="font-weight:bold;">[+]</text>键顺时针移动或按<text style="font-weight:bold;">[-]</text>软键逆时针移动。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:17px; margin-left:24px;">轴的实际移动可以通过此屏幕上的 APC 位置显示屏观察到。</li>
+    </list>
+    <para styleclass="Notes" style="margin-bottom:10px;"><text style="font-size:10pt;">-注-</text></para>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Notes" style="text-indent:-24px; margin-bottom:5px; margin-left:24px; font-family:SimSun; font-size:10pt; color:#000000;">
+      <li styleclass="Notes" style="text-indent:-24px; margin-bottom:5px; margin-left:24px;"><text style="font-size:10pt;">除非满足相应操作的所有条件，否则不会执行移动。显示联锁原因的 APC 错误信息将显示在该屏幕的输出行上。</text></li>
+      <li styleclass="Notes" style="text-indent:-24px; margin-left:24px;"><text style="font-size:10pt;">输入单位：1/1000° 或 1/1000 mm。也支持小数点输入。例如：输入 &quot;2.&quot; 时，设定值为 &quot;2.000&quot;。</text></li>
+    </list>
+  </body>
+</topic>

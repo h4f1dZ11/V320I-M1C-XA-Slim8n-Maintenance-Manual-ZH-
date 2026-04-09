@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T13:35:58.500Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.2 Using Warning Labels</title>
+  <keywords>
+    <keyword>#MECHOK</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading3" style="page-break-before:always;">使用警告标签</para>
+    </header>
+    <list id="0" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="" style="text-align:justify; text-indent:0px; margin-top:8px; margin-right:0px; margin-bottom:0px; margin-left:36px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:47px left ; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="" style="text-align:justify; text-indent:0px; margin-top:8px; margin-right:0px; margin-bottom:0px; margin-left:36px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:47px left ;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">切勿遮盖或撕掉警告标签。</text></li>
+    </list>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="" style="text-align:justify; text-indent:0px; margin-top:8px; margin-right:0px; margin-bottom:0px; margin-left:36px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:47px left ; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="" style="text-align:justify; text-indent:0px; margin-top:8px; margin-right:0px; margin-bottom:0px; margin-left:36px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:47px left ;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">请确认操作人员和维护人员是否知悉标签上的语言。如果需要其他语言的警告标签，请与贵司的牧野服务代表联系。</text></li>
+      <li styleclass="" style="text-align:justify; text-indent:0px; margin-top:8px; margin-right:0px; margin-bottom:0px; margin-left:36px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:47px left ;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">检查警告标签上的所有信息是否清晰可读。如果警告文字或图标任一部分不可读，那么请用软布沾清水或家用清洁剂后擦拭。切勿使用有机溶剂或汽油来清洗。这可能会导致警告标签表面受损。</text></li>
+      <li styleclass="" style="text-align:justify; text-indent:0px; margin-top:8px; margin-right:0px; margin-bottom:0px; margin-left:36px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:47px left ;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">如果警告标签上的信息不再清楚可见，那么请更换警告标签。如果需要新标签，请与贵司的牧野服务代表联系。</text></li>
+      <li styleclass="" style="text-align:justify; text-indent:0px; margin-top:8px; margin-right:0px; margin-bottom:0px; margin-left:36px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:47px left ;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">如果在黏贴警告标签处更换了零件，那么请获取一个新的警告标签，并将其黏贴在新零件上的相同位置处。如果需要新标签，请与贵司的牧野服务代表联系。</text></li>
+    </list>
+    <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:36px; line-height:1.18; background-color:transparent; white-space:normal; page-break-before:always; page-break-inside:auto; page-break-after:auto; border:none; tabstops:47px left ;"></para>
+  </body>
+</topic>

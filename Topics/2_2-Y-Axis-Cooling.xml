@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:55:33.472Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.2 Y-Axis Cooling</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">Y 轴冷却</para>
+    </header>
+    <para styleclass="Normal">Y 轴滚珠螺母（位于十字滑块上）由 Z 轴滚珠丝杠支撑轴承冷却液供给。然后，冷却液将用于供给 Y 轴前轴承（位于底座上）冷却，然后再返回主轴温度控制器。</para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:10px;"><image src="Z-Axis Ball Screw Support Bearing Cooling_1.png" scale="5.00%" width="2" height="2" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="Figure 2.3 Y-Axis Cooling.png" scale="60.00%" width="737" height="547" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal" style="text-align:center;"><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; Y 轴冷却</text></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:10px; page-break-before:always;"></para>
+  </body>
+</topic>

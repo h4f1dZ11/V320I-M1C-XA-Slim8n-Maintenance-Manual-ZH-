@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T09:25:35.754Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>4.4.1 Work Setup Operator Panel</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">工作设置操作面板</para>
+    </header>
+    <para styleclass="Normal">在装卸工件时，操作员使用工件设置操作面板对工件进行设置。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:10px;"><image src="Work setup side operator panel 1.jpg" scale="40.00%" width="276" height="244" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><anchor id="Fig4.9" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER3=4%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; </text><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">工作设置侧操作面板 1（标准机床）</text></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal" style="margin-bottom:10px;"><text style="font-size:12pt; font-weight:bold;">项目说明</text></para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">紧急停止</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;">按下此按钮可使机床处于紧急停止状态。按下此按钮后，所有机床功能都将停止或进入停止状态。</para>
+    <para styleclass="Normal" style="margin-bottom:14px;">要释放此按钮，请按顺时针方向旋转按钮。</para>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="2" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">自动/手动（带灯按钮）</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;">通过此按钮选择工作设置侧模式。按下此按钮可选择自动或手动模式。当该按钮内部灯亮时，处于手动模式。灯熄灭时为自动模式。</para>
+    <para styleclass="Normal" style="margin-bottom:14px;">要运行自动循环，请将此按钮选为自动模式。</para>
+    <list id="2" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="3" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">夹具夹紧器（带灯按钮）</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;">按下此按钮可夹具。按下此按钮后，将执行在夹具序列夹紧屏幕中设置的序列。(参照<link displaytype="text" defaultstyle="false" type="topiclink" href="4_3_3-Fixture-Sequence-Screen" target="_blank" style="color:#0000ff;">4.3.3 夹具序列屏幕</link>进行设置）。</para>
+    <para styleclass="Normal" style="margin-bottom:10px;">夹具夹紧时，内部灯会亮起。</para>
+    <para styleclass="Normal">仅适用于手动模式。</para>
+    <list id="3" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="4" styleclass="Normal" style="margin-bottom:10px; page-break-before:always; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px; page-break-before:always;"><text style="font-weight:bold;">松开夹具（带灯按钮）</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;">按此按钮松开夹具。通过按下该按钮，将执行在 &quot;夹具顺序松开屏幕 &quot;中设置的顺序。(参照<link displaytype="text" defaultstyle="false" type="topiclink" href="4_3_3-Fixture-Sequence-Screen" target="_blank" style="color:#0000ff;">4.3.3 灯具序列屏幕</link>进行设置）。松开夹具时，内部灯亮起。</para>
+    <para styleclass="Normal" style="margin-bottom:14px;">仅适用于手动模式。</para>
+    <list id="4" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="5" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">门解锁（带灯按钮）</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;">按下此按钮可解锁工作设置侧操作门。只要按下此按钮，门就会解锁。门锁打开时，内部指示灯亮起。</para>
+    <para styleclass="Normal" style="margin-bottom:10px;">只有在循环未激活时，门才能解锁。</para>
+    <para styleclass="Normal" style="margin-bottom:14px;">适用于操作员侧门为带锁手动操作门的机床。</para>
+    <list id="5" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="6" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">自动门开口（带灯按钮）</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;">按下此按钮可在手动模式下打开自动门开口。门开口时，内部指示灯亮起。</para>
+    <para styleclass="Normal" style="margin-bottom:14px;">适用于带自动门选配的机床。</para>
+    <list id="6" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="7" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">自动车门关闭（带灯按钮）</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;">按下此按钮可在手动模式下关闭自动门。门关闭时，内部灯亮起。</para>
+    <para styleclass="Normal" style="margin-bottom:14px;">适用于带自动门选配的机床。</para>
+    <list id="7" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="8" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">座椅检查确定（灯）</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:14px;">夹具和座椅检查确定后，指示灯亮起。适用于带机座检查选配的机床。</para>
+    <list id="8" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="9" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">工作清洗枪（带灯按钮）</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;">按下该按钮可打开/关闭工作清洗枪。当工作清洗枪打开时，内部灯会亮起。</para>
+    <para styleclass="Normal" style="margin-bottom:10px;">按下此按钮可打开工作清洗枪。若要关闭，请再按一次此按钮。</para>
+    <para styleclass="Normal">适用于带有工作清洗枪选配的机床。</para>
+    <para styleclass="Normal" style="margin-bottom:10px; page-break-before:always;"></para>
+  </body>
+</topic>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" modified="2026-03-18T14:05:23.761Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title>Warranty and Disclaimer</title>
+  <body>
+    <header>
+      <para styleclass="Heading1" style="text-align:center;">Warranty and Disclaimers</para>
+    </header>
+    <para styleclass="Normal" style="text-align:justify; margin-top:8px;"><text style="font-size:11pt;">与客户交换的购买协议中包含的信息作为牧野公司的保修条款。</text></para>
+    <para styleclass="Normal" style="text-align:justify; margin-top:8px;"><text style="font-size:11pt;">有关保修的细节，请参阅购买协议。</text></para>
+  </body>
+</topic>

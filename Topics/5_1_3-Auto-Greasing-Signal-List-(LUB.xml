@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:32:52.131Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>5.1.3 Auto Greasing Signal List (LUBE)</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">自动注油信号列表 (LUBE)</para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:10px;">输入信号</para>
+    <para styleclass="Normal" style="margin-bottom:14px;"><table styleclass="Default" rowcount="3" colcount="3" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; head-row-background-color:#dddddd; alt-row-background-color:none;">
+      <thead style="vertical-align:top">
+        <td style="width:25%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt; font-weight:bold;">地址</text></para>
+        </td>
+        <td style="width:25%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt; font-weight:bold;">符号</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">说明</text></para>
+        </td>
+      </thead>
+      <tr style="vertical-align:top">
+        <td style="width:25%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">X10.4</text></para>
+        </td>
+        <td style="width:25%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">LS2089</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">自动油脂压力开关</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:25%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">X0010.5</text></para>
+        </td>
+        <td style="width:25%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">LS2064</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">自动润滑脂供应装置液位开关</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-bottom:10px;">输出信号</para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="2" colcount="3" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; head-row-background-color:#dddddd; alt-row-background-color:none;">
+      <thead style="vertical-align:top">
+        <td style="width:24%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt; font-weight:bold;">地址</text></para>
+        </td>
+        <td style="width:25%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt; font-weight:bold;">符号</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">说明</text></para>
+        </td>
+      </thead>
+      <tr style="vertical-align:top">
+        <td style="width:24%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">X4.5</text></para>
+        </td>
+        <td style="width:25%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">ALSXYF</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">自动黄油马达前进</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-bottom:10px; page-break-before:always;"></para>
+  </body>
+</topic>

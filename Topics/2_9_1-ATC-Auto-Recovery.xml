@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T08:43:53.259Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.9.1 ATC Auto Recovery</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">自动更换工具自动恢复</para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:10px;">如果 ATC 进程中断，可通过 ATC 恢复功能自动恢复。</para>
+    <para styleclass="Normal" style="margin-bottom:10px;">在因断电导致 ATC 中断的情况下，执行以下步骤即可从中断中恢复。</para>
+    <para styleclass="Normal" style="margin-bottom:10px;">程序：</para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">打开机床电源。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">警报信息 &quot;A156 在维护模式下使用 ATC 恢复时 ATC 循环被中断&quot; 生成。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">按下<text style="font-weight:bold;">[CSTM/GRPH]</text>。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">显示主菜单屏幕。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">按<text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11pt; font-weight:bold; color:#000000;">¬</text><text style="font-weight:bold;">]</text>或<text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11pt; font-weight:bold; color:#000000;">®</text><text style="font-weight:bold;">]</text>光标键选择<text style="font-weight:bold;">[MAINT]</text>。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">按<text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11.5pt; font-weight:bold; color:#000000;">­</text><text style="font-weight:bold;">]</text>或<text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11pt; font-weight:bold; color:#000000;">¯</text><text style="font-weight:bold;">]</text>光标键选择<text style="font-weight:bold;">[ATC]</text>，然后按<text style="font-weight:bold;">[选择]</text>软键。 </li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">显示 ATC 维护屏幕。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">打开维护模式。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">将光标移至 ATC 恢复并按下<text style="font-weight:bold;"> [关于]</text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">屏幕底行（输出行）显示信息 &quot;一键启动 ATC 恢复系统&quot;。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:19px; margin-left:24px;">按下主操作面板上的<text style="font-weight:bold;"> [一键启动]</text>开关。将自动调用并执行 ATC 恢复程序。ATC 将进入待机状态（准备运行）。</li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;"><text style="font-size:10pt;">-注-</text></para>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:10pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-size:10pt;">只有当 XYZ 轴在刀具更换位置的公差范围内时，自动恢复功能才会起作用。如果轴偏离了极限值，自动恢复将无法运行。</text></li>
+      <li styleclass="Normal"><text style="font-size:10pt;">当所有机构功能良好时，自动恢复功能才会起作用。例如，主轴夹紧/松开机构及其信号，座传感器等。</text></li>
+    </list>
+  </body>
+</topic>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T09:34:24.683Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>5.1.2 Auto Grease Maintenance Screen (LUBE)</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">自动油脂维护屏幕 (LUBE)</para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:10px;">这是自动注油维护屏幕，显示每个轴/主轴的默认注油间隔时间和当前运行时间。</para>
+    <para styleclass="Normal" style="margin-bottom:10px;">导航至自动注油维护屏幕， </para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">按下 <text style="font-weight:bold;">[CSTM/GRPH]</text>。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">显示主菜单。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">移动光标 <text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11pt; font-weight:bold; color:#000000;">¬</text><text style="font-weight:bold;">] </text>或 <text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11pt; font-weight:bold; color:#000000;">®</text><text style="font-weight:bold;">]</text> 选择 <text style="font-weight:bold;">[维护]</text>。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">选择 <text style="font-weight:bold;">[贪婪] </text>并按下 <text style="font-weight:bold;">[选择] </text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">显示自动润滑脂维护屏幕。</li>
+    </list>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:10px;"><image src="Grease Maintenance Screen.png" scale="40.00%" width="320" height="240" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:11px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:159px left ;"><anchor id="Fig5.3" styleclass="Normal" style="font-size:11pt;"></anchor><text styleclass="Normal" style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER3=5%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; 自动润滑保养</text><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;"> 屏幕</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">项目说明</text></para>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">泵前进</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:14px; margin-left:21px;">表示润滑脂泵前进状态为关于或关闭。</para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:19px;"><table styleclass="Default" rowcount="3" colcount="2" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; head-row-background-color:#dddddd; alt-row-background-color:none;">
+      <thead style="vertical-align:middle">
+        <td style="width:200px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:5px; margin-bottom:5px;"><text style="font-size:10pt; font-weight:bold;">说明</text></para>
+        </td>
+        <td style="width:200px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:5px; margin-bottom:5px;"><text style="font-size:10pt; font-weight:bold;">含义</text></para>
+        </td>
+      </thead>
+      <tr style="vertical-align:top">
+        <td style="width:200px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:5px; margin-bottom:5px;"><image src="Pump Forward Indicator_ON.jpg" scale="30.00%" width="30" height="28" styleclass="Image Caption" style="font-size:10pt;" figurelistinclude="0"></image></para>
+        </td>
+        <td style="vertical-align:middle; width:200px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">状态 &quot;关于&quot;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:200px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:5px; margin-bottom:5px;"><image src="Pump Forward Indicator_OFF.jpg" scale="30.00%" width="28" height="28" styleclass="Image Caption" style="font-size:10pt;" figurelistinclude="0"></image></para>
+        </td>
+        <td style="vertical-align:middle; width:200px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">状态 &quot;关闭&quot;</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <list id="2" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="2" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">压力高（LS2089）</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-left:21px;">表示润滑脂压力开关状态为关于或关闭。</para>
+    <list id="3" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="3" styleclass="Normal" style="margin-bottom:10px; page-break-before:always; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px; page-break-before:always;"><text style="font-weight:bold;">初始加注次数</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:5px; margin-left:21px;">在初始满油模式下，需要在该字段中设置在初始满油模式下运行的注油循环次数。例如，如果该设置值为 &quot;2&quot;，则初始加注模式下将运行两个周期（加注周期间隔为 2 分钟）。之后将返回正常注油模式（注油周期间隔为 960 分钟）。</para>
+    <para styleclass="Normal" style="margin-bottom:5px; margin-left:21px;">初始注油模式是以较短的间隔（2 分钟间隔）为机床注油。</para>
+    <para styleclass="Normal" style="margin-bottom:14px; margin-left:21px;">更换润滑脂供应装置或管道后必须进行初始注油。</para>
+    <list id="4" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="4" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">操作模式</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px; margin-left:21px;">显示注油周期的当前状态。</para>
+    <para styleclass="Normal" style="margin-bottom:10px; margin-left:21px;">该字段显示的状态如下。</para>
+    <para styleclass="Normal" style="margin-bottom:10px; margin-left:21px;">待机 - 润滑脂循环激活，间隔计时器运行。</para>
+    <para styleclass="Normal" style="margin-bottom:10px; margin-left:21px;">正常注油模式 - 激活正常注油周期，注油周期之间的间隔时间为 960 分钟。</para>
+    <para styleclass="Normal" style="margin-bottom:14px; margin-left:21px;">初始注油模式 - 初始注油模式激活，注油周期之间的间隔时间为 2 分钟。</para>
+    <list id="5" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="5" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">下一个循环的时间</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:14px; margin-left:21px;">该字段显示距离下一循环（下一次注油）的时间。</para>
+    <list id="6" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="6" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">泵暂停时间</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px; margin-left:21px;">显示注脂周期之间的间隔时间。</para>
+    <para styleclass="Normal" style="margin-bottom:10px; margin-left:21px;">该值因注油模式而异。</para>
+    <para styleclass="Normal" style="margin-bottom:10px; margin-left:21px;">正常模式 - 960 分钟。</para>
+    <para styleclass="Normal" style="margin-bottom:14px; margin-left:21px;">初始加注模式 - 2 分钟。</para>
+    <para styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">按键说明</text></para>
+    <list id="7" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="7" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">输入</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:14px; margin-left:21px;">要更改数值，需要按此软键激活输入模式。</para>
+    <list id="8" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="8" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">INI 模式</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px; margin-left:21px;">要激活初始加注模式，请按此软键。</para>
+    <para styleclass="Normal" style="margin-bottom:14px; margin-left:21px;">当初始加注模式启用时，要关闭初始加注模式，请再次按下此软键。</para>
+    <list id="9" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="9" styleclass="Normal" style="margin-bottom:10px; font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">重置</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px; margin-left:21px;">用于重置泵计数值。</para>
+    <para styleclass="Normal" style="margin-left:21px;">按下此键后，泵计数值将设置为 &quot;0&quot;。</para>
+    <para styleclass="Normal" style="margin-bottom:10px; margin-left:21px; page-break-before:always;"></para>
+  </body>
+</topic>

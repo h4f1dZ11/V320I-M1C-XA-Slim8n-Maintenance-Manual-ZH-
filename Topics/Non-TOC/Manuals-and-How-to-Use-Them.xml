@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" modified="2026-03-18T14:01:11.078Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title>Manuals and How to Use Them</title>
+  <body>
+    <header>
+      <para styleclass="Heading1" style="text-align:center;">Manuals and How to Use Them</para>
+    </header>
+    <para styleclass="Normal" style="margin-top:8px; margin-bottom:11px;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">属于本机床的说明书。</text></para>
+    <para styleclass="Normal"><table rowcount="10" colcount="2" style="width:651px; cell-padding:4px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:180px; height:21px;">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">名称</text></para>
+        </td>
+        <td style="vertical-align:middle; width:415px; height:21px; border-left:none;">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">描述</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:180px; height:52px; border-top:none;">
+          <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">使用说明书</text></para>
+        </td>
+        <td style="vertical-align:top; width:415px; height:52px; border-top:none; border-left:none;">
+          <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:0px; margin-right:4px; margin-bottom:0px; margin-left:0px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">本说明书包括操作基本信息（概述，规格），实际操作步骤（操作）以及故障排除程序。</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:180px; height:34px; border-top:none;">
+          <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">定期维护说明书</text></para>
+        </td>
+        <td style="vertical-align:top; width:415px; height:34px; border-top:none; border-left:none;">
+          <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">次说明书解释了定期维护的间隔以及维持最佳机床性能的工作。</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:180px; height:34px; border-top:none;">
+          <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">外围设备说明书</text></para>
+        </td>
+        <td style="vertical-align:top; width:415px; height:34px; border-top:none; border-left:none;">
+          <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">此说明书描述了连接机床床身的外围设备的操作程序。</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:180px; height:20px; border-top:none;">
+          <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">FANUC数控说明书系列</text></para>
+        </td>
+        <td style="vertical-align:top; width:415px; height:20px; border-top:none; border-left:none;">
+          <para styleclass="Normal"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">这些说明书介绍了FANUC设备的操作程序。</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:180px; height:34px; border-top:none;">
+          <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">维护说明书</text></para>
+        </td>
+        <td style="vertical-align:top; width:415px; height:34px; border-top:none; border-left:none;">
+          <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">本说明书描述了机床的机构以及如何执行维护和调节工作。</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:180px; height:34px; border-top:none;">
+          <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">安装说明书</text></para>
+        </td>
+        <td style="vertical-align:top; width:415px; height:34px; border-top:none; border-left:none;">
+          <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">本说明书描述了机床的准备，运输和安装设置程序。</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:180px; height:34px; border-top:none;">
+          <para styleclass="Normal"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">电气示意图手册</text></para>
+        </td>
+        <td style="vertical-align:top; width:415px; height:34px; border-top:none; border-left:none;">
+          <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">本手册为机床电路图，在机床维护和服务之时可以有所参考。</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:180px; height:68px; border-top:none;">
+          <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">零件说明书</text></para>
+        </td>
+        <td style="vertical-align:top; width:415px; height:68px; border-top:none; border-left:none;">
+          <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000; letter-scaling:95%;">本说明书提供了机床所用零件的列表，在机床维护和服务之时可以有所参考。</text></para>
+          <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000; letter-scaling:95%;">您可以使用本手册所载零件编号与牧野服务代表沟通购买备件/替换件。</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:180px; height:20px; border-top:none;">
+          <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">其他选购件说明书</text></para>
+        </td>
+        <td style="vertical-align:top; width:415px; height:20px; border-top:none; border-left:none;">
+          <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">说明选购件装置的使用方法。</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="margin-bottom:8px;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">-注-</text></para>
+    <para styleclass="Normal"><text style="font-size:10pt;">由于机床配置和规格的不同，本说明书的描述或其他详细信息可能与实际机床有所不同。</text></para>
+    <para styleclass="Normal" style="text-align:justify; line-height:1.50; page-break-before:always;"></para>
+  </body>
+</topic>

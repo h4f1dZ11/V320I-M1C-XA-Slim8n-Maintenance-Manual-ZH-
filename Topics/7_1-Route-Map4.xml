@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:34:15.023Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>7.1 Route Map</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">路线图</para>
+    </header>
+    <para styleclass="Normal" style="text-align:center;"><image src="OMRON BTS_Route Map.jpg" scale="30.00%" width="566" height="203" styleclass="Image Caption" figurelistinclude="0"></image></para>
+  </body>
+</topic>

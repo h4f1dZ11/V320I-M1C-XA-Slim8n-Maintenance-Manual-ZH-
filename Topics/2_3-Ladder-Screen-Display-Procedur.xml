@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" modified="2026-04-07T13:56:58.580Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.3 Ladder Screen Display Procedure</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">梯形图屏幕显示程序</para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:8px;">对机床进行维护时，可在梯形图屏幕上检查梯形图程序的运行状态。</para>
+    <para styleclass="Normal" style="line-height:1.50;"><text style="font-weight:bold;">显示步骤 </text>（参照注）</para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="line-height:1.50; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="line-height:1.50;">显示 NC 屏幕时按 <text style="font-weight:bold;">[系统] </text>功能键。</li>
+      <li styleclass="Normal" style="line-height:1.50;">按 <text style="font-weight:bold;">[&gt;] </text>软键直至显示 <text style="font-weight:bold;">[PMC 梯子]</text>。</li>
+      <li styleclass="Normal" style="line-height:1.50;">按 <text style="font-weight:bold;">[PMC 梯子] </text>软键可显示梯形图屏幕。</li>
+    </list>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:14px; line-height:1.50;"><image src="Pic 6.JPG" scale="40.00%" width="318" height="25" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160;PMC LADDER 软键</text></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal"><text style="font-size:11pt;">梯形图屏幕显示程序至此完成。</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:10px;"><image src="Pic 7.png" scale="42.00%" width="336" height="252" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160;梯形图屏幕显示程序</text></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Notes" style="line-height:1.50;"><text style="font-size:10pt;">-注-</text></para>
+    <para styleclass="Notes"><text style="font-size:10pt;">编辑时可能需要密码。</text></para>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T13:58:08.285Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>1 Maintenance Screen</title>
+  <body>
+    <header>
+      <para styleclass="Heading2">维护屏幕</para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:10px;">当机床因异常情况停机时，维护屏幕用于恢复运行和执行调整。</para>
+    <para styleclass="Normal" style="line-height:1.50;">以下每个单元都有一个维护屏幕：</para>
+    <list id="0" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="line-height:1.50; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="line-height:1.50;">ATC 维护屏幕</li>
+      <li styleclass="Normal" style="line-height:1.50;">夹具设置屏幕和工作设置程序（选配）</li>
+      <li styleclass="Normal" style="line-height:1.50;">润滑维护屏幕<tab /><tab /></li>
+      <li styleclass="Normal" style="line-height:1.50;">用户 I/O（电磁阀）使用程序（选配）</li>
+      <li styleclass="Normal" style="line-height:1.50;">刀具破损传感器装置设置程序（选配）</li>
+    </list>
+    <para styleclass="Normal" style="line-height:1.50; page-break-before:always;"></para>
+  </body>
+</topic>

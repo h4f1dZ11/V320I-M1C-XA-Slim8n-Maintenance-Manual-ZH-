@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:33:24.299Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>6.2 Outline</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">概述</para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:9px;">用户输入/输出接口是专为控制执行器、生产计数器和用户提供的其他外围设备而设计的功能。通过执行 M 代码（M580 - M595）命令，从机床向外围设备发送输出信号。通过输出信号操作外围设备，并通过向机床输入操作确认开关信号来验证操作是否完成。 </para>
+    <para styleclass="Normal">机床控制器内有一块端子板，上面有用于输入和输出信号的触点。将外部设备连接到这些触点上，就可以用 M 代码命令控制这些设备。</para>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

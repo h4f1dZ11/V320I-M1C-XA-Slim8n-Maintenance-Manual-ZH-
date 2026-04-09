@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T15:52:50.016Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.1.6 Servo Alarm Triggered During Operation</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">运行过程中发生伺服报警</para>
+    </header>
+    <para styleclass="Normal">发生警报的原因可能是伺服系统故障或机械故障。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">记录警报编号和当时运行条件的细节，然后继续采取纠正措施：</para>
+    <para styleclass="Normal"></para>
+    <list id="0" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:9px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:9px;">检查显示的警报编号及其说明。</li>
+      <li styleclass="Normal" style="margin-bottom:9px;">参照 NC 设备制造商提供的使用说明书和维护手册进一步排除故障。</li>
+      <li styleclass="Normal" style="margin-bottom:9px;">如果问题可能涉及机械系统，则检查以下内容：</li>
+    </list>
+    <para styleclass="Normal" style="margin-left:13px;">- 确保工件限制（如装载重量和工件惯性）在规定范围内。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">如果未发现异常，请联系牧野服务代表寻求帮助。</para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+  </body>
+</topic>

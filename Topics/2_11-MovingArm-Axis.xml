@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:00:35.628Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.11 Moving Arm Axis</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">移动臂轴</para>
+    </header>
+    <para styleclass="Normal"><text style="color:#000000;">在旋转臂轴之前，确保梭轴处于待机位置（235 毫米）。使用手动手柄 MPG。选择轴编号 &quot;7&quot;，移动穿梭轴位置。臂轴待机位置为 0.0000。</text></para>
+    <para styleclass="Normal" style="page-break-before:always;"><text style="color:#000000;">&#32;</text></para>
+  </body>
+</topic>

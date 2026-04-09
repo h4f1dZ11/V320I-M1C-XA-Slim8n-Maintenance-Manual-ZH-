@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T13:59:26.916Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.7 Spindle Taper Clean</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">主轴锥面清洁</para>
+    </header>
+    <para styleclass="Normal" style="line-height:1.50;">通过此操作可在维护模式下启动/停止主轴锥面清洁空气。</para>
+    <para styleclass="Normal" style="line-height:1.50;"><text style="font-weight:bold;">操作步骤</text></para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-left:24px; line-height:1.50; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-left:24px; line-height:1.50;">打开维护模式。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-left:24px; line-height:1.50;">通过移动 <text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11pt; font-weight:bold; color:#000000;">­</text><text style="font-weight:bold;">]</text> 或 <text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11pt; font-weight:bold; color:#000000;">¯</text><text style="font-weight:bold;">]</text> 光标键选择主轴锥面清洁主轴锥面清洁。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-left:24px; line-height:1.50;">要启动主轴锥面清洁，请按<text style="font-weight:bold;">[关于]</text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-left:24px; line-height:1.50;">要关闭主轴锥面清洁，请按<text style="font-weight:bold;">[关闭]</text>软键。</li>
+    </list>
+  </body>
+</topic>

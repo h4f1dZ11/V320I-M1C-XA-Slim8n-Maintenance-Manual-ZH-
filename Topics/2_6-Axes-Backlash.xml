@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:50:00.736Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.6 Axes Backlash</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">斧头的反冲力</para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:10px;">反向间隙是指轴在方向改变时 &quot;损失&quot; 的运动量（距离）。</para>
+    <para styleclass="Normal" style="margin-bottom:10px;"><text style="font-size:12pt; font-weight:bold;">反向间隙补偿功能</text></para>
+    <list id="0" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:10px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;">反向间隙补偿功能允许以电子方式修正机械反向间隙。</li>
+      <li styleclass="Normal" style="margin-bottom:10px;">切削进给和快速移动的间隙补偿值分别在 NC 间隙参数 1851 和 1852 中设置。</li>
+    </list>
+  </body>
+</topic>

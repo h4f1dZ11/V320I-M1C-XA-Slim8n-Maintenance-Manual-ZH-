@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:49:42.995Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.4 Z-Axis Ball Screw Support Bearing Cooling</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">Z 轴滚珠丝杠支撑轴承冷却器</para>
+    </header>
+    <para styleclass="Normal">Z 轴滚珠丝杠支撑轴承的外壳由主轴冷却器的冷却液冷却，以尽量减少 Z 轴的热膨胀。(参照<link displaytype="text" defaultstyle="false" type="topiclink" href="Chapter-8-Spindle-Temperature-Controller" style="color:#0000ff;">主轴温度控制器</link>）。</para>
+    <para styleclass="Normal" style="margin-bottom:10px; page-break-before:always;"></para>
+  </body>
+</topic>

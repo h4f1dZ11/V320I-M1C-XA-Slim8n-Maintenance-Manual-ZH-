@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T15:57:46.495Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>4.3.15 Rotation of RWH Unit to 0° Position</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">将 RWH 设备旋转到 0° 位置</para>
+    </header>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:9px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:9px;">通过倾斜设备将 RWH 设备旋转到 +0° 位置。</li>
+      <li styleclass="Normal">使用适当的参数，将倾斜装置限位从 +180.2° 改回 +120.2°。</li>
+    </list>
+    <para styleclass="Normal" style="text-align:center;"><image src="Fig 4.9 Rotation of RWH Unit at +0 deg.png" imagestyleclass="Default" scale="50.00%" width="279" height="321" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:7px;"><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER18=4%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160;将 RWH 设备旋转到 0°</text>位置</para>
+  </body>
+</topic>

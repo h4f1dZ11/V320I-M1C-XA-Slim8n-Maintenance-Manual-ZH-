@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T13:38:22.872Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>5.4.1 Disposal of Waste Oil, Waste Fluids and Waste Materials</title>
+  <keywords>
+    <keyword>#MECHOK</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading4">废油，废液和费材料的处理</para>
+    </header>
+    <para styleclass="Normal" style="margin-top:8px; line-height:1.18;"><text style="font-size:11pt;">需要根据贵国法律，法规和条例处理诸如切削液，润滑脂，液压油，润滑油，碎屑或石墨灰等机床操作排泄的废物。</text></para>
+    <para styleclass="Normal" style="line-height:1.18;"><text style="font-size:11pt;">此外，还要适当分选可回收材料。</text></para>
+  </body>
+</topic>

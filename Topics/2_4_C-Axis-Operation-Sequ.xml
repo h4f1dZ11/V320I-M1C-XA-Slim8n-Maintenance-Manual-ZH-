@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T15:50:58.425Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.4 C-Axis Operation Sequence</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">C 轴操作顺序</para>
+    </header>
+    <para styleclass="Normal">C 轴通常是夹紧的，因此在发出移动指令之前必须松开。以下是电磁阀启动和压力开关反馈的顺序。 &#160;</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text style="font-weight:bold;">C 轴夹具流程图</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center; page-break-after:avoid;"><image src="C-AxisClamp.png" imagestyleclass="Default" scale="80.00%" width="465" height="278" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text style="font-weight:bold;">C 轴松开流程图</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center; page-break-after:avoid;"><image src="C-AxisUnclamp.png" imagestyleclass="Default" scale="80.00%" width="472" height="277" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center; page-break-before:always; page-break-after:avoid;"></para>
+  </body>
+</topic>

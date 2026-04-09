@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:55:26.889Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.1 Z-Axis Ball Screw Support Bearing Cooling </title>
+  <body>
+    <header>
+      <para styleclass="Heading3">Z 轴滚珠丝杠支撑轴承冷却器</para>
+    </header>
+    <para styleclass="Normal">Z 轴滚珠丝杠支撑轴承由主轴温度控制器带冷却液供给，以消除产生的热量。</para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:18px;"><image src="Figure 2.2 Z-Axis Ball Screw Support Bearing Cooling.png" imagestyleclass="Default" scale="60.00%" width="502" height="314" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:159px left ;"><text styleclass="Normal" style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; Z 轴滚珠丝杠支撑轴承冷却器</text></para>
+    <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:10px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-before:always; page-break-inside:auto; page-break-after:auto; border:none; tabstops:159px left ;"></para>
+  </body>
+</topic>

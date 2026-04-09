@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" modified="2026-04-07T14:01:20.364Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.4 Actuating APC Solenoid and Signal Confirmation for Pallet UP/DOWN</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">启动 APC 电磁阀并确认托盘升降信号</para>
+    </header>
+    <para styleclass="Normal">通过该操作，可以在维护模式下打开/关闭 APC 电磁阀。此外，还可以确认末端移动确认信号。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><image src="19. APC - Pallet Up or Down.png" scale="80.00%" width="306" height="58" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="line-height:1.50;"><text style="font-weight:bold;">制作托盘的操作程序</text></para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">打开维护模式。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">按<text style="font-weight:bold;">[SL100B]</text>软键，选择托盘提升。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">要打开托盘提升电磁阀，请按<text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">关于</text><text style="font-weight:bold;">]</text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">要关闭托盘提升电磁阀，请按<text style="font-weight:bold;">[关闭]</text>软键。</li>
+    </list>
+    <para styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">同样操作托盘向上/顺时针/逆时针动作。</para>
+    <para styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">指示灯显示如下状态：</para>
+    <para styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;"><image src="lamp indications.png" scale="30.00%" width="288" height="118" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; page-break-before:always;"></para>
+  </body>
+</topic>

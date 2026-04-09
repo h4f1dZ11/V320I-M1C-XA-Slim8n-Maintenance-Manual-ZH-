@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T13:35:43.940Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>1.8 Handling of Hazardous and Toxic Materials</title>
+  <keywords>
+    <keyword>#MECHOK</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading3" style="page-break-before:always;">处理危险和有毒材料</para>
+    </header>
+    <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:19px; margin-left:9px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">处理危险和有毒材料（诸如液压油和切削液）时必须根据本地法律和法规要求了解相关信息，接受教育和培训。</text></para>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:9px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">特别还需要注意以下几点:</text></para>
+    <list id="0" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="" style="text-align:justify; text-indent:-11px; margin-top:11px; margin-right:10px; margin-bottom:0px; margin-left:47px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:47px left ; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="" style="text-align:justify; text-indent:-11px; margin-top:11px; margin-right:10px; margin-bottom:0px; margin-left:47px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:47px left ;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">在使用危险和有毒材料的区域的通风条件一定要好。</text></li>
+    </list>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="" style="text-align:justify; text-indent:-11px; margin-top:11px; margin-right:10px; margin-bottom:0px; margin-left:47px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:47px left ; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="" style="text-align:justify; text-indent:-11px; margin-top:11px; margin-right:10px; margin-bottom:0px; margin-left:47px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:47px left ;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">必须根据制造商建议的处理程序处理和储存危险和有毒材料。</text></li>
+    </list>
+    <list id="2" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="" style="text-align:justify; text-indent:-11px; margin-top:11px; margin-right:10px; margin-bottom:0px; margin-left:47px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:47px left ; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="" style="text-align:justify; text-indent:-11px; margin-top:11px; margin-right:10px; margin-bottom:0px; margin-left:47px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:47px left ;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">请通过在容器上黏贴标签的方式识别危险和有毒材料。</text></li>
+    </list>
+    <list id="3" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="" style="text-align:justify; text-indent:-11px; margin-top:11px; margin-right:10px; margin-bottom:0px; margin-left:47px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:47px left ; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="" style="text-align:justify; text-indent:-11px; margin-top:11px; margin-right:10px; margin-bottom:0px; margin-left:47px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:47px left ;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">指派一个专人处理危险和有毒材料，并为其提供紧急响应程序和处理程序的相关教育和培训。</text></li>
+    </list>
+    <list id="4" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="" style="text-align:justify; text-indent:-11px; margin-top:11px; margin-right:10px; margin-bottom:0px; margin-left:47px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:47px left ; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="" style="text-align:justify; text-indent:-11px; margin-top:11px; margin-right:10px; margin-bottom:0px; margin-left:47px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:47px left ;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">在处理危险或有毒材料之前，一定要检查安全数据表（SDS）。安全数据表（SDS）囊括了有关健康和安全风险，安全处理程序以及紧急情况之下的响应的详细信息。</text></li>
+    </list>
+    <para styleclass="" style="text-align:justify; text-indent:-11px; margin-top:0px; margin-right:10px; margin-bottom:0px; margin-left:47px; line-height:1.18; background-color:transparent; white-space:normal; page-break-before:always; page-break-inside:auto; page-break-after:auto; border:none; tabstops:47px left ;"></para>
+  </body>
+</topic>

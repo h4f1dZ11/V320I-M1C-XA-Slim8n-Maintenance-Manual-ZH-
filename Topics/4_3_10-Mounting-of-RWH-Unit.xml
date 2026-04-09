@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T15:39:50.344Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>4.3.10 Mounting of RWH Unit</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">安装 RWH 设备</para>
+    </header>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:6px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:6px;"><text style="background-color:#ffffff;">将吊装带 [2] 安装到新的 RWH 设备上。</text></li>
+      <li styleclass="Normal" style="margin-bottom:6px;"><text style="background-color:#ffffff;">使用起重机移动新的 RWH 装置，并将锁定夹具固定在输送机上（参照 </text><link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig4.16" style="color:#0000ff; background-color:#ffffff;">图 4.16</link><text style="background-color:#ffffff;">）。</text></li>
+      <li styleclass="Normal" style="margin-bottom:6px;"><text style="background-color:#ffffff;">将设备推入，直至无法再接触到左侧的两个吊环螺栓。确保设备不会悬空太多。</text></li>
+      <li styleclass="Normal" style="margin-bottom:6px;"><text style="background-color:#ffffff;">使用起重机和起重吊索连接右侧两个吊眼螺栓并装载 RWH 设备。确保设备在输送机上适当平衡后再继续 （参照 </text><link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig4.17" style="color:#0000ff; background-color:#ffffff;">图 4.17</link><text style="background-color:#ffffff;">）。</text></li>
+      <li styleclass="Normal" style="margin-bottom:6px;"><text style="background-color:#ffffff;">继续将 RWH 设备完全推入机床。从输送机上松开锁定夹具。</text></li>
+      <li styleclass="Normal" style="margin-bottom:6px;"><text style="background-color:#ffffff;">在起重机的帮助下，抬起并定位设备，使安装螺孔对齐。找到并完全拧紧驱动侧和支撑侧顶部的 4 个螺钉（参照 </text><link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig4.18" style="color:#0000ff; background-color:#ffffff;">图 4.18</link><text style="background-color:#ffffff;">）。</text></li>
+    </list>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:7px;"><image src="Fig 4.2.5 Lifting of RWH Unit.png" imagestyleclass="Default" scale="72.00%" width="518" height="362" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:7px;"><anchor id="Fig4.16" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER18=4%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160;安装 RWH 设备 1</text></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:7px;"></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:7px;"><image src="Fig 4.2.4 Moving out the RWH Unit Halfway 1.png" imagestyleclass="Default" scale="72.00%" width="418" height="354" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:7px;"><anchor id="Fig4.17" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER18=4%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160;安装 RWH 单元 2</text></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:7px;"></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:7px;"><image src="Fig 4.2.7 Moving in of New RWH Unit.png" imagestyleclass="Default" scale="72.00%" width="419" height="364" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:7px;"><anchor id="Fig4.18" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER18=4%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160;安装 RWH 单元 3</text></para>
+    <para styleclass="Normal" style="text-align:center;"><table rowcount="3" colcount="4" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:middle">
+        <td style="width:53px; height:21px; background-color:#dddddd;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">编号</text></para>
+        </td>
+        <td style="width:189px; height:21px; background-color:#dddddd;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">名称</text></para>
+        </td>
+        <td style="width:53px; height:21px; background-color:#dddddd;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">编号</text></para>
+        </td>
+        <td style="width:199px; height:21px; background-color:#dddddd;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">名称</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:53px; height:22px;">
+          <para styleclass="" style="text-align:center; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:1px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000; letter-scaling:99%;">1</text></para>
+        </td>
+        <td style="vertical-align:middle; width:189px; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 提升点</text></para>
+        </td>
+        <td style="vertical-align:middle; width:53px; height:22px;">
+          <para styleclass="" style="text-align:center; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:1px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000; letter-scaling:99%;">3</text></para>
+        </td>
+        <td style="vertical-align:middle; width:199px; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 提升重量 - 1578.69 千克</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:53px; height:22px;">
+          <para styleclass="" style="text-align:center; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:1px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000; letter-scaling:99%;">2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:189px; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 吊装带</text></para>
+        </td>
+        <td style="vertical-align:middle; width:53px; height:22px;">
+          <para styleclass="" style="text-align:center; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:1px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000; letter-scaling:99%;">-</text></para>
+        </td>
+        <td style="vertical-align:middle; width:199px; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> -</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-align:center; page-break-before:always;"></para>
+  </body>
+</topic>

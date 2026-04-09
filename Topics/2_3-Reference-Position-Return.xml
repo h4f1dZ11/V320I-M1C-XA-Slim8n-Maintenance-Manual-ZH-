@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:49:36.523Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.3 Reference Position Return</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">参照位置返回</para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:10px;">驱动电机使用带有绝对式脉冲编码器的交流伺服电机。当电机没有刻度单元时，位置由绝对脉冲编码器持续存储；当电机有刻度单元时，位置由绝对刻度单元持续存储。因此，在主电源开或从紧急停车状态恢复后，无需参照位置返回。但在下列情况下需要参照位置返回。</para>
+    <list id="0" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:10px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;">更换电机信号线或电池电缆或脉冲编码器电池后</li>
+      <li styleclass="Normal" style="margin-bottom:10px;">拆卸和更换电机后。</li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;">对每个轴执行基准位置复位，以便使用以下步骤将基准位置存储到机床中：</para>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">在执行 X 轴参照位置复位之前，将 X 轴移至中心位置的负侧。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">在手动进给（点动）模式下，移动轴 20 mm（X/Y/Z 轴）（电机每转一圈的轴进给量）或更多。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">打开 / 关闭电源，然后重新打开。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">从操作模式选择开关中按下<text style="font-weight:bold;">[REF]</text>模式。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">使用轴选择开关选择所需的轴。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">按下<text style="font-weight:bold;">[循环启动]</text>开关，返回参照位置。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">轴运动停止时，确认坐标值为 0。</li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;">拆卸或更换电机后：</para>
+    <para styleclass="Normal" style="margin-bottom:10px;">执行上述程序对接式参考位置复位以确定参考位置。(参照<text style="color:#0000ff;">安装手册 第 3 章 3.1.1 </text>对接式参考位置复位）。</para>
+    <para styleclass="Normal" style="margin-bottom:10px;">如果需要任何说明，请联系牧野服务代表寻求帮助。</para>
+  </body>
+</topic>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T14:36:03.939Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.1.2 Rotation Does Not Stop</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">旋转不停止</para>
+    </header>
+    <para styleclass="Normal">如果发出停止命令后 C 轴没有停止转动，则可能发生了错误。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">按下<text style="font-weight:bold;">[紧急停止]</text>按钮停止旋转。可能的原因包括</para>
+    <para styleclass="Normal"></para>
+    <list id="0" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal">伺服系统错误（如电机，电机编码器或伺服放大器故障）</li>
+      <li styleclass="Normal">数控装置，尤其是 I/O 模块故障</li>
+      <li styleclass="Normal">电机电缆损坏</li>
+      <li styleclass="Normal">电气噪声的影响</li>
+    </list>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">请联系牧野售后服务代表寻求帮助。</para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

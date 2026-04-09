@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T11:12:24.730Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.1 Tool Loading Station Panel</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">工具装载站面板</para>
+    </header>
+    <para styleclass="Normal">工具装载站面板上有以下操作按钮和指示灯，用于 ATC 手动操作和维护操作。当选择 ATC 手动干预按钮时，ATC 刀库手动索引 CW/CCW 启用，允许刀库移动。在手动模式下，自动刀库分度和刀具更换被联锁，导致在发出带有 Txxx 或 M06 的指令块时停止零件程序。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><table rowcount="9" colcount="3" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:37px; height:2px;">
+          <para styleclass="" style="text-align:center; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:5px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; font-weight:bold; color:#000000;">编号</text></para>
+        </td>
+        <td style="vertical-align:middle; width:125px; height:2px;">
+          <para styleclass="" style="text-align:center; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:5px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; font-weight:bold; color:#000000;">符号</text></para>
+        </td>
+        <td style="vertical-align:middle; width:508px; height:22px;">
+          <para styleclass="" style="text-align:left; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:5px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; font-weight:bold; color:#000000;">名称和说明</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:top; width:37px; height:5px;">
+          <para styleclass="" style="text-align:center; text-indent:1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:2pt; color:#000000;"> &#160; &#160; &#160;</text></para>
+          <para styleclass="" style="text-align:center; text-indent:1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">6</text></para>
+        </td>
+        <td rowspan="2" style="vertical-align:top; width:125px; height:5px;">
+          <para styleclass="" style="text-align:center; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:1px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"></para>
+          <para styleclass="" style="text-align:center; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:1px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><image src="Emergency StopSwitch.png" scale="28.00%" width="66" height="65" styleclass="Image Caption" figurelistinclude="0"></image></para>
+        </td>
+        <td style="vertical-align:middle; width:508px; height:22px;">
+          <para styleclass="" style="text-align:left; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:5px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; font-weight:bold; color:#000000;">紧急停止按钮</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:508px; height:22px;">
+          <para styleclass="" style="text-align:left; text-indent:-1px; margin-top:2px; margin-right:0px; margin-bottom:8px; margin-left:5px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">在紧急情况下，按下此按钮可突然停止所有动作。一旦按下，按钮将锁定在按下位置。按箭头所示方向旋转按钮可解除锁定。按下此按钮后，会出现以下情况。</text></para>
+          <list id="0" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="" style="text-align:left; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:3px; margin-left:18px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none; font-family:Symbol; font-size:10pt; color:#000000;">
+            <li styleclass="" style="text-align:left; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:3px; margin-left:18px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">所有移动轴立即停止。</text></li>
+          </list>
+          <list id="1" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="" style="text-align:left; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:3px; margin-left:18px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none; font-family:Symbol; font-size:10pt; color:#000000;">
+            <li styleclass="" style="text-align:left; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:3px; margin-left:18px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">主轴停止（如果正在运行）。</text></li>
+            <li styleclass="" style="text-align:left; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:3px; margin-left:18px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">主轴刀具将被夹紧。</text></li>
+            <li styleclass="" style="text-align:left; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:3px; margin-left:18px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">重置主轴方向。</text></li>
+            <li styleclass="" style="text-align:left; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:3px; margin-left:18px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">如果 ATC 正在运行，则中途停止。</text></li>
+            <li styleclass="" style="text-align:left; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:3px; margin-left:18px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">重新设置 CNC。</text></li>
+          </list>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="width:37px; height:24px;">
+          <para styleclass="" style="text-align:center; text-indent:1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:2pt; color:#000000;"> &#160; &#160; &#160;</text></para>
+          <para styleclass="" style="text-align:center; text-indent:1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">7</text></para>
+        </td>
+        <td rowspan="2" style="width:125px; height:24px;">
+          <para styleclass="" style="text-align:center; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:1px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"></para>
+          <para styleclass="" style="text-align:center; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:1px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><image src="Mag Manual Intvn Button (New).JPG" scale="28.00%" width="71" height="71" styleclass="Image Caption" figurelistinclude="0"></image></para>
+        </td>
+        <td style="vertical-align:middle; width:508px; height:24px;">
+          <para styleclass="" style="text-align:left; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:1px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:Arial; font-size:10pt; font-weight:bold; color:#000000;">&#32;</text><text styleclass="" style="font-family:SimSun; font-size:10pt; font-weight:bold; color:#000000;">弹匣手动干预按钮</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:508px; height:22px;">
+          <para styleclass="" style="text-align:left; text-indent:-1px; margin-top:2px; margin-right:0px; margin-bottom:8px; margin-left:5px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">该按钮用于选择 ATC 手动干预模式，以便手动索引刀库。在 ATC 或刀库索引的自动操作过程中，如果按下此按钮，手动操作模式将被临时保持，并且并入的指示灯将闪烁。自动操作完成后，保持的手动模式被激活，灯将持续发光。 </text></para>
+          <para styleclass="" style="text-align:left; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:4px; margin-left:5px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">在手动模式下（即按钮上的组合灯亮起），如果在自动模式下发出 T 代码指令，则刀库不会分度，但指令的 T 代码将保持不变。当刀库手动模式关闭时，刀库会立即分度到指令刀具。</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="width:37px;">
+          <para styleclass="" style="text-align:center; text-indent:1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:2pt; color:#000000;"> &#160; &#160; &#160;</text></para>
+          <para styleclass="" style="text-align:center; text-indent:1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">8</text></para>
+        </td>
+        <td rowspan="2" style="width:125px;">
+          <para styleclass="" style="text-align:center; text-indent:-1px; margin-top:0px; margin-right:3px; margin-bottom:0px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="Image Caption">&#32;</text><image src="Mag Rot Push Button (New).JPG" scale="28.00%" width="134" height="68" styleclass="Image Caption" figurelistinclude="0"></image></para>
+        </td>
+        <td style="vertical-align:middle; width:508px; height:24px;">
+          <para styleclass="" style="text-align:left; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:5px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; font-weight:bold; color:#000000;">弹匣旋转按钮</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:508px; height:22px;">
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:2px; margin-right:0px; margin-bottom:8px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">在手动模式下，可通过按下相应的按钮使弹夹沿 CW 或 CCW 方向旋转。松开按钮后，弹夹将停止到下一个具夹位置。</text></para>
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:8px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">电源开或紧急停机后，在手动操作点之前必须将弹夹归零到参照点。要归零，请按 CCW 按钮。即使松开按钮，料仓也会继续旋转，直到归零完成。</text></para>
+          <para styleclass="" style="text-align:left; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:4px; margin-left:5px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">电源开或急停后，当发出刀具编号指令时，在自动模式下，刀库将首先自动进行回零，之后刀具将被分度到待机位置。</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="width:37px;">
+          <para styleclass="" style="text-align:center; text-indent:1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:2pt; color:#000000;"> &#160; &#160; &#160;</text></para>
+          <para styleclass="" style="text-align:center; text-indent:1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">9</text></para>
+        </td>
+        <td rowspan="2" style="width:125px;">
+          <para styleclass="" style="text-align:center; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:1px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"></para>
+          <para styleclass="" style="text-align:center; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:1px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><image src="Mag Door Release Push Button (New).JPG" scale="28.00%" width="70" height="70" styleclass="Image Caption" figurelistinclude="0"></image></para>
+        </td>
+        <td style="vertical-align:middle; width:508px; height:24px;">
+          <para styleclass="" style="text-align:left; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:1px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:Arial; font-size:10pt; font-weight:bold; color:#000000;">&#32;</text><text styleclass="" style="font-family:SimSun; font-size:10pt; font-weight:bold; color:#000000;">门锁释放按钮</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:508px; height:22px;">
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:8px; margin-left:4px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">此按钮用于打开刀库门开口。按下此按钮的同时打开刀库门（只有按下此按钮时，刀库门才能解锁）。</text></para>
+          <para styleclass="" style="text-align:left; text-indent:-1px; margin-top:0px; margin-right:0px; margin-bottom:8px; margin-left:5px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">要启用此按钮，必须打开&quot;手动干预&quot;按钮。</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

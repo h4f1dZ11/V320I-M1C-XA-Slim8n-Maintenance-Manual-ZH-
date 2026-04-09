@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T08:14:28.269Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.6.3 Jog Operation</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">点动操作</para>
+    </header>
+    <para styleclass="Normal" style="line-height:1.50;">通过该操作可以对弹匣轴进行点动。</para>
+    <para styleclass="Normal" style="line-height:1.50;"><text style="font-weight:bold;">操作步骤</text></para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">打开维护模式。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;"><text styleclass="Notes">按</text><text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11pt; font-weight:bold; color:#000000;">¬</text><text style="font-weight:bold;">]</text><text styleclass="Notes">或</text><text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11pt; font-weight:bold; color:#000000;">®</text><text style="font-weight:bold;">]</text><text styleclass="Notes">光标键选择 FEED MODE:JOG。所选模式将以黄色高亮显示。</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">按<text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11pt; font-weight:bold; color:#000000;">¬</text><text style="font-weight:bold;">]</text>或<text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11pt; font-weight:bold; color:#000000;">®</text><text style="font-weight:bold;">]</text>光标键，选择进纸超控，在此模式下料仓需要旋转 100% / 50% / 25% / 0%。所选模式将以黄色高亮显示。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">要移动料仓轴，按操作面板上的<text style="font-weight:bold;">[+]</text>按钮顺时针移动，或按<text style="font-weight:bold;">[-]</text>按钮逆时针移动。如果松开<text style="font-weight:bold;">[+]</text>/<text style="font-weight:bold;">[-]</text>按键，料仓运动将停止。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">可通过此屏幕上的ATC职位显示屏观察轴的实际移动情况。</li>
+    </list>
+    <para styleclass="Normal" style="margin-top:10px; line-height:1.50;"><text style="font-size:10pt;">-注-</text></para>
+    <para styleclass="Normal"><text style="font-size:10pt;">除非满足相应操作的所有条件，否则不会进行移动。维护显示联锁原因的维护错误信息将显示在此屏幕的输出行上。(参照 </text><link displaytype="text" defaultstyle="false" type="topiclink" href="2_6-Moving-Magazine-Servo-Axis" anchor="Fig2.2" target="_blank" styleclass="Notes" style="font-size:10pt; color:#0000ff;">图2.2</link><text style="font-size:10pt;">）。 </text></para>
+    <para styleclass="Normal" style="text-indent:-24px; margin-left:24px;"></para>
+    <para styleclass="Normal" style="text-indent:-24px; margin-left:24px;"></para>
+  </body>
+</topic>

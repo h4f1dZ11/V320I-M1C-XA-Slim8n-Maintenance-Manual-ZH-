@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" modified="2026-04-07T14:01:46.085Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.7 Moving APC Servo Axis</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">移动式自动托盘交换器伺服轴</para>
+    </header>
+    <para styleclass="Normal">通过该装置，可以在不同模式下旋转弹匣，以进行校准或将弹匣恢复到主页位置。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="margin-bottom:8px;"><text styleclass="Image Caption">&#32;</text><image src="Moving APC Servo Axis.jpg" imagestyleclass="Default" scale="60.00%" width="399" height="400" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal">与料库轴运动有关的项目：</para>
+    <para styleclass="Normal"></para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">打开维护模式。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">使用软键选择刀库移动模式 REF/INCH/JOG。所选模式的背景将突出显示为黄色。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">按软键选择刀库需要旋转 100% / 50% / 25% / 0% 的进给量。所选进给量将以黄色背景高亮显示。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">在 INCH（英寸）模式下，通过在英寸数据上输入英寸数据来选择英寸距离。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">按照步骤 1) 至 4) 移动料架轴后，按操作面板上的<text style="font-weight:bold;">[+]</text>键顺时针移动或按<text style="font-weight:bold;">[-]</text>软键逆时针移动。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">轴的实际移动可以通过此屏幕上的自动托盘更换位置 显示屏观察到。</li>
+    </list>
+    <para styleclass="Normal" style="text-indent:-24px; margin-left:24px;">移动料仓轴的每种模式说明如下。</para>
+    <para styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; page-break-before:always;"></para>
+  </body>
+</topic>

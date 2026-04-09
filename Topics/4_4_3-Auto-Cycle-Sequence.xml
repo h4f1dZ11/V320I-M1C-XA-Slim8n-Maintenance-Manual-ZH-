@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:24:34.946Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>4.4.3 Auto Cycle Sequence</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">自动循环序列</para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">启动自动循环的条件</text></para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">在工作设置操作面板上选择自动模式。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">在操作面板上选择记忆模式。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">确保无警报。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">在自动门情况下 - 门必须开口。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">如果是手动门 - 门必须关闭。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">确保卸载上一个工件，以避免重复加工。</li>
+    </list>
+    <list id="1" type="ol" listtype="lower-alpha" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:48px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:48px;">如果夹具装有工件座传感器，则在每次循环启动时通过工件座关闭监控工件卸载。否则将显示重复加工信息。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:48px;">如果在每个循环结束时有光幕，则必须切断光幕。这也是为了确保操作人员卸下工件。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:48px;">如果座椅传感器选件和光幕选件都不存在，则操作员需要在自动操作周期结束时打开门（手动操作门选配）。这也是为了监控重复加工。</li>
+    </list>
+    <list id="2" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="7" styleclass="Normal" style="margin-bottom:19px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:19px;">自动换刀必须处于待机状态。</li>
+    </list>
+    <list id="3" type="ol" listtype="upper-alpha" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:10px; font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">自动循环程序（标准机床）</text></li>
+    </list>
+    <list id="4" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">卸下已加工工件。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">装入新工件（未加工工件）。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">按下 <text style="font-weight:bold;">[自动启动] </text>按钮或 <text style="font-weight:bold;">[</text>条形开关<text style="font-weight:bold;">] </text>（如果有条形开关选配）。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">自动门关闭。(如果使用自动门选配）。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">夹具夹紧。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">自动搜索并执行在工件选择屏幕中设置的加工程序编号。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">机床开始。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">机床结束。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">夹具松开。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">自动门开口。(如果选配自动门）。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">自动循环结束。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-left:24px;">重复步骤 1 至 11。</li>
+    </list>
+    <para styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; page-break-before:always;"></para>
+  </body>
+</topic>

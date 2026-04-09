@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T15:57:32.311Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>4.3.13 Connecting of the Chiller Oil In &amp; Out</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">冷冻机油进出的连接</para>
+    </header>
+    <para styleclass="Normal">用 10 毫米推入式连接器弯头连接冷冻机油输入和输出管的闭合回路。</para>
+    <para styleclass="Normal">将冷冻机油输入和输出管连接回各自的接头。</para>
+    <para styleclass="Normal" style="text-align:center;"><image src="Fig 4.27 Connecting of the Chiller Oil In &amp; Out 2.png" imagestyleclass="Default" scale="72.00%" width="343" height="140" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:14px;"><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER18=4%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160;</text>冷冻机油进出的连接</para>
+  </body>
+</topic>

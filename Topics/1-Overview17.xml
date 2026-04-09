@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T14:24:50.350Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>1 Overview</title>
+  <body>
+    <header>
+      <para styleclass="Heading2">概述</para>
+    </header>
+    <para styleclass="Normal">Slim8n 机器采用 4+1 轴配置。除了三个线性轴外，它还包括 A 和 C 两个旋转轴。C 轴可以 75rpm 的速度定位工件，而 A 轴则以 50rpm 的速度定位工件。Slim8n 是一款一体化加工中心。 </para>
+  </body>
+</topic>

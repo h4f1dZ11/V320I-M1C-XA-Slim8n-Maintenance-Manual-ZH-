@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T13:57:13.941Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.1 Machine Data Input / Output Procedure</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">机床数据输入/输出程序</para>
+    </header>
+    <para styleclass="Normal"><text style="font-weight:bold;">输出程序</text></para>
+    <para styleclass="Normal">将外置卡或 USB 闪盘插入主操作面板上的 PCMCIA 端口或 USB 端口。(参照<link displaytype="text" defaultstyle="false" type="topiclink" href="3_4-SRAM-Backup" anchor="Fig3.5" target="_blank" style="color:#0000ff;">图 3.5</link>）<link displaytype="text" defaultstyle="false" type="topiclink" href="3_4-SRAM-Backup" anchor="Fig3.5" target="_blank" style="color:#0000ff;">。</link></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="line-height:1.50;"><text style="font-weight:bold;">NC 参数备份步骤</text></para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold;">[系统]</text>功能键。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="color:#ff0000;">&#32;</text><text style="font-weight:bold; color:#000000;">[&gt;]</text>软键，直至显示<text style="font-weight:bold;">[参数]</text>，然后按<text style="font-weight:bold;">[参数]</text>。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold;">[OPRT]</text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold; color:#000000;">[&gt;]</text>软键直至显示<text style="font-weight:bold;">[FOUTPUT]</text>，然后按<text style="font-weight:bold;">[FOUTPUT]</text>。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold;">[ALL]</text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold;">[EXEC]</text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px;">数据输出到存储卡。</li>
+    </list>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="line-height:1.50;"><text style="font-weight:bold;">螺距误差补偿数据备份步骤</text></para>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold;">[系统]</text>功能键。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按 [<text style="font-weight:bold; color:#000000;">&gt;]</text>软键直至显示<text style="font-weight:bold;">[间距]</text>，然后按 <text style="font-weight:bold;">[间距]</text>。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold;">[OPRT]</text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按 <text style="font-weight:bold;">[</text><text style="font-weight:bold; color:#000000;">&gt;]</text>软键直至显示 <text style="font-weight:bold;">[FOUTPUT]</text>，然后按 [<text style="font-weight:bold;">FOUTPUT]</text>。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold;">[所有]</text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold;">[EXEC]</text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px;">数据输出到存储卡。</li>
+    </list>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="line-height:1.50;"><text style="font-weight:bold;">自定义宏变量备份步骤</text></para>
+    <list id="2" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold;">[系统]</text>功能键。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold; color:#000000;">[&gt;]</text>软键直至显示<text style="font-weight:bold;">[宏观]</text>，然后按<text style="font-weight:bold;">[宏观]</text>。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold;">[OPRT]</text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold; color:#000000;">[&gt;]</text>软键直至显示<text style="font-weight:bold;">[FOUTPUT]</text>，然后按<text style="font-weight:bold;">[FOUTPUT]</text>。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold;">[ALL]</text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold;">[EXEC]</text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px;">数据输出到存储卡。</li>
+    </list>
+    <para styleclass="Normal" style="text-indent:-29px; margin-left:29px;"></para>
+    <para styleclass="Normal" style="line-height:1.50; page-break-before:always;"><text style="font-weight:bold;">刀具偏置备份步骤</text></para>
+    <list id="3" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold;">[系统]</text>功能键。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold; color:#000000;">[&gt;]</text><text style="font-weight:bold; color:#ff0000;">&#32;</text>软键，直至显示<text style="font-weight:bold;">[偏移</text><text style="font-weight:bold; color:#000000;">]</text>，然后按<text style="font-weight:bold;">[偏移</text><text style="font-weight:bold; color:#000000;">]</text>。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold;">[OPRT]</text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold; color:#000000;">[&gt;]</text>软键直至显示<text style="font-weight:bold;">[FOUTPUT]</text>，然后按<text style="font-weight:bold;">[FOUTPUT]</text>。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold;">[所有]</text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold;">[EXEC]</text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px;">数据输出到存储卡。</li>
+    </list>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="line-height:1.50;"><text style="font-weight:bold;">工作偏置备份步骤</text></para>
+    <list id="4" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold;">[系统]</text>功能键。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold; color:#000000;">[&gt;]</text>软键直至显示<text style="font-weight:bold;">[工作]</text>，然后按<text style="font-weight:bold;">[工作]</text>。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold;">[OPRT]</text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold; color:#000000;">[&gt;]</text>软键直至显示<text style="font-weight:bold;">[FOUTPUT]</text>，然后按<text style="font-weight:bold;">[FOUTPUT]</text>。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold;">[所有]</text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px; line-height:1.50;">按<text style="font-weight:bold;">[EXEC]</text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-29px; margin-left:29px;">数据输出到存储卡。</li>
+    </list>
+    <para styleclass="Normal" style="margin-top:10px; line-height:1.50;"><text style="font-weight:bold;">输入程序</text></para>
+    <para styleclass="Normal" style="margin-bottom:10px;">将机床数据输入机床时，请使用与输出程序相同的步骤，但选择<text style="font-weight:bold;">[FINPUT]</text>而不是<text style="font-weight:bold;">[FOUTPUT</text>&#32;<text style="font-weight:bold;">]</text>，将外置卡或 U 盘上的文件复制到机床文件夹中的数据文件夹。</para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:10px;"><image src="Pic 8.png" scale="40.00%" width="320" height="240" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER3=3%&gt;.&lt;%HMFIGURECOUNTER=1%&gt; &#160;机床数据输入/输出</text></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal">数据传输时，根据操作的不同，OUTPUT 或 INPUT 文字会在信息显示区闪烁。</para>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

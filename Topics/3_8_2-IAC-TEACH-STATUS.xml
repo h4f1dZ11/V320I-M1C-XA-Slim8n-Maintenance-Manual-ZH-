@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T08:58:23.364Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.8.2 IAC TEACH STATUS</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">IAC 教学状态</para>
+    </header>
+    <para styleclass="Normal">根据装载量，托盘会自动提示，并自动设置 0 <text style="font-family:Symbol;">~</text> 8 级。</para>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

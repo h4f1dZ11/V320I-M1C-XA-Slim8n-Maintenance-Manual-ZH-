@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:48:04.114Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.4.1 Spindle Taper Cleaning</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">主轴锥面清洁</para>
+    </header>
+    <para styleclass="Normal">主轴锥面清洁功能可在换刀时供应空气，防止切屑和冷却液附着在主轴锥面上。(参照<link displaytype="text" defaultstyle="false" type="topiclink" href="" target="_blank" style="color:#0000ff;">注）</link></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="Spindle Taper Cleaning_Flowchart.jpg" scale="30.00%" width="484" height="319" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Notes" style="margin-bottom:10px;"><text style="font-size:10pt;">-注-</text></para>
+    <para styleclass="Notes" style="margin-bottom:10px;"><text style="font-size:10pt;">手动操作刀具夹紧/松开时不供应空气。</text></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:10px;"><image src="Spindle Taper Cleaning_NEW_edited.png" imagestyleclass="Default" scale="15.00%" width="463" height="387" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:159px left ;"><anchor id="Fig3.5" styleclass="Normal" style="font-size:11pt;"></anchor><text styleclass="Normal" style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER3=3%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; 主轴锥面清洁</text></para>
+    <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-before:always; page-break-inside:auto; page-break-after:auto; border:none; tabstops:159px left ;"></para>
+  </body>
+</topic>

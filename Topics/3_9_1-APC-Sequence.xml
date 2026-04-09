@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T09:09:26.479Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.9.1 APC Sequence</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">APC 序列</para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:8px;"><text style="font-weight:bold;">A. 自动更换托盘的条件</text></para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:8px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:8px;">轴位于机床工作区内。</li>
+      <li styleclass="Normal" style="margin-bottom:8px;">如果选配夹具控制，两个托盘上的夹具必须夹紧。这是为了确保托盘旋转时工件不会掉落。</li>
+      <li styleclass="Normal" style="margin-bottom:8px;">ATC 处于待机状态。这意味着 ATC 关闭，轴处于工作区。</li>
+      <li styleclass="Normal" style="margin-bottom:8px;">操作门和入库门关闭。</li>
+      <li styleclass="Normal" style="margin-bottom:8px;">准备托盘就绪。(参照 C. 准备托盘就绪）。</li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:8px;"></para>
+    <para styleclass="Normal" style="margin-bottom:8px;"><text style="font-weight:bold;">B. 顺序</text></para>
+    <para styleclass="Normal">1) 如上部分（A. 执行自动托盘更换的条件）所述，确认已满足托盘更换的条件。</para>
+    <para styleclass="Normal" style="margin-bottom:8px; margin-left:22px;">自动更换托盘的条件）。</para>
+    <para styleclass="Normal" style="margin-bottom:8px;">2) 在 MDI 或内存模式下命令 M60。</para>
+    <para styleclass="Normal" style="margin-bottom:8px;">3) 主轴（XYZ 轴）移动到托盘旋转安全位置。轴的移动顺序为</para>
+    <list id="1" type="ol" listtype="lower-alpha" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:8px; margin-left:26px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:8px; margin-left:26px;">Z 轴将移动到机床 Z0.0 位置。</li>
+      <li styleclass="Normal" style="margin-bottom:8px; margin-left:26px;">X 轴将移动到刀具更换位置，Y 轴将移动到 Y0.0 位置。</li>
+      <li styleclass="Normal" style="margin-left:26px;">Y 轴将移动到 Y+100.000。这属于扩展区，不在正常工作行程范围内。</li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:8px; margin-left:46px;">工作行程范围。</para>
+    <para styleclass="Normal" style="margin-bottom:8px;">4) 托盘上升。上行确认由 LS101 启用和 LS100 关闭完成。</para>
+    <para styleclass="Normal">5) 根据当前位置，托盘顺时针（CW）或逆时针（CCW）旋转。</para>
+    <para styleclass="Normal" style="margin-bottom:8px; margin-left:24px;">每次更换托盘时，托盘都会朝相反方向移动，以便交换托盘。</para>
+    <para styleclass="Normal">6) 一旦限位开关信号 LS103（CW）或 LS104（CCW）确认终点位置，则托盘旋转结束。</para>
+    <para styleclass="Normal" style="margin-bottom:8px; margin-left:24px;">信号 LS103 (CW) 或 LS102 (CCW)。</para>
+    <para styleclass="Normal" style="margin-bottom:8px;">7) 托盘下降。下行确认由 LS100（ON）和 LS101（OFF）完成。</para>
+    <para styleclass="Normal" style="margin-bottom:8px;">8) 主轴（Y 轴）移动至工作区 Y0.0。</para>
+    <para styleclass="Normal">9) 托盘更换结束。</para>
+    <para styleclass="Normal" style="margin-bottom:8px; page-break-before:always;"><text style="font-weight:bold;">C. 准备托盘</text></para>
+    <para styleclass="Normal" style="margin-bottom:8px;">托盘准备就绪是允许托盘交换器旋转。这样做是为了确保操作人员确认储存库侧的工作设置已经完成，可以安全地旋转托盘，然后再进行托盘更换。</para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:8px;"><image src="StockerSideWork SetupPanel.png" scale="26.00%" width="427" height="355" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER3=3%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; 储存库侧工作设置面板</text></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal"><text style="font-size:11pt; font-weight:bold;">托盘准备程序</text></para>
+    <para styleclass="Normal"></para>
+    <list id="2" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-19px; margin-bottom:8px; margin-left:19px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-19px; margin-bottom:8px; margin-left:19px;"><text style="font-size:11pt;">按自动/手动按钮选择手动模式。参照图 3.4。选择手动模式时，内部灯会亮起。此按钮仅适用于带夹具控制选配的机床。如果没有选配夹具控制选项，则忽略此步骤，直接进入步骤 2。</text></li>
+      <li styleclass="Normal" style="text-indent:-19px; margin-bottom:8px; margin-left:19px;"><text style="font-size:11pt;">按下按钮选择托盘手动模式。选择手动模式时，内部指示灯亮起。</text></li>
+      <li styleclass="Normal" style="text-indent:-19px; margin-bottom:8px; margin-left:19px;"><text style="font-size:11pt;">按下托盘就绪按钮。托盘就绪时内部指示灯亮起。</text></li>
+      <li styleclass="Normal" style="text-indent:-19px; margin-bottom:8px; margin-left:19px;"><text style="font-size:11pt;">按下托盘手动模式按钮，将托盘手动模式设为关闭。内部指示灯熄灭。</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:8px;"><text style="font-size:11pt;">现在托盘准备就绪。</text></para>
+    <para styleclass="Normal" style="margin-bottom:8px;"><text style="font-size:11pt; font-weight:bold;">D. 取消托盘就绪</text></para>
+    <para styleclass="Normal" style="margin-bottom:8px;"><text style="font-size:11pt;">如果 &quot;托盘就绪&quot; 处于打开状态，如果操作员想取消 &quot;托盘就绪&quot; 以重新确认夹具上的部件，或者操作员想取消 &quot;托盘更换&quot;，则需要执行以下步骤：</text></para>
+    <list id="3" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:8px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:8px;"><text style="font-size:11pt;">开启托盘手动模式。</text></li>
+      <li styleclass="Normal" style="margin-bottom:8px;"><text style="font-size:11pt;">按下托盘就绪按钮。取消托盘就绪时，内部指示灯熄灭。</text></li>
+      <li styleclass="Normal" style="margin-bottom:17px;"><text style="font-size:11pt;">按下托盘手动模式（托盘手动模式）按钮，将托盘手动模式（托盘手动模式）设为关闭。内部指示灯熄灭。</text></li>
+    </list>
+    <para styleclass="Notes" style="margin-bottom:3px;"><text style="font-size:10pt;">-注-</text></para>
+    <para styleclass="Notes" style="margin-bottom:3px;"><text style="font-size:10pt;">在下列情况下不能取消托盘就绪：</text></para>
+    <para styleclass="Notes" style="margin-bottom:3px;"><text style="font-size:10pt;">- 托盘旋转已启动</text></para>
+    <para styleclass="Notes" style="margin-bottom:3px;"><text style="font-size:10pt;">在这种情况下，使用进给保持按钮或按下紧急停止停止托盘运动。</text></para>
+    <para styleclass="Normal" style="text-indent:-24px; margin-bottom:8px; margin-left:24px;"><image src="APC flow chart.jpg" imagestyleclass="Default" scale="30.00%" width="578" height="825" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-indent:-24px; margin-bottom:8px; margin-left:24px; page-break-before:always;"></para>
+  </body>
+</topic>

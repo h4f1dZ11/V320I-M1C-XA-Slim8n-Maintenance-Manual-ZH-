@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:55:41.328Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.3 Z-Axis Motor Bracket Cooling</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">Z 轴电机支架冷却</para>
+    </header>
+    <para styleclass="Normal">Z 轴电机支架在返回主轴温度控制器之前，会从主轴冷却液中供给冷却液。</para>
+    <para styleclass="Normal">这是为了消除 Z 轴电机产生的热量。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:10px;"><image src="Figure 2.4 Z-Axis Motor Bracket Cooling.png" imagestyleclass="Default" scale="50.00%" width="692" height="380" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:10px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:159px left ;"><text styleclass="Normal" style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; Z 轴电机支架冷却</text></para>
+  </body>
+</topic>

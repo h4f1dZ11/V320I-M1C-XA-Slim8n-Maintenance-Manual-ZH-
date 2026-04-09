@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" modified="2026-04-07T14:01:35.156Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.6 Display of APC Position</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">显示自动托盘交换器位置</para>
+    </header>
+    <para styleclass="Normal"><image src="19. APC - Position.png" scale="100.00%" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">显示自动换刀库电机机床坐标系 (MSC) 实际值。</para>
+  </body>
+</topic>

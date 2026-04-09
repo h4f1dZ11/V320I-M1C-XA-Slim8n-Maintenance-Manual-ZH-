@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T09:10:45.681Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.9.2 APC Auto Recovery</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">APC 自动恢复</para>
+    </header>
+    <para styleclass="Normal">如果 APC 进程中断，可通过 APC 恢复功能自动恢复。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">在 APC 因断电而中断的情况下，执行以下步骤即可从中断中恢复。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="line-height:1.50;"><text style="font-weight:bold;">操作程序</text></para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">接通机床电源。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">警报信息 &quot;A243 APC 操作中断。 在维护模式下恢复 APC &quot;的警报信息已生成。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">按下<text style="font-weight:bold;">[CSTM/GRPH]</text>。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">显示主菜单屏幕。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">按<text style="font-family:Symbol; font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11.5pt; color:#000000;">¬</text><text style="font-weight:bold;">]</text>或<text style="font-family:Symbol; font-weight:bold;">[</text><text style="font-weight:bold;">]</text>光标键选择<text style="font-weight:bold;">[MAINT]</text>。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">按<text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11.5pt; font-weight:bold; color:#000000;">­</text><text style="font-weight:bold;">]</text>或<text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11pt; font-weight:bold; color:#000000;">¯</text><text style="font-weight:bold;">]</text>光标键选择<text style="font-weight:bold;">[APC]</text>，然后按<text style="font-weight:bold;">[选择]</text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">显示 APC 维护屏幕。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">打开维护模式。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">将光标移至 APC 恢复，然后按下<text style="font-weight:bold;">[关于]</text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">屏幕底行（输出行）显示信息 &quot;按下一键启动，进行 APC 恢复&quot;。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">按下主操作面板上的<text style="font-weight:bold;">[一键启动]</text>开关。APC 恢复程序将自动调用并执行。APC 将进入待机状态（准备操作）。</li>
+    </list>
+    <para styleclass="Notes" style="margin-bottom:10px;"><text style="font-size:10pt;">-注-</text></para>
+    <para styleclass="Notes" style="text-indent:-24px; margin-bottom:8px; margin-left:24px;"><text style="font-size:10pt;">自动恢复仅在以下情况下起作用：</text></para>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Notes" style="text-indent:-24px; margin-bottom:8px; margin-left:24px; font-family:SimSun; font-size:10pt; color:#000000;">
+      <li styleclass="Notes" style="text-indent:-24px; margin-bottom:8px; margin-left:24px;">XYZ<text style="font-size:10pt;">轴在 APC 位置公差限制之内。</text></li>
+      <li styleclass="Notes" style="text-indent:-24px; margin-bottom:8px; margin-left:24px;"><text style="font-size:10pt;">两个工作台上的</text>夹具<text style="font-size:10pt;">都处于夹紧状态（选配）。</text></li>
+      <li styleclass="Notes" style="text-indent:-24px; margin-bottom:8px; margin-left:24px;"><text style="font-size:10pt;">百叶窗关闭。</text></li>
+      <li styleclass="Notes" style="text-indent:-24px; margin-bottom:8px; margin-left:24px;">APC<text style="font-size:10pt;">相关电磁阀和限位开关处于健康状态。</text></li>
+    </list>
+    <para styleclass="Normal">如果不符合上述任何条件，请使用手动恢复。(参照<link displaytype="text" defaultstyle="false" type="topiclink" href="APC-Manual-Recovery" style="color:#0000ff;">3.9.3 APC 手动恢复</link>）。</para>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

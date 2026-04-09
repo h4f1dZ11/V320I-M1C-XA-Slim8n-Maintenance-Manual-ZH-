@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T08:34:07.940Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.8.3 Establishing Tool Change Position (Magazine)</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">确定刀具更换位置（刀库）</para>
+    </header>
+    <para styleclass="Normal" style="line-height:1.50;"><text style="font-weight:bold;">操作步骤</text></para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">设置 ATC 维护参数 K61.4=1，禁用 ATC。这将绕过一些联锁，帮助确定刀具更换位置。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">打开操作门。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">将 ATC 门与夹钳板断开，以进入 ATC 穿梭器</li>
+    </list>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <list id="1" level="1" type="ol" listtype="lower-alpha" formatstring="&#37;&#49;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+        <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">松开螺钉 [1]，卸下门密封支架 [2]（参照<text style="color:#0000ff;">&#32;</text><link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig2.4" target="_blank" style="color:#0000ff;">图 2.11</link>）。</li>
+        <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">松开螺丝 [3]，打开 ATC 门，进入 ATC 穿梭器（参照<text style="color:#0000ff;">&#32;</text><link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig2.4" target="_blank" style="color:#0000ff;">图 2.12</link>）。</li>
+      </list>
+    </list>
+    <para styleclass="Normal" style="text-align:center; text-indent:-24px; margin-bottom:10px; margin-left:24px;"><image src="Establishing Tool Change Position_Fig 2.11 (New).jpg" imagestyleclass="Default" scale="40.00%" width="391" height="283" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:9px;"><anchor id="Fig2.11" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; 空管门（关闭状态）</text></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:9px;"><image src="Establishing Tool Change Position_Fig 2.12 (New).jpg" imagestyleclass="Default" scale="40.00%" width="344" height="280" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><anchor id="Fig2.12" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; 空管门（开口状态）</text></para>
+    <para styleclass="Normal" style="text-align:center; page-break-before:always;"></para>
+    <list id="2" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="4" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">料仓对齐（X 轴）</li>
+    </list>
+    <list id="3" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <list id="3" level="1" type="ol" listtype="lower-alpha" formatstring="&#37;&#49;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+        <li styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:24px;">在 &quot;手柄&quot; 模式下，将穿梭机线性轴移至 U 0，并将穿梭机臂分度至 V 0（滚筒夹具位置）。</li>
+        <li styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:24px;">在穿梭装置上安装带有刻度指示器的磁座。</li>
+        <li styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:24px;">在 &quot;手柄&quot; 模式下，将穿梭机线性轴 U 缓慢移向料仓。</li>
+        <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">将刻度盘指向法兰支撑夹具，设置零点。将刻度盘加压至 50 微米，然后将刻度盘调至 0（参照<text style="color:#0000ff;">&#32;</text><link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig2.13" target="_blank" style="color:#0000ff;">图 2.13</link>）。</li>
+      </list>
+    </list>
+    <para styleclass="Normal" style="text-align:center; text-indent:-24px; margin-left:24px;"><image src="Magazine Alignment Fig 2.13-(New).JPG" imagestyleclass="Default" scale="40.00%" width="373" height="167" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:9px;"><anchor id="Fig2.13" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; ATC 刀库对齐</text></para>
+    <list id="4" type="ol" listtype="lower-alpha" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="5" styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:48px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:48px;">沿 U 轴移动飞梭，测量弹匣夹具与飞梭轴之间的平行度，距离为 40 毫米。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:48px;">使用 ATC 维护屏幕中的英寸模式分度 ATC 刀库，检查并调整 50 微米以内的平行度，<link displaytype="text" defaultstyle="false" type="topiclink" href="2_8_1-Establishing-Tool-Change-Posit" anchor="Fig2.6" style="color:#0000ff;">如图 2.6</link>所示（ATC 维护模式需要打开）。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:48px;">当刀库与 U 轴平行后，执行以下步骤对 ATC 刀库进行强制参照。</li>
+    </list>
+    <list id="5" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <list id="5" level="1" type="ol" listtype="lower-alpha" formatstring="&#37;&#49;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+        <list id="5" level="2" type="ol" listtype="lower-roman" formatstring="&#37;&#50;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+          <li styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:24px;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">切换至 MDI 模式，并将设置 </text>数据屏幕上的 PARAMETER WRITE<text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">设置 </text>为 1：ENABLE（参照<link displaytype="text" defaultstyle="false" type="topiclink" href="2_2-NC-Parameter-Screen-Display-an" target="_blank" style="color:#0000ff;">第 2.2 章</link>）。</li>
+          <li styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:24px;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">将 NC 参数编号 1815 的第 4 位设置为 &quot;0&quot;。将 NC 参数编号 1815 的第 4 位设置为 &quot;0 &quot;时，将出现参考位置返回请求警报。</text>(参照<text style="color:#0000ff;">&#32;</text><link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig2.14" target="_blank" style="color:#0000ff;">图 2.14</link>）。</li>
+          <li styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:24px;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">关闭机床电源并接通电源。</text></li>
+          <li styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:24px;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">将 NC 参数 1815 的第 4 位设置为 &quot;1&quot;。</text><text styleclass="" style="font-family:Arial; font-size:11pt; color:#000000;">&#32;</text></li>
+        </list>
+      </list>
+    </list>
+    <para styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:24px;"></para>
+    <para styleclass="Normal" style="text-align:center; text-indent:-24px; margin-bottom:10px; margin-left:24px;"><image src="Magazine Alignment Fig 2.14-(New).png" imagestyleclass="Default" scale="36.00%" width="288" height="216" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:9px;"><anchor id="Fig2.14" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; NC 参数</text></para>
+    <list id="6" type="ol" listtype="lower-alpha" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="8" styleclass="Normal" style="text-indent:-24px; margin-left:48px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-left:48px;">从航天飞机上取下带有刻度盘指示器的磁座。</li>
+    </list>
+    <para styleclass="Normal" style="text-indent:-24px; margin-left:24px; page-break-before:always;"></para>
+    <list id="7" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="5" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">弹匣对齐（X 方向）</li>
+    </list>
+    <list id="8" type="ol" listtype="lower-alpha" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:50px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:50px;">在 &quot;手柄&quot; 模式下将穿梭臂定位到 V180。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:50px;">在 &quot;手柄&quot; 模式下，将穿梭机线性轴 U 缓慢移向刀库夹钳。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:50px;">检查并确定辊筒与弹匣叼口法兰沿 X 方向的偏移。(参照<text style="color:#0000ff;">&#32;</text><link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig2.15" target="_blank" style="color:#0000ff;">图 2.15</link>）。</li>
+    </list>
+    <para styleclass="Normal" style="text-align:center; text-indent:-24px; margin-bottom:10px; margin-left:50px;"><image src="Magazine Alignment Fig 2.15-(New).JPG" imagestyleclass="Default" scale="32.00%" width="313" height="115" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><anchor id="Fig2.15" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; ATC 刀库对齐（滚轮夹具）</text></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <list id="9" type="ol" listtype="lower-alpha" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="4" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:50px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:50px;">松开 ATC 支架安装螺钉并拧紧。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:50px;">如 <link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig2.16" target="_blank" style="color:#0000ff;">图 2.16</link> 所示，使用弹匣推/拉装置 [6]，[7] 沿 X 方向调整移位。 &#160; &#160; &#160;</li>
+    </list>
+    <para styleclass="Normal" style="text-align:center; text-indent:-24px; margin-bottom:10px; margin-left:24px;"><image src="Magazine Alignment Fig 2.16-(New).JPG" imagestyleclass="Default" scale="38.00%" width="271" height="179" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><anchor id="Fig2.16" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160;ATC 刀库对齐（推/拉）</text></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <list id="10" type="ol" listtype="lower-alpha" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="6" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:50px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:50px;">拧紧 ATC 安装螺钉。</li>
+    </list>
+    <list id="11" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="6" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">用料仓调整滚筒夹具（X 方向</li>
+    </list>
+    <list id="12" type="ol" listtype="lower-alpha" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:50px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:50px;">用塞尺 [5] 测量辊筒与叼牙环法兰的间隙。(参照<text style="color:#0000ff;">&#32;</text><link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig2.16" target="_blank" style="color:#0000ff;">图 2.17</link>）。</li>
+    </list>
+    <para styleclass="Normal" style="text-align:center; text-indent:-24px; margin-bottom:10px; margin-left:50px;"><image src="Magazine Alignment Fig 2.17(New).JPG" imagestyleclass="Default" scale="38.00%" width="385" height="137" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><anchor id="Fig2.17" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; </text>滚轮夹具（X 方向）调整，带料仓</para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <list id="13" type="ol" listtype="lower-alpha" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="2" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:50px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:50px;">确保叼纸牙两侧与滚筒的间隙一致。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:50px;">如果间隙不均匀，则在 &quot;手柄 &quot;模式下分度梭臂角度，直到间隙均匀为止。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:50px;">在 D10062（臂角 将旧工具送回刀库）中输入穿梭臂分度器角度值（参照<text style="color:#0000ff;">&#32;</text><link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig2.18" target="_blank" style="color:#0000ff;">图 2.18</link>）。</li>
+    </list>
+    <para styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:50px;"></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:9px;"><image src="Magazine Alignment Fig 2.18-(New).png" imagestyleclass="Default" scale="40.00%" width="320" height="240" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><anchor id="Fig2.18" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; D 参数</text></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <list id="14" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="7" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">飞梭末端冲程设置（Y 方向）</li>
+    </list>
+    <list id="15" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:6px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <list id="15" level="1" type="ol" listtype="lower-alpha" formatstring="&#37;&#49;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:6px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+        <li styleclass="Normal" style="text-indent:-24px; margin-bottom:6px; margin-left:24px;">使用 ATC 操作面板将 ATC 刀库分度到刀具装载站的 1 号罐。</li>
+        <li styleclass="Normal" style="text-indent:-24px; margin-bottom:6px; margin-left:24px;">将 HSK-A63 刀具插入具夹 1，并将具夹 1 定位到刀具传送点。</li>
+        <li styleclass="Normal" style="text-indent:-24px; margin-bottom:6px; margin-left:24px;">在 &quot;手柄&quot; 模式下，将穿梭机线性轴移至 U 0，并将穿梭机臂分度至 V 0（滚筒夹具位置）。</li>
+        <li styleclass="Normal" style="text-indent:-24px; margin-bottom:6px; margin-left:24px;">将 HSK-A63 刀具插入滚筒夹具。</li>
+        <li styleclass="Normal" style="text-indent:-24px; margin-bottom:6px; margin-left:24px;">在 &quot;手柄&quot; 模式下将穿梭臂定位到 V 180。</li>
+        <li styleclass="Normal" style="text-indent:-24px; margin-bottom:6px; margin-left:24px;">在手柄模式下，将飞梭线性轴向刀库方向缓慢移动。</li>
+        <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">将塞尺 [5]（例如：50μm）插入两个刀架之间的间隙，并逐渐移动飞梭线性轴 U 直到刀架在接近范围内。(参照<text style="color:#0000ff;">&#32;</text><link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig2.19" target="_blank" style="color:#0000ff;">图 2.19</link>）<link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig2.19" target="_blank" style="color:#0000ff;">。</link></li>
+      </list>
+    </list>
+    <para styleclass="Normal" style="text-align:center; text-indent:-24px; margin-bottom:10px; margin-left:24px;"><image src="Magazine Alignment Fig 2.19-(New).JPG" imagestyleclass="Default" scale="30.00%" width="233" height="173" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><anchor id="Fig2.19" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; </text>梭尾行程设置</para>
+    <para styleclass="Normal" style="text-indent:-24px; margin-left:24px;"></para>
+    <list id="16" type="ol" listtype="lower-alpha" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="8" styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:48px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:48px;">将飞梭直线轴 U 机床位置值记作 B 值。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:48px;">用以下公式计算飞梭 U 轴末端行程位置。飞梭 U 轴末端行程位置 = [值B] + 63 [HSK-A63 刀柄直径] + 0.05 [手感规厚度] - 0.2 [间隙］</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:48px;">将此值输入 D10086（梭子轴 Mag Pos）。(参照<text style="color:#0000ff;">&#32;</text><link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig2.4" target="_blank" style="color:#0000ff;">图 2.20</link>）。</li>
+      <li styleclass="Normal" style="text-align:center; text-indent:-24px; margin-bottom:3px; margin-left:48px;"></li>
+    </list>
+    <para styleclass="Normal" style="text-align:center; text-indent:-24px; margin-left:24px;"><image src="Magazine Alignment Fig 2.20-(New).png" imagestyleclass="Default" scale="40.00%" width="320" height="240" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center; text-indent:-24px; margin-left:24px;"></para>
+    <para styleclass="Normal" style="text-align:center;"><anchor id="Fig2.20" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; D 参数</text></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <list id="17" type="ol" listtype="lower-alpha" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="11" styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:48px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:48px;">将飞梭线性轴移至 U 235，将飞梭臂分度移至 V 0。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:48px;">从滚轮夹具和刀库具夹中取出 HSK-A63 刀具。</li>
+    </list>
+    <para styleclass="Normal" style="text-indent:-24px; margin-left:24px;"></para>
+    <list id="18" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="8" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">ATC刀库对齐（Z方向）</li>
+    </list>
+    <list id="19" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <list id="19" level="1" type="ol" listtype="lower-alpha" formatstring="&#37;&#49;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+        <li styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:24px;">在手柄模式下，将穿梭臂分度值调至 V 270，并将穿梭线性轴移动至穿梭行程终点位置。</li>
+        <li styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:24px;"><link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig2.21" target="_blank" style="color:#0000ff;">如图 2.21</link> 所示，将塞尺 [5] 插入标准夹具和弹匣夹具之间的间隙。</li>
+      </list>
+    </list>
+    <para styleclass="Normal" style="text-align:center; text-indent:-24px; margin-bottom:10px; margin-left:24px;"><image src="Magazine Alignment Fig 2.21-(New).JPG" imagestyleclass="Default" scale="40.00%" width="377" height="216" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><anchor id="Fig2.21" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160;</text>ATC 刀库对齐（Z 方向）</para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <list id="20" type="ol" listtype="lower-alpha" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="3" styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:48px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:48px;">确保标准夹具和弹匣夹具之间的间隙保持在 1.6<text style="font-family:Symbol;">~</text>1.8 毫米范围内</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:3px; margin-left:48px;">如果间隙偏离上述值，请调整间隙 [6]，以实现 ATC 刀库 Z 方向对齐（参照<text style="color:#0000ff;">&#32;</text><link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig2.4" target="_blank" style="color:#0000ff;">图 2.22</link>）。</li>
+    </list>
+    <para styleclass="Normal" style="text-align:center; text-indent:-24px; margin-bottom:10px; margin-left:24px;"><image src="Magazine Alignment Fig 2.22-(New).JPG" imagestyleclass="Default" scale="40.00%" width="347" height="222" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><anchor id="Fig2.22" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160;</text>ATC 刀库对齐（Z 方向）</para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <list id="21" type="ol" listtype="lower-alpha" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="5" styleclass="Normal" style="text-indent:-24px; margin-left:48px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-left:48px;">将穿梭机线性轴移至 U 235 处，并将穿梭臂分度为 V 0。</li>
+    </list>
+    <para styleclass="Normal" style="text-indent:-24px; margin-left:24px;"></para>
+    <list id="22" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="9" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">标准夹具（X 方向）调整，带弹夹</li>
+    </list>
+    <list id="23" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <list id="23" level="1" type="ol" listtype="lower-alpha" formatstring="&#37;&#49;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+        <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">将穿梭臂定位到 V 90，并将 HSK-A63 插入标准夹具。</li>
+        <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">将穿梭臂定位到 V 270，并在 &quot;手柄&quot; 模式下将穿梭线性轴缓慢移动到 U 270。</li>
+        <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">将塞尺插入刀库夹具法兰之间，确保两侧间隙相等（参照<text style="color:#0000ff;">&#32;</text><link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig2.23" target="_blank" style="color:#0000ff;">图 2.23</link>）。</li>
+      </list>
+    </list>
+    <para styleclass="Normal" style="text-align:center; text-indent:-24px; margin-bottom:10px; margin-left:24px;"><image src="Magazine Alignment Fig 2.23a(New).JPG" imagestyleclass="Default" scale="60.00%" width="248" height="205" styleclass="Image Caption" figurelistinclude="0"></image><text styleclass="Image Caption"> &#160; </text><image src="Magazine Alignment Fig 2.23b(New).JPG" imagestyleclass="Default" scale="60.00%" width="208" height="212" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><anchor id="Fig2.23" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160;</text>标准夹具（X 方向）调整，带弹夹</para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <list id="23" level="1" type="ol" listtype="lower-alpha" formatstring="&#37;&#49;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">如果间隙不均匀，请在 &quot;手柄&quot; 模式下分度梭臂角度，直到间隙均匀为止。 </li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">在 D10066（从弹夹拾取新 TL 的手臂角度）中输入穿梭臂分度器角度值（参照<text style="color:#0000ff;">&#32;</text><link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig2.24" target="_blank" style="color:#0000ff;">图 2.24</link>）。</li>
+    </list>
+    <para styleclass="Normal" style="text-align:center; text-indent:-24px; margin-bottom:10px; margin-left:24px;"><image src="Magazine Alignment Fig 2.24(New).png" imagestyleclass="Default" scale="40.00%" width="320" height="240" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><anchor id="Fig2.24" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER2=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; D 参数</text></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <list id="23" level="1" type="ol" listtype="lower-alpha" formatstring="&#37;&#49;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">将穿梭线性轴移至 U 0，并将穿梭臂分度至 V 90。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-left:24px;">从标准夹具上取下刀具。</li>
+    </list>
+    <para styleclass="Normal" style="text-indent:-24px; margin-left:24px;"></para>
+    <list id="24" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="10" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">将穿梭机线性轴移至 U235，并将穿梭机臂分度至 V 0</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">将 ATC 门安装到夹板上。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">恢复 ATC 维护参数 K61.4 1<text styleclass="" style="font-family:Symbol; font-size:11pt; color:#000000;">® </text>0。</li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;">至此，建立刀具更换位置（刀库）程序完成。</para>
+    <para styleclass="Normal" style="margin-bottom:10px;">在启用单个程序块的情况下，以较低的超控速度尝试换刀。</para>
+    <para styleclass="Normal">如果ATC不够平稳，重复建立刀具更换位置（XY轴，Z轴和刀库）步骤。</para>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T08:57:17.259Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.7.1 Reference Position Return Operation</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">参照位置返回操作</para>
+    </header>
+    <para styleclass="Normal">此操作将 APC 操作轴返回到参照位置。在参照位置，托板 1 位于加工区。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="line-height:1.50;"><text style="font-weight:bold;">操作程序</text></para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">打开维护模式。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">使用 <text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11pt; font-weight:bold; color:#000000;">¬</text><text style="font-weight:bold;">]</text>或<text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11pt; font-weight:bold; color:#000000;">®</text><text style="font-weight:bold;">]</text>光标键选择要 REF 的 APC 模式。所选模式将以黄色背景高亮显示。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">使用 <text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11pt; font-weight:bold; color:#000000;">¬</text><text style="font-weight:bold;">]</text>或<text style="font-weight:bold;">[</text><text styleclass="" style="font-family:Symbol; font-size:11pt; font-weight:bold; color:#000000;">®</text><text style="font-weight:bold;">]</text>光标键选择 APC 需要旋转 100% / 50% / 25% / 0% 的进给量。所选模式将以黄色背景高亮显示。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">要移动 APC 轴，按操作面板上的<text style="font-weight:bold;">[+]</text>键顺时针移动，或按<text style="font-weight:bold;">[-]</text>软键逆时针移动。如果松开<text style="font-weight:bold;">[+]</text>/<text style="font-weight:bold;">[-]</text>按键，则 APC 运动停止。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">轴的实际移动可以通过此屏幕上的自动托盘交换器位置显示屏观察到。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">一旦 APC 轴的位置到达参照位置&quot;自动托盘交换器位置=0.0&quot;，则运动停止，操作完成。</li>
+    </list>
+    <para styleclass="Notes" style="margin-bottom:10px;"><text style="font-size:10pt;">-注-</text></para>
+    <para styleclass="Notes"><text style="font-size:10pt;">除非满足相应操作的所有条件，否则不会进行移动。显示联锁原因的维护错误信息将显示在该屏幕的输出行上。</text></para>
+  </body>
+</topic>

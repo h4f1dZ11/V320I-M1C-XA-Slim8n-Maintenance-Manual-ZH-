@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T15:51:52.312Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.8 RWH Fixture Hydraulic Circuit Diagram</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">RWH 夹具液压电路图</para>
+    </header>
+    <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:11px; margin-left:0px; line-height:1.15; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><image src="Fig 2.7 RWH Fixture Hydraulic Circuit Diagram.png" scale="70.00%" width="519" height="798" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:14px;"><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER18=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; RWH 夹具液压电路图</text></para>
+  </body>
+</topic>

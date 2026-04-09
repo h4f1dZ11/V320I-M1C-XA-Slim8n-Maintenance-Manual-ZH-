@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" modified="2026-04-08T09:20:53.839Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>4.3.1 Fixture Status Screen</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">夹具状态屏幕</para>
+    </header>
+    <para styleclass="Normal"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">在夹具状态屏幕上，可以监控夹具堆叠电磁阀和压力开关。 </text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">要浏览夹具状态屏幕，请按下夹具屏幕下的</text><text styleclass="" style="font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">[状态]</text><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;"> 软键。</text></para>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"></para>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"></para>
+    <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:19px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><image src="15. Fixture Status Screen_1.png" scale="45.00%" width="450" height="338" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><anchor id="Fig4.3" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER3=4%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; </text><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">夹具状态屏幕 1</text></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:19px;"><image src="15. Fixture Status Screen_2.png" scale="45.00%" width="360" height="270" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><anchor id="Fig4.4" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER3=4%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; </text><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">夹具状态屏幕 2</text></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:19px;"></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:19px;"><image src="16. Fixture Status Screen (Seating Sensor Status).png" scale="45.00%" width="360" height="270" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><anchor id="Fig4.5" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER3=4%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160; </text><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">夹具状态屏幕（座位传感器状态）</text></para>
+    <para styleclass="Normal" style="page-break-before:always;"><text style="font-size:12pt; font-weight:bold;">项目说明</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">1. 堆栈号和堆栈操作</text></para>
+    <para styleclass="Normal" style="margin-bottom:10px;">堆叠数 - 该夹具控制最多可驱动 6 个堆叠（即驱动 6 个双电磁铁）。</para>
+    <para styleclass="Normal" style="margin-bottom:10px;">堆叠操作 - 每个堆叠有夹紧/松开/中性 3 种操作。在<link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig4.3" style="color:#0000ff;">图 4.3</link> 中。</para>
+    <para styleclass="Normal" style="text-align:center;"><table styleclass="Default" rowcount="4" colcount="1">
+      <tr style="vertical-align:middle">
+        <td style="width:250px; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;">1C - 表示夹紧 </text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:250px; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;">1U - 表示松开夹钳</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:250px; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;">1N - 表示中性点</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:250px; height:22px;">
+          <para styleclass="Normal"><text style="font-size:10pt;">类似地，2C,2U,2N 表示第二叠</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">2. M 代码</text></para>
+    <para styleclass="Normal" style="margin-bottom:10px;">参照夹具元件单个操作的 M 代码编号或单个操作的 M 代码编号。其用途可以是检查每个元件的操作，也可以是在加工过程中改变夹具顺序，从一种压力转换到另一种压力。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">3. 电磁阀编号和开/关状态</text></para>
+    <para styleclass="Normal" style="margin-bottom:10px;">显示每个电磁阀编号和开/关状态。电磁阀和压力开关的指示灯显示如下状态。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center; text-indent:-24px; margin-bottom:10px; margin-left:24px;"><image src="lamp indications.png" scale="22.00%" width="211" height="86" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">4. 压力开关和开/关状态</text></para>
+    <para styleclass="Normal">显示每个压力开关编号和开/关状态。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">5. 计时器（操作完成延迟定时器）</text></para>
+    <para styleclass="Normal">可设置操作完成延迟计时器。</para>
+    <para styleclass="Normal" style="margin-bottom:6px;">单位为 48ms。</para>
+    <para styleclass="Normal" style="margin-bottom:6px;">例如：设置值 21 表示 21*48ms =1秒</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="margin-bottom:10px;"><text style="font-weight:bold;">6. 维护模式（维护按钮）</text></para>
+    <para styleclass="Normal">按维护按钮打开夹具维护模式。 一旦开启，按钮将显示为黄色。再次按下将关闭维护模式，高亮显示也将消失。启用维护按钮后，维护模式和夹具维护信号都将打开。在此模式下，可以手动设置/重置夹具夹紧/松开信号。例如，将光标移至 &quot;SL2601&quot; 信号并按下 &quot;ON&quot; 按钮<text styleclass="" style="font-family:Symbol; font-size:11pt; color:#000000;">®</text>堆栈 1 夹紧，将光标移至 &quot;SL2602&quot; 并按下 &quot;ON&quot; 按钮<text styleclass="" style="font-family:Symbol; font-size:11pt; color:#000000;">®</text>堆栈 1 松开。打开 &quot;1N(NEU)&quot; 按钮将切断夹具和松开信号，夹具状态变为中性。</para>
+    <para styleclass="Normal" style="margin-bottom:10px; page-break-before:always;"></para>
+  </body>
+</topic>

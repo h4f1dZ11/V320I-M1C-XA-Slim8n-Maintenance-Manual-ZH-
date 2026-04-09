@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T13:36:17.633Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.3.2 Warning Labels with Warning Marks Only</title>
+  <meta name="DESCRIPTION" translate="true" value="Update Stickers and Messages if have changes" />
+  <keywords>
+    <keyword>#ELEC</keyword>
+    <keyword>#MECHOK</keyword>
+    <keyword>#STICKERS</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading4">附有警告标记的警告标签</para>
+    </header>
+    <para styleclass="Normal" style="margin-top:11px;"><table rowcount="3" colcount="2" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:middle">
+        <td style="width:134px; height:24px; background-color:#dddddd;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">符号</text></para>
+        </td>
+        <td style="width:521px; height:24px; background-color:#dddddd;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">描述</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:134px; height:127px;">
+          <para styleclass="Normal" style="text-align:center;"><image src="High voltage graphic.png" scale="15.00%" width="103" height="87" styleclass="Image Caption" figurelistinclude="0"></image></para>
+        </td>
+        <td style="vertical-align:top; width:521px; height:127px;">
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:4px; margin-bottom:0px; margin-left:8px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">此警告标签张贴在零件表面，标明如果人员接触到内部高压组件可导致出现电休克。</text></para>
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:4px; margin-bottom:0px; margin-left:8px; line-height:1.03; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">如果不是合格的电气工程师的话，任何人员不得接触黏贴有警告标签的零件。</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:134px; height:127px;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><image src="Hot parts graphic.png" scale="15.00%" width="101" height="87" styleclass="Image Caption" figurelistinclude="0"></image></para>
+        </td>
+        <td style="vertical-align:top; width:521px; height:127px;">
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:0px; margin-left:8px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">此警告标签黏贴在可变的极热的零件之上。</text></para>
+          <para styleclass="" style="text-align:left; text-indent:0px; margin-top:3px; margin-right:4px; margin-bottom:0px; margin-left:8px; line-height:1.03; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">切勿触碰黏贴此类警告标签的零件。操作完成后，由于这些零件会变得非常的热，所以此时需加以特别小心。</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

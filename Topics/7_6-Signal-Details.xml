@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:34:45.962Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>7.6 Signal Details</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">信号细节</para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:19px;"><table styleclass="Default" rowcount="2" colcount="3" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; head-row-background-color:#dddddd; alt-row-background-color:none;">
+      <thead style="vertical-align:top">
+        <td style="width:25%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt; font-weight:bold;">地址</text></para>
+        </td>
+        <td style="width:25%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt; font-weight:bold;">符号</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">说明</text></para>
+        </td>
+      </thead>
+      <tr style="vertical-align:top">
+        <td style="width:25%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">X0010.5</text></para>
+        </td>
+        <td style="width:25%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">LS300</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%;">
+          <para styleclass="Normal" style="text-align:center; margin-left:3px;"><text style="font-size:10pt;">刀具破损传感器信号</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

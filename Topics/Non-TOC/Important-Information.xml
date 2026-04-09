@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" modified="2026-03-18T13:58:13.757Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title>Important Information</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text style="font-family:Arial; font-style:normal; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;">Important Information</text></para>
+    </header>
+    <para styleclass="Normal" style="text-align:justify; margin-top:8px; margin-bottom:11px;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">一般</text></para>
+    <list id="0" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-align:justify; margin-bottom:11px; margin-left:26px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-align:justify; margin-bottom:11px; margin-left:26px;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">切勿尝试修改机床。</text></li>
+      <li styleclass="Normal" style="text-align:justify; margin-bottom:11px; margin-left:26px;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">本机床的操作，维护和检查必须有受过机床技术培训，机床危险和预防培训和安全培训年的人员来执行。</text></li>
+      <li styleclass="Normal" style="text-align:justify; margin-bottom:11px; margin-left:26px;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">请遵守相关国家和本地行政机构的法律，法规和其他规则。</text></li>
+      <li styleclass="Normal" style="text-align:justify; margin-left:26px;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000; letter-spacing:-1px;">本机床</text><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">（包括技术数据和软件）受到本地和国际商贸和进出口法律管制。</text></li>
+    </list>
+    <para styleclass="Normal" style="text-align:justify; margin-bottom:11px; margin-left:38px;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">在转售，转移或重新出口受控项目之前，请与牧野取得联系已获得授权或批准。</text></para>
+    <list id="0" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-align:justify; margin-bottom:11px; margin-left:26px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-align:justify; margin-bottom:11px; margin-left:26px;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">规格和设计如有变更，恕不另行通知。</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-top:8px; margin-bottom:11px;">此说明书</para>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-align:justify; margin-bottom:11px; margin-left:26px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-align:justify; margin-bottom:11px; margin-left:26px;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">此说明书用来确保客户理解正确操作程序，安全和高效低使用此机床。</text></li>
+      <li styleclass="Normal" style="text-align:justify; margin-bottom:11px; margin-left:26px;"><text style="font-size:11pt;">本手册为有经验的操作员编制。出于此原因，本手册并未包括需要为无机床操作，编程和维护的无机械或技术知识的人员配备的安全注意事项。</text></li>
+      <li styleclass="Normal" style="text-align:justify; margin-bottom:11px; margin-left:26px;"><text style="font-size:11pt;">如果需要由本手册所述语言之外的外籍人事来操作，那么请确保该操作员已完全接受了安全培训。此外，必须以该外籍人士可以读懂的语言印制警告标签。</text></li>
+      <li styleclass="Normal" style="text-align:justify; margin-bottom:11px; margin-left:26px;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">本手册全部内容版权归牧野亚洲私人有限公司所有。如未经牧野亚洲私人有限公司书面批准，严格禁止复印，复制或转移本手册的全部或部分。</text></li>
+      <li styleclass="Normal" style="text-align:justify; margin-bottom:11px; margin-left:26px;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">由于用户所选选装件，规格修改或其他原因，本手册的描述或其他详细信息可能与实际机床有所不同。</text></li>
+      <li styleclass="Normal" style="text-align:justify; margin-bottom:11px; margin-left:26px;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">请将本手册储存于需要操作，维护和检查机床的位置，以便操作员能够方便的接触到本手册。</text></li>
+      <li styleclass="Normal" style="text-align:justify; margin-left:26px;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">根据定期维护手册或图例板定期执行检查和维护，防止机床出现故障。</text></li>
+    </list>
+    <para styleclass="Normal" style="text-align:justify; margin-bottom:11px; page-break-before:always;"></para>
+  </body>
+</topic>

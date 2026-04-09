@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T15:16:04.981Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>4 Removal and Replacement of RWH Unit</title>
+  <body>
+    <header>
+      <para styleclass="Heading2">拆除和更换 RWH 设备</para>
+    </header>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:11px; margin-left:0px; line-height:1.15; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">本章介绍从机床上拆卸和更换 RWH 设备的过程。使用输送机和锁定夹具，可以拆下装置，以解决驱动装置或支撑装置中的任何维修问题。如果无法进行现场维修，将从机床上拆下整个装置并送回维修。</text></para>
+  </body>
+</topic>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" modified="2026-04-07T14:01:27.956Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.5 Moving APC to Pallet 1 or 2 End Positions</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">将装甲运兵车移至托盘 1 或 2 端位置</para>
+    </header>
+    <para styleclass="Normal">这样，托盘 1 或托盘 2 都可以旋转到加工区域。此外，还可确认末端移动确认信号。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><image src="19. APC - CWCCW.png" scale="90.00%" width="336" height="60" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="line-height:1.50;"><text style="font-weight:bold;">将托盘 1 或 2 移至加工区的操作步骤</text></para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">打开维护模式。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">按<text style="font-weight:bold;">&#32;</text>软键选择 &quot;托盘顺时针 (1) 或逆时针 (2)&quot;。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">要使托盘移动，按下<text style="font-weight:bold;">[关于]</text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">托盘根据顺时针/逆时针选择移动到终点位置。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">通过限位开关 LS102 (CCW)(2) / LS103 (CW)(1)确认终点位置。</li>
+    </list>
+    <para styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">托盘编号相关信息：</para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="3" colcount="3" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; head-row-background-color:none; alt-row-background-color:none;">
+      <thead style="vertical-align:top">
+        <td style="vertical-align:middle; width:100px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 托盘编号</text></para>
+        </td>
+        <td style="width:110px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">托盘角度</text></para>
+        </td>
+        <td style="width:142px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">末端限位开关</text></para>
+        </td>
+      </thead>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:100px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 1 (CW)</text></para>
+        </td>
+        <td style="width:110px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">0 Deg</text></para>
+        </td>
+        <td style="width:142px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">LS103</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:100px;">
+          <para styleclass="Normal"><text style="font-size:10pt;"> 2 (CCW)</text></para>
+        </td>
+        <td style="width:110px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">180 Deg</text></para>
+        </td>
+        <td style="width:142px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-right:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">LS102</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

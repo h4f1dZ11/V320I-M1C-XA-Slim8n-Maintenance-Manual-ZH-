@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<helpproject xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd" version="2.2" isskin="false" isrepository="false">
+  <config>
+    <namespaces/>
+    <export-task-groups>
+      <export-task-group name="Recent Publishes">
+        <export-tasks>
+          <export-task name="Publish as PDF" format="PDF">
+            <task-config-group name="settings">
+              <task-config-value name="outputfile">.\PDF\V320I-M1E-XB Slim8n Maintenance Manual (EN)_00001.pdf</task-config-value>
+              <task-config-value name="template">.\Templates\V320I-M1E-XB_Maintenance Manual.mnl</task-config-value>
+              <task-config-value name="highlighthotspots">0</task-config-value>
+              <task-config-value name="exportcomments">0</task-config-value>
+              <task-config-value name="exportcommentsdate">36526</task-config-value>
+              <task-config-value name="make4include">PDF,ELECTRICAL,MECHANICAL,SOFTWARE,SPINDLE</task-config-value>
+              <task-config-value name="make4status">*</task-config-value>
+            </task-config-group>
+          </export-task>
+        </export-tasks>
+      </export-task-group>
+    </export-task-groups>
+    <helpwindows>
+      <helpwindow name="Main" left="-1" top="-1" width="-1" height="-1">
+        <caption translate="true">&lt;%TITLE%&gt;</caption>
+        <window-options-chm navigation="true" navigationwidth="200" index="true" search="true" favorite="true" saveregistry="true" buttons="12366">
+          <user-button name="jump1">
+            <caption translate="true">jump1</caption>
+          </user-button>
+          <user-button name="jump2">
+            <caption translate="true">jump2</caption>
+          </user-button>
+        </window-options-chm>
+      </helpwindow>
+    </helpwindows>
+    <styleclasses>
+      <styleclass name="Code Example" nextclass="Normal" shortcut="0">
+        <style-set media="screen" type="para">white-space:nowrap; page-break-inside:avoid;</style-set>
+        <style-set media="screen" type="text">font-family:'Courier New'; font-size:8pt;</style-set>
+      </styleclass>
+      <styleclass name="Normal" shortcut="0">
+        <style-set media="screen" type="text">font-family:SimSun; font-size:11pt;</style-set>
+      </styleclass>
+      <styleclass name="1_E" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="para">margin-left:26px;</style-set>
+        <style-set media="screen" type="text">font-size:12pt;</style-set>
+      </styleclass>
+      <styleclass name="Comment" parentclass="Normal" nextclass="Normal" shortcut="0"/>
+      <styleclass name="Heading1" parentclass="Normal" nextclass="Normal" shortcut="0">
+        <style-set media="screen" type="para">text-align:center;</style-set>
+        <style-set media="screen" type="text">font-size:20pt; font-weight:bold;</style-set>
+      </styleclass>
+      <styleclass name="Heading2" parentclass="Normal" nextclass="Heading2" shortcut="0">
+        <style-set media="screen" type="text">font-size:20pt; font-weight:bold;</style-set>
+      </styleclass>
+      <styleclass name="Heading3" parentclass="Heading2" nextclass="Heading3" shortcut="0">
+        <style-set media="screen" type="text">font-size:16pt;</style-set>
+      </styleclass>
+      <styleclass name="Heading4" parentclass="Heading3" nextclass="Normal" shortcut="0">
+        <style-set media="screen" type="text">font-size:12pt; font-weight:normal;</style-set>
+      </styleclass>
+      <styleclass name="Image Caption" parentclass="Normal" nextclass="Normal" shortcut="0">
+        <style-set media="screen" type="text">font-size:8pt; font-weight:bold;</style-set>
+      </styleclass>
+      <styleclass name="Notes" parentclass="Normal" nextclass="Normal" shortcut="0"/>
+      <styleclass name="Table_E" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="para">text-align:center;</style-set>
+      </styleclass>
+      <styleclass name="NOTES_E" shortcut="0">
+        <style-set media="screen" type="para">border-color:#000000; border-style:single; border-width:1px; border-top:none; border-right:none; border-left:none;</style-set>
+        <style-set media="screen" type="text">font-family:SimSun; font-size:11pt;</style-set>
+      </styleclass>
+      <tablestyleclass name="Default">
+        <style-set media="screen">width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;</style-set>
+      </tablestyleclass>
+      <imagestyleclass name="Default"/>
+    </styleclasses>
+    <config-group name="project">
+      <config-value name="author" translate="true">Makino Asia Pte Ltd</config-value>
+      <config-value name="copyright" translate="true">© &lt;%YEAR%&gt; &lt;%AUTHOR%&gt;</config-value>
+      <config-value name="versionmajor">1</config-value>
+      <config-value name="versionminor">0</config-value>
+      <config-value name="versionbuild">0</config-value>
+      <config-value name="lcid">en-us</config-value>
+      <config-value name="charset">ANSI_CHARSET</config-value>
+      <config-value name="deffont">font-family:Tahoma; font-size:10pt; color:#000000;</config-value>
+      <config-value name="autohelpstart">0</config-value>
+      <config-value name="autohelpincrement">1</config-value>
+      <config-value name="autohelpanchor">0</config-value>
+      <config-value name="imageshortcuts_includebaggage">1</config-value>
+      <config-value name="make4include">PDF,ELECTRICAL,MECHANICAL,SOFTWARE,SPINDLE</config-value>
+      <config-value name="make4status">*</config-value>
+      <config-group name="CUSTOMBUILDS">
+        <config-value name="ELECTRICAL">ELECTRICAL</config-value>
+        <config-value name="GRAPHITE">GRAPHITE</config-value>
+        <config-value name="MECHANICAL">MECHANICAL</config-value>
+        <config-value name="SOFTWARE">SOFTWARE</config-value>
+        <config-value name="SPINDLE">SPINDLE</config-value>
+        <config-value name="NOTREQUIRED">NOTREQUIRED</config-value>
+      </config-group>
+      <config-value name="openchildreadonly">1</config-value>
+      <config-value name="tidyxml">1</config-value>
+      <config-value name="historyfiles">0</config-value>
+      <config-value name="historyfilecount">10</config-value>
+      <config-value name="historykeepdeletedfiles">0</config-value>
+      <config-value name="vcsmanuallycheckout">0</config-value>
+      <config-group name="TOPICSTATUS">
+        <config-value name="Needs Review">#B6FEAB</config-value>
+        <config-value name="Not Required">#FF80FF</config-value>
+        <config-value name="Out Of Date">#FEC79E</config-value>
+        <config-value name="Pending">#00FFFF</config-value>
+        <config-value name="Under Construction">#FEFC9E</config-value>
+      </config-group>
+      <config-value name="make0include">CHM</config-value>
+      <config-value name="make0status">*</config-value>
+      <config-value name="title" translate="true">Maintenance Manual</config-value>
+      <config-value name="searchpath">.\Graphics\Ch 1 Safety\Slim8n\;.\Graphics\Ch 2 Machine Controller\Slim8n\;.\Graphics\Ch 3 Machine Maintenance\Slim8n\;.\Graphics\Ch 4 Spindle Head\Slim8n\;.\Graphics\Ch 5 Feed Axis\Slim8n\;.\Graphics\Ch 6 Automatic Tool Changer\Slim8n\;..\V320I-I1E-XA Slim8n Instruction Manual (EN)\Graphics\Ch 1 Safety\Slim8n\;.\Graphics\Ch 1 Safety\Slim8n_XA\;.\Graphics\Ch 2 Machine Controller\;.\Graphics\Ch 2 Machine Controller\Slim8n_XA\;.\Graphics\Ch 2 Machine Controller\Slim8n\Updated Photo for Ch 2 Machine Controller\;.\Graphics\Ch 4 Spindle Head\Slim8n_XA\;.\Graphics\Ch 5 Feed Axis\Slim8n_XA\;.\Graphics\;.\Graphics\Ch 7 APC Servo-M Driven\Slim8n_XA\;.\Graphics\Ch 8 Spindle Cooler\;.\Graphics\Ch 8 Spindle Cooler\New Figure for Slim8n\;.\Graphics\Ch 8 Spindle Cooler\Slim8n\;.\Graphics\Ch 8 Spindle Cooler\Slim8n\PDF\;.\Graphics\Ch 8 Spindle Cooler\Slim8n_XA\;.\Graphics\Ch 9 Automatic Grease Supply Unit\;.\Graphics\Ch 9 Automatic Grease Supply Unit\New Figure for Slim8n\;.\Graphics\Ch 9 Automatic Grease Supply Unit\Slim8n\;.\Graphics\Ch 9 Automatic Grease Supply Unit\Slim8n\PDF\;.\Graphics\Ch 9 Automatic Grease Supply Unit\Slim8n_XA\;.\Graphics\Ch 10 Spindle Hydraulic Unit\;.\Graphics\Ch 10 Spindle Hydraulic Unit\New Figure for Slim8n\;.\Graphics\Ch 10 Spindle Hydraulic Unit\Slim8n\;.\Graphics\Ch 10 Spindle Hydraulic Unit\Slim8n\PDF\;.\Graphics\Ch 10 Spindle Hydraulic Unit\Slim8n_XA\;.\Graphics\Ch 11 Fixture Hydraulic Unit (option)\;.\Graphics\Ch 11 Fixture Hydraulic Unit (option)\New Figure for Slim8n\;.\Graphics\Ch 11 Fixture Hydraulic Unit (option)\Slim8n\;.\Graphics\Ch 11 Fixture Hydraulic Unit (option)\Slim8n\PDF\;.\Graphics\Ch 11 Fixture Hydraulic Unit (option)\Slim8n_XA\;.\Graphics\Ch 12 Pneumatic System\;.\Graphics\Ch 12 Pneumatic System\New Figure for Slim8n\;.\Graphics\Ch 12 Pneumatic System\Slim8n\;.\Graphics\Ch 12 Pneumatic System\Slim8n\PDF\;.\Graphics\Ch 12 Pneumatic System\Slim8n_XA\;.\Graphics\Ch 13 Chip Disposal and Conveyor\;.\Graphics\Ch 13 Chip Disposal and Conveyor\New Figure for Slim8n\;.\Graphics\Ch 13 Chip Disposal and Conveyor\Slim8n\;.\Graphics\Ch 13 Chip Disposal and Conveyor\Slim8n\PDF\;.\Graphics\Ch 14 Cutting Fluid Supply Unit\;.\Graphics\Ch 14 Cutting Fluid Supply Unit\New Figure for Slim8n\;.\Graphics\Ch 14 Cutting Fluid Supply Unit\Slim8n\;.\Graphics\Ch 14 Cutting Fluid Supply Unit\Slim8n\PDF\;.\Graphics\Ch 15 Splash Guard\;.\Graphics\Ch 15 Splash Guard\New Figure for Slim8n\;.\Graphics\Ch 15 Splash Guard\Slim8n\;.\Graphics\Ch 15 Splash Guard\Slim8n\PDF\;.\Graphics\Ch 15 Splash Guard\Slim8n_XA\;.\Graphics\Ch 16 Mist Collector\;.\Graphics\Ch 16 Mist Collector\New Figure for Slim8n\;.\Graphics\Ch 16 Mist Collector\Slim8n\;.\Graphics\Ch 16 Mist Collector\Slim8n\PDF\;.\Graphics\Ch 16 Mist Collector\Slim8n_XA\;.\Graphics\Ch 17 Air Dryer\;.\Graphics\Ch 17 Air Dryer\New Figure for Slim8n\;.\Graphics\Ch 17 Air Dryer\Slim8n\;.\Graphics\Ch 17 Air Dryer\Slim8n\PDF\;.\Graphics\Ch 17 Air Dryer\Slim8n_XA\;.\Graphics\Ch 18 Rotary Work Head\;.\Graphics\Ch 14 Cutting Fluid Supply Unit\Slim8n_XA\;.\Graphics\Ch 13 Chip Disposal and Conveyor\Slim8n_XA\;..\..\..\Documents for Slim8n\V320I-M1E-XA Slim8n Maintenance Manual (EN)\Graphics\Ch 12 Chip Disposal and Conveyor\Slim8n\;.\Graphics\Ch 6 Automatic Tool Changer\Slim8n_XA\;.\Graphics\Ch 3 Machine Maintenance\Slim8n_XA\;.\;..\..\..\Documents for Slim8n\V320I-M1E-XA Slim8n Maintenance Manual (EN)\Graphics\Ch 13 Cutting Fluid Supply Unit\Slim8n_XA\;..\..\..\Documents for Slim8n\V320I-M1E-XA Slim8n Maintenance Manual (EN)\Graphics\Ch 4 Spindle Head\New Figure for Slim8n\;.\Graphics\Ch 3 Machine Maintenance\;..\V320I-M1E-XA Slim8n Maintenance Manual (EN)\Graphics\Ch 6 Automatic Tool Changer\Slim8n_XA\</config-value>
+    </config-group>
+    <config-group name="pdf">
+      <config-value name="style">0</config-value>
+      <config-value name="createoutline">1</config-value>
+      <config-value name="outlinesnumbered">1</config-value>
+      <config-value name="createhotspots">1</config-value>
+      <config-value name="insertseealso">1</config-value>
+      <config-value name="insertseealsostyle">0</config-value>
+      <config-value name="linkcolor">16711680</config-value>
+      <config-value name="ignoreblank">0</config-value>
+      <config-value name="outputfile">.\PDF\V320I-M1E-XB Slim8n Maintenance Manual (EN)_00001.pdf</config-value>
+      <config-value name="template">.\Templates\V320I-M1E-XB_Maintenance Manual.mnl</config-value>
+      <config-value name="highlighthotspots">0</config-value>
+      <config-value name="exportcomments">0</config-value>
+      <config-value name="exportcommentsdate">36526</config-value>
+      <config-value name="pdfa">0</config-value>
+      <config-value name="compression">1</config-value>
+      <config-value name="jpegquality">50</config-value>
+      <config-value name="openmode">1</config-value>
+      <config-value name="zoommode">1</config-value>
+      <config-value name="pagelayout">1</config-value>
+      <config-value name="userprint">1</config-value>
+      <config-value name="usercopy">1</config-value>
+      <config-value name="userchange">1</config-value>
+      <config-value name="encrypt128bit">0</config-value>
+      <config-value name="title" translate="true">Maintenance Manual</config-value>
+      <config-value name="copyright" translate="true">&lt;%COPYRIGHT%&gt;</config-value>
+      <config-value name="copyrightpublicdomain">0</config-value>
+      <config-value name="ownerpassword">0141</config-value>
+      <config-value name="author" translate="true">Makino Asia Pte Ltd</config-value>
+    </config-group>
+    <config-group name="html">
+      <config-value name="defaultext">.html</config-value>
+      <config-value name="cssfile">default.css</config-value>
+      <config-value name="fontsizeencoding">1</config-value>
+      <config-value name="fontsizebase">100</config-value>
+      <config-value name="exportmarkersastext">1</config-value>
+      <config-value name="exportstylenames">1</config-value>
+      <config-value name="exportutf8bom">1</config-value>
+      <config-value name="replacecharhyphen">0</config-value>
+      <config-value name="animations">1</config-value>
+      <config-value name="imagelightbox">1</config-value>
+      <config-value name="synctimestamp">1</config-value>
+      <config-value name="syncarchivebit">0</config-value>
+      <config-value name="imagehint">1</config-value>
+      <config-value name="imageconversion">1</config-value>
+      <config-value name="jpgquality">90</config-value>
+      <config-value name="htmlpopup">3</config-value>
+      <config-value name="topiceditor">0</config-value>
+      <config-value name="topicsimpleheadercolor">#D0D0D0</config-value>
+      <config-value name="topicsimpletextcolor">#FFFFFF</config-value>
+      <config-value name="topicsimpletext1" translate="true"><![CDATA[Help]]></config-value>
+      <config-value name="topicsimplebuttons">1</config-value>
+      <config-group name="TOPICSIMPLEBUTTON1">
+        <config-value name="CAPTION" translate="true">Top</config-value>
+      </config-group>
+      <config-group name="TOPICSIMPLEBUTTON2">
+        <config-value name="CAPTION" translate="true">Previous</config-value>
+      </config-group>
+      <config-group name="TOPICSIMPLEBUTTON3">
+        <config-value name="CAPTION" translate="true">Next</config-value>
+      </config-group>
+      <config-group name="TOPICTEMPLATES">
+        <config-value name="Default" translate="true"><![CDATA[<%DOCTYPE%>
+<html>
+<head>
+   <title><%TOPIC_TITLE%></title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="<%TOPIC_KEYWORDS%>" />
+   <meta http-equiv="Content-Type" content="text/html; charset=<%DOCCHARSET%>" />
+   <IF_CHM><meta http-equiv="X-UA-Compatible" content="IE=9" /></IF_CHM>
+   <IF_HTML><meta http-equiv="X-UA-Compatible" content="IE=edge" /></IF_HTML>
+   <meta name="description" content="<%TOPIC_DESCRIPTION%>" />
+   <meta name="picture" content="<%TOPIC_PICTURE%>" />
+   <link type="text/css" href="<%STYLESHEET%>" rel="stylesheet" />
+   <style type="text/css">
+     body { margin: 0px; background: #FFFFFF; }
+   </style>
+</head>
+<body>
+
+<IF_TOPIC_HEADER>
+<table style="width:100%; border:none; border-spacing:0px; padding:5px; background:#D0D0D0">
+  <tr style="vertical-align:middle">
+    <td style="text-align:left">
+      <%TOPIC_HEADER%>
+    </td>
+    <td style="text-align:right">
+     <a href="<%HREF_DEFAULT_PAGE%>">Top</a>&nbsp;
+     <IF_PREVIOUS_PAGE><a href="<%HREF_PREVIOUS_PAGE%>">Previous</a>&nbsp;</IF_PREVIOUS_PAGE>
+     <IF_NEXT_PAGE><a href="<%HREF_NEXT_PAGE%>">Next</a></IF_NEXT_PAGE>
+    </td>
+  </tr>
+</table>
+</IF_TOPIC_HEADER>
+Help
+<!-- Placeholder for topic body. -->
+<table style="width:100%;border:none;border-spacing:0px"><tr style="vertical-align:top"><td style="text-align:left;padding:5px">
+<%TOPIC_TEXT%>
+</td></tr></table>
+
+</body>
+</html>]]></config-value>
+      </config-group>
+    </config-group>
+    <config-group name="chm">
+      <config-value name="defaultext">.html</config-value>
+      <config-value name="cssfile">default.css</config-value>
+      <config-value name="fontsizeencoding">0</config-value>
+      <config-value name="fontsizebase">100</config-value>
+      <config-value name="exportmarkersastext">1</config-value>
+      <config-value name="exportstylenames">1</config-value>
+      <config-value name="pixelasem">1</config-value>
+      <config-value name="underscoreexcludesearch">0</config-value>
+      <config-value name="replacecharhyphen">0</config-value>
+      <config-value name="animations">1</config-value>
+      <config-value name="imagelightbox">1</config-value>
+      <config-value name="imagehint">1</config-value>
+      <config-value name="imageconversion">1</config-value>
+      <config-value name="jpgquality">90</config-value>
+      <config-value name="htmlpopup">3</config-value>
+      <config-value name="outputfile">Maintenance Manual.chm</config-value>
+      <config-value name="deletetemp">1</config-value>
+    </config-group>
+    <config-group name="user">
+      <config-value name="project.lastexport">4</config-value>
+      <config-group name="lowtc">
+        <config-group name="project">
+          <config-value name="lastexport">0</config-value>
+        </config-group>
+      </config-group>
+      <config-group name="noorhbo">
+        <config-group name="report">
+          <config-value name="type">3</config-value>
+          <config-value name="sort">1</config-value>
+          <config-value name="include">ALL</config-value>
+        </config-group>
+        <config-group name="project">
+          <config-value name="lastexport">4</config-value>
+        </config-group>
+      </config-group>
+      <config-group name="muhammadfiroskhanma">
+        <config-group name="project">
+          <config-value name="lastexport">4</config-value>
+        </config-group>
+      </config-group>
+    </config-group>
+    <config-group name="liststyles">
+      <config-value name="number0">LEVELS=1;L0.ListType=3;L0.FormatString=%0:s.;L0.MarkerAlignment=0;L0.StartFrom=1;</config-value>
+      <config-value name="outline1">LEVELS=9;L0.ListType=3;L0.FormatString=%0:s;L0.MarkerAlignment=0;L0.StartFrom=1;L1.ListType=3;L1.FormatString=%0:s.%1:s.;L1.MarkerAlignment=0;L1.StartFrom=1;L2.ListType=3;L2.FormatString=%0:s.%1:s.%2:s.;L2.MarkerAlignment=0;L2.StartFrom=1;L3.ListType=3;L3.FormatString=%0:s.%1:s.%2:s.%3:s.;L3.MarkerAlignment=0;L3.StartFrom=1;L4.ListType=3;L4.FormatString=%0:s.%1:s.%2:s.%3:s.%4:s.;L4.MarkerAlignment=0;L4.StartFrom=1;L5.ListType=3;L5.FormatString=%0:s.%1:s.%2:s.%3:s.%4:s.%5:s.;L5.MarkerAlignment=0;L5.StartFrom=1;L6.ListType=3;L6.FormatString=%0:s.%1:s.%2:s.%3:s.%4:s.%5:s.%6:s.;L6.MarkerAlignment=0;L6.StartFrom=1;L7.ListType=3;L7.FormatString=%0:s.%1:s.%2:s.%3:s.%4:s.%5:s.%6:s.%7:s.;L7.MarkerAlignment=0;L7.StartFrom=1;L8.ListType=3;L8.FormatString=%0:s.%1:s.%2:s.%3:s.%4:s.%5:s.%6:s.%7:s.%8:s.;L8.MarkerAlignment=0;L8.StartFrom=1;</config-value>
+    </config-group>
+    <config-group name="print">
+      <config-value name="include">PDF,PRINT</config-value>
+      <config-value name="template">.\Templates\Makino_manual_Maintenance_V26.mnl</config-value>
+      <config-value name="colortext">0</config-value>
+      <config-value name="insertseealso">0</config-value>
+      <config-value name="insertseealsostyle">-1</config-value>
+    </config-group>
+    <config-group name="plugins">
+      <config-value name="deepl">{&quot;sourcelang&quot;:&quot;EN&quot;,&quot;destlang&quot;:&quot;ZH-HANS&quot;,&quot;writelang&quot;:&quot;EN-US&quot;,&quot;defapiglossary&quot;:&quot;40e68218-1fd1-4b20-8bbe-c57607562851&quot;,&quot;glossarycount&quot;:&quot;0&quot;}</config-value>
+    </config-group>
+    <variables/>
+    <helpcontext-numbers/>
+  </config>
+  <xi:include parse="xml" href="Maps/table_of_contents.xml"/>
+  <project-files>
+    <file href="Topics/*.xml" build="ALL" filetype="topic">
+      <file-mod href="Chapter-3-Machine-Maintenance.xml" build="MECHANICAL,SPINDLE"/>
+      <file-mod href="Chapter-2-Machine-Controller.xml" build="ELECTRICAL,MECHANICAL"/>
+      <file-mod href="1_1-Component-Name14.xml" build="MECHANICAL"/>
+      <file-mod href="1_2-Wiring14.xml" build="MECHANICAL"/>
+      <file-mod href="1_Overview7.xml" build="MECHANICAL"/>
+      <file-mod href="Chapter-12-Pneumatic-Unit.xml" build="MECHANICAL"/>
+      <file-mod href="Chapter-14-Cutting-Fluid-Supply-Unit-and-Tank.xml" build="MECHANICAL"/>
+      <file-mod href="Chapter-15-Splash-Guard.xml" build="MECHANICAL,SOFTWARE"/>
+      <file-mod href="Chapter-8-Spindle-Temperature-Controller.xml" build="MECHANICAL,SPINDLE"/>
+    </file>
+    <file href="Topics/Non-TOC/*.xml" build="ALL" filetype="topic"/>
+    <file href="Baggage/*.*" build="ALL" filetype="baggage"/>
+  </project-files>
+</helpproject>

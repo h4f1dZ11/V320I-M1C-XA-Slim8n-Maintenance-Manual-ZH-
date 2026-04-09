@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" modified="2026-03-18T13:59:29.974Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title>Important Information 2/2</title>
+  <body>
+    <header>
+      <para styleclass="Normal"></para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:11px;"><text style="font-size:11pt;">安全工作重要信息</text></para>
+    <list id="0" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-align:justify; margin-left:26px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-align:justify; margin-left:26px;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">在尝试操作，维护或检查机床之前请熟悉安全注意事项和功能。</text></li>
+    </list>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-align:justify; margin-top:8px; margin-left:26px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-align:justify; margin-top:8px; margin-left:26px;"><text style="font-size:11pt;">根据所出现的情况不同，操作员在操作机床和维护机床时所需要遵守的项点也有所不同。但是本手册也未能涵盖所有项点。确保能够完全理解机床，执行工作之时总是注意安全和潜在危险。</text></li>
+    </list>
+    <list id="2" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-align:justify; margin-top:8px; margin-left:26px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-align:justify; margin-top:8px; margin-left:26px;"><text style="font-size:11pt;">如果安全装置或保护装置运转不当，立即停止操作基础并通知主管或经历。主管或经理必须立即通知牧野授权经销商或牧野服务代表。</text></li>
+    </list>
+    <list id="3" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-align:justify; margin-top:8px; margin-bottom:11px; margin-left:26px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-align:justify; margin-top:8px; margin-bottom:11px; margin-left:26px;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">当机床因未知原因停止时，须立即联系主管或经理，并等待重启操作许可。</text></li>
+    </list>
+    <para styleclass="Normal" style="text-align:justify; margin-top:8px; margin-bottom:11px;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">加工精度维护</text></para>
+    <list id="4" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-align:justify; margin-left:26px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-align:justify; margin-left:26px;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">安装机床之后，为了保持加工精度必须执行定期检查，如水平调节。</text></li>
+    </list>
+    <list id="5" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-align:justify; margin-top:8px; margin-left:26px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-align:justify; margin-top:8px; margin-left:26px;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">如果机床的稳定性级别发生变化，则机床无法执行高精度加工。此外，如果机床振动也无法执行普通加工。</text></li>
+    </list>
+    <list id="6" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-align:justify; margin-top:8px; margin-left:26px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-align:justify; margin-top:8px; margin-left:26px;"><text style="font-size:11pt;">安装机床约六个月后，由于机床的重量原因，可能在机床基础稳定性不变的情况下发生机床稳定性级别的显著变化。</text></li>
+    </list>
+    <list id="7" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-align:justify; margin-top:8px; margin-bottom:15px; margin-left:26px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-align:justify; margin-top:8px; margin-bottom:15px; margin-left:26px;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">根据基础的条件或机床使用的频率，每六个月或每年执行一次检查或调整。</text></li>
+    </list>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="1" colcount="2" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:112px; border-right:none;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:8px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><image src="Danger symbol no text.ipp" scale="16.00%" width="42" height="37" styleclass="Image Caption" figurelistinclude="0"></image></para>
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:2px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000;">警告</text></para>
+        </td>
+        <td style="width:560px; border-left:none;">
+          <list id="8" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="" style="text-align:left; text-indent:-11px; margin-top:8px; margin-right:0px; margin-bottom:0px; margin-left:11px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:117px left ; font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="" style="text-align:left; text-indent:-11px; margin-top:8px; margin-right:0px; margin-bottom:0px; margin-left:11px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:117px left ;"><text styleclass="" style="font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000; letter-scaling:95%;">开始工作之前，请确保已理解了安全章节的信息，并根据所提供的说明执行工作。</text></li>
+            <li styleclass="" style="text-align:left; text-indent:-11px; margin-top:8px; margin-right:11px; margin-bottom:8px; margin-left:11px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:117px left ;"><text styleclass="" style="font-family:SimSun; font-size:11pt; font-weight:bold; color:#000000; letter-scaling:95%;">在尝试操作，维护或检查机床之前请通读并彻底理解本手册。</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

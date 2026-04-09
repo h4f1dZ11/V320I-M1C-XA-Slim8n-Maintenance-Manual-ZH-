@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T13:35:08.717Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>1.1 Operators Checks</title>
+  <keywords>
+    <keyword>#MECHOK</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading3">操作员检查</para>
+    </header>
+    <list id="0" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-align:justify; text-indent:11px; margin-bottom:8px; margin-left:36px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-align:justify; text-indent:11px; margin-bottom:8px; margin-left:36px;"><text style="font-size:11pt;">只有合格的，且有足够经验的机械和技术知识的人员才能操作和维护本机床。</text></li>
+      <li styleclass="Normal" style="text-align:justify; text-indent:11px; margin-bottom:8px; margin-left:36px;"><text style="font-size:11pt;">只有合格的电气工程师才能执行电气工作。</text></li>
+      <li styleclass="Normal" style="text-align:justify; text-indent:11px; margin-bottom:8px; margin-left:36px;"><text style="font-size:11pt;">只有合格的人员才能使用起重机或叉车。</text></li>
+      <li styleclass="Normal" style="text-align:justify; text-indent:11px; margin-bottom:8px; margin-left:36px;"><text style="font-size:11pt;">只要操作或维护机床，就必须穿着适合的工作服。切勿穿戴松散的衣服，围巾，饰品或穿着其他容易被机床运作时缠绕住的衣物。</text></li>
+      <li styleclass="Normal" style="text-align:justify; text-indent:11px; margin-bottom:8px; margin-left:36px;"><text style="font-size:11pt;">将长发束紧放入帽子之中。</text></li>
+      <li styleclass="Normal" style="text-align:justify; text-indent:11px; margin-bottom:19px; margin-left:36px;"><text style="font-size:11pt;">人员须佩戴安全眼镜，穿戴安全鞋，安全帽（头盔）和安全手套。</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:19px; margin-left:47px;"><text styleclass="Image Caption">&#32;</text><image src="Operators check PPE.ipp" scale="12.00%" width="553" height="129" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-align:justify; text-indent:11px; margin-bottom:8px; margin-left:36px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-align:justify; text-indent:11px; margin-bottom:8px; margin-left:36px;"><text style="font-size:11pt;">相关人员须佩戴听力保护装具，确保自己不会受到机床操作或维护过程中产生的噪音影响。</text></li>
+      <li styleclass="Normal" style="text-align:justify; text-indent:11px; margin-bottom:8px; margin-left:36px;"><text style="font-size:11pt;">切勿在饮酒或服药之后操作任何机械。</text></li>
+      <li styleclass="Normal" style="text-align:justify; text-indent:11px; margin-bottom:8px; margin-left:36px;"><text style="font-size:11pt;">操作员的身体状况须良好。如果操作员的判断能力受到影响可导致严重受伤或死亡。</text></li>
+    </list>
+  </body>
+</topic>

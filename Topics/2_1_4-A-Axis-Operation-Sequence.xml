@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T15:50:24.114Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.1.4 A-Axis Operation Sequence</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">A 轴操作顺序</para>
+    </header>
+    <para styleclass="Normal">在执行移动指令之前，A 轴必须松开（制动器释放）。电磁阀操作和压力开关反馈的顺序概述如下。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text style="font-weight:bold;">A 轴夹具流程图</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:10px;"><image src="A Axis Clamp FlowChart.jpg" imagestyleclass="Default" scale="65.00%" width="470" height="282" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal"><text style="font-weight:bold;">A 轴松开流程图 </text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="A Axis Unclamp FlowChart.jpg" imagestyleclass="Default" scale="62.00%" width="451" height="270" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:10px; page-break-before:always;"></para>
+  </body>
+</topic>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T15:52:43.208Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.1.5 Oil Leakage from Tilt Axis Encoder Cable</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">冷却机油液面迅速下降</para>
+    </header>
+    <para styleclass="Normal">在长时间运行期间，冷却油可能会蒸发，导致油位每月减少 1 至 2 升。出现这种情况时，请重新加入冷却机油。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">如果冷却油位下降速度异常，请检查以下内容：</para>
+    <para styleclass="Normal"></para>
+    <list id="0" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal">按照维护手册中概述的检查程序，确保温度控制器功能正常。</li>
+      <li styleclass="Normal">检查工作台或主轴冷却油管是否漏油。</li>
+    </list>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">如果发现任何泄漏，请修复泄漏源并恢复工作台的运行。</para>
+  </body>
+</topic>

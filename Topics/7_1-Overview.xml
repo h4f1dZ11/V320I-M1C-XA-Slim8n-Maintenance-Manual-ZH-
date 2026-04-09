@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:53:02.665Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>7.1 Overview</title>
+  <body>
+    <header>
+      <para styleclass="Heading2">概述</para>
+    </header>
+    <para styleclass="Normal">Slim8n 自动托盘交换器（APC）机床采用双工位旋转式托盘交换器。托盘交换器的旋转由伺服电机驱动，结构紧凑，运动元件较少。气动装置仅用于夹紧操作。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="Fig1.1 General View.png" imagestyleclass="Default" scale="60.00%" width="448" height="596" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:159px left ;"><text styleclass="Normal" style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER7=1%&gt;.&lt;%HMFIGURECOUNTER=1%&gt; &#160; 总则视图</text></para>
+  </body>
+</topic>

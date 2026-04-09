@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T13:36:57.123Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>4 Work Hazards</title>
+  <body>
+    <header>
+      <para styleclass="Heading2">工作危险</para>
+    </header>
+    <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:3px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">以下表格列出了机床操作和维护过程中的危险动作和情况以及可能会出现的事故。</text></para>
+    <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:8px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">根据所出现的情况不同，操作员在操作机床和维护机床时所需要遵守的项点也有所不同。但是本手册也未必能涵盖所有可能的条例。操作员和维修人员必须彻底理解机床，也必须总是意识到执行操作过程中的安全和潜在危险情况。</text></para>
+    <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:8px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">不当操作会导致严重人身伤害甚或机床受损。</text></para>
+  </body>
+</topic>

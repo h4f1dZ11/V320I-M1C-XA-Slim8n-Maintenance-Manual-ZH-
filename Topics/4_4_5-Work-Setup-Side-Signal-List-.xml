@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T09:29:13.810Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>4.4.5 Work Setup Side Signal List </title>
+  <body>
+    <header>
+      <para styleclass="Heading4">工作设置侧信号列表</para>
+    </header>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:7px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">输入信号</text></para>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:10px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><table styleclass="Default" rowcount="16" colcount="3" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">地址</text></para>
+        </td>
+        <td style="width:10%; height:22px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">符号</text></para>
+        </td>
+        <td style="width:24%; height:11px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">说明</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0007.1</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LS2466</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-size:10pt;">限位开关光幕传感器</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0007.4</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LS912</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-size:10pt;">限位开关前门关闭</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0010.6</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LS138R</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-size:10pt;">前门自动右开口</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0010.7</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LS138L</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-size:10pt;">自动前门左开口</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0060.0</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">HY1CL</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-size:10pt;">液压钳开关 1</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0060.1</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">HY1UC</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-size:10pt;">液压松开开关 1</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0061.5</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">MANSW</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-size:10pt;">自动 MD 选择开关</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0065.4</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">THPBR</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-size:10pt;">双手按钮开关 右</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0065.5</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">THPBL</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-size:10pt;">双手按钮开关（左</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0065.6</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">STRSW</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-size:10pt;">踏板开关</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0105.5</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SW569</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-size:10pt;">操作门解锁按钮</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0120.0</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">ASTR</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-size:10pt;">自动启动开关</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0120.2</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">PRDYS</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-size:10pt;">自动托盘交换器就绪按钮</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0121.0</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">ADOPN</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-size:10pt;">自动门开口开关</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">X0121.1</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">ADCLS</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:4px;"><text style="font-size:10pt;">开关 自动关门</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:7px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-before:always; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">输出信号</text></para>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><table styleclass="Default" rowcount="15" colcount="3" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid;">
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">地址</text></para>
+        </td>
+        <td style="width:10%; height:22px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">符号</text></para>
+        </td>
+        <td style="height:5px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">说明</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0002.4</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SL912</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">前门解锁电磁铁</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0004.6</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SL132B-1</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">自动门开口电磁铁</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0004.7</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SL132A-1</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">电磁铁自动关门</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0060.0</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LHY1CL</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">灯液压钳1</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0060.1</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LHY1UC</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">灯液压钳1</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0061.6</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LAIRS</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">灯座检查</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0063.0</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SL1801</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">电磁夹具冷却剂溶液1</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0063.1</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">SL1802</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">电磁夹具冷却剂溶液2</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0106.0</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LWWE</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">灯泡工作清洗启用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0106.1</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LADOPN</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">灯自动门开口</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0106.2</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LADCLS</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">灯自动关闭</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0107.1</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LSETUP</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">灯设置完成</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0107.2</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LASTR</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">灯自动启动</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">Y0105.6</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">LP569</text></para>
+        </td>
+        <td style="width:24%; height:22px;">
+          <para styleclass="Normal" style="margin-left:3px;"><text style="font-size:10pt;">操作门解锁灯</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:10px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-before:always; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"></para>
+  </body>
+</topic>

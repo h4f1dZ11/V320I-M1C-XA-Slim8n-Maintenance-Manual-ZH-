@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:00:29.292Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.10 Moving Shuttle Axis</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">移动穿梭轴</para>
+    </header>
+    <para styleclass="Normal"><text style="color:#000000;">使用手动手柄 MPG。选择轴编号 &quot;6&quot; 并按下 &quot;OT 释放&quot; 按钮以移动梭轴位置。穿梭轴的待机位置为 235.0000。</text></para>
+  </body>
+</topic>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" modified="2026-04-07T14:02:24.293Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.8 Inertia Active Control (IAC)</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">惯性主动控制（IAC）</para>
+    </header>
+    <para styleclass="Normal">利用 IAC，可根据装载惯性自动设置托盘速度级别。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><image src="19. APC - IAC.png" scale="80.00%" width="245" height="86" styleclass="Image Caption" figurelistinclude="0"></image></para>
+  </body>
+</topic>

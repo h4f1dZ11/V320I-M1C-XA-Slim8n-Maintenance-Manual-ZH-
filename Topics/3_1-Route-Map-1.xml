@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" modified="2026-04-07T14:00:57.085Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.1 Route Map 1</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">路线图</para>
+    </header>
+    <para styleclass="Normal" style="text-align:center;"><image src="Route Map (Servo Driven).jpg" scale="90.00%" width="559" height="625" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center; page-break-before:always;"></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="19. APC HDCPY2024-12-24T13.18 (1).png" imagestyleclass="Default" scale="40.00%" width="320" height="240" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal" style="text-align:center;"><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER3=3%&gt;.&lt;%HMFIGURECOUNTER=1%&gt; &#160; 自动托盘交换器维护屏幕</text></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal"><text style="font-size:11pt;">导航至 APC 维护屏幕,</text></para>
+    <para styleclass="Normal"></para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:8px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:8px;"><text style="font-size:11pt;">按下 </text><text style="font-size:11pt; font-weight:bold;">[菜单] </text><text style="font-size:11pt;">按钮。</text></li>
+      <li styleclass="Normal" style="margin-bottom:8px;"><text style="font-size:11pt;">在牧野主菜单屏幕中，按 APC 图标。</text></li>
+      <li styleclass="Normal" style="margin-bottom:8px;"><text style="font-size:11pt;">显示 APC 维护屏幕。</text></li>
+    </list>
+  </body>
+</topic>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T14:06:48.477Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3 Machine External Covers</title>
+  <body>
+    <header>
+      <para styleclass="Heading2">机床外罩</para>
+    </header>
+    <para styleclass="" style="text-align:justify; text-indent:-45px; margin-top:0px; margin-right:0px; margin-bottom:19px; margin-left:45px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">机床外部盖板位于防溅板上，用途如下。</text></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="3" colcount="3" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; head-row-background-color:#dddddd; alt-row-background-color:none;">
+      <thead style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">封面</text></para>
+        </td>
+        <td style="width:45%; height:22px;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; font-weight:bold; color:#000000;">名称</text></para>
+        </td>
+        <td style="width:45%; height:22px;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; font-weight:bold; color:#000000;">目的</text></para>
+        </td>
+      </thead>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">A</text></para>
+        </td>
+        <td style="width:45%; height:22px;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">防溅板侧盖</text></para>
+        </td>
+        <td style="width:45%; height:22px;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">进给轴通道</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">B</text></para>
+        </td>
+        <td style="width:45%; height:22px;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">夹具维护盖</text></para>
+        </td>
+        <td style="width:45%; height:22px;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">进入夹具/4 轴工作台 </text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Notes" style="margin-bottom:6px;"><text style="font-size:10pt;">-注-</text></para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Notes" style="margin-bottom:6px; font-family:SimSun; font-size:10pt; color:#000000;">
+      <li styleclass="Notes" style="margin-bottom:6px;"><text style="font-size:10pt;">在取下盖子之前，请先关闭电源关。</text></li>
+      <li styleclass="Notes" style="margin-bottom:6px;"><text style="font-size:10pt;">进入机床时要格外小心。</text></li>
+    </list>
+    <para styleclass="Notes" style="text-align:center; margin-bottom:6px;"><text styleclass="Image Caption"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text><image src="Figure 3.1 Machine External Covers.png" imagestyleclass="Default" scale="52.00%" width="572" height="297" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:10px;"><image src="Figure 3.2 Machine External Covers (APC machine).png" imagestyleclass="Default" scale="42.00%" width="656" height="323" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER15=3%&gt;.&lt;%HMFIGURECOUNTER=1%&gt; &#160; 机床外罩</text></para>
+    <para styleclass="Normal" style="text-align:center; page-break-before:always;"></para>
+  </body>
+</topic>

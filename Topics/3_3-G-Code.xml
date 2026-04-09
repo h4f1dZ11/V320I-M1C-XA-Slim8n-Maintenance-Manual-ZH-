@@ -1,0 +1,836 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T15:15:38.615Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.3 G-Code</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">G 代码</para>
+    </header>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:11px; margin-left:0px; line-height:1.15; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">下表提供了 G 代码列表，以及相应的组号和它们所执行的功能。</text></para>
+    <para styleclass="Normal" style="margin-top:8px;"><table styleclass="Default" rowcount="32" colcount="3" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; head-row-background-color:#dddddd; alt-row-background-color:none;">
+      <thead style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">代码编号</text></para>
+        </td>
+        <td style="width:7%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">组别</text></para>
+        </td>
+        <td style="width:50%; height:11px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">功能</text></para>
+        </td>
+      </thead>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G00</text></para>
+        </td>
+        <td rowspan="4" style="vertical-align:middle; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">01</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">定位</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G01</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">线性插值</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G02</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">圆弧插补/螺旋插补顺时针</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G03</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">圆弧插补/螺旋插补逆时针</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G04</text></para>
+        </td>
+        <td rowspan="7" style="vertical-align:middle; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">00</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">停留，精确停止</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G05.1</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">AI 高级控制 / AI 轮廓控制</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G07.1 (G107)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">圆柱插补</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G08</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">高级预览控制</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G09</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">精确停止</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G10</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">可编程数据输入</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G11</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">可编程数据输入模式取消</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G15</text></para>
+        </td>
+        <td rowspan="2" style="vertical-align:middle; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">17</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">极坐标命令取消</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G16</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">极坐标命令</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G17</text></para>
+        </td>
+        <td rowspan="3" style="vertical-align:middle; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">02</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">Xp Yp 平面选择 Xp：X轴或其平行轴</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G18</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">Zp Xp 平面选择 Yp：Y轴或其平行轴</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G19</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">Yp Zp 平面选择 Zp：Z轴或其平行轴</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G20</text></para>
+        </td>
+        <td rowspan="2" style="vertical-align:middle; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">06</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">以英寸为单位输入</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G21</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">以毫米为单位输入</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G22</text></para>
+        </td>
+        <td rowspan="2" style="vertical-align:middle; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">04</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">存储行程检查功能开启</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G23</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">存储行程检查功能关闭</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G27</text></para>
+        </td>
+        <td rowspan="5" style="vertical-align:middle; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">00</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">参照位置返回检查</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G28</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">返回参照位置</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G29</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">从参照位置返回</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G30</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">第二，第三和第四参照位置返回</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G31</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">跳过功能</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G33</text></para>
+        </td>
+        <td style="vertical-align:middle; height:4px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">01</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">螺纹切割</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G37</text></para>
+        </td>
+        <td rowspan="2" style="vertical-align:middle; height:4px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">00</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">自动刀具长度测量</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G39</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">角偏移圆弧插补</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G40</text></para>
+        </td>
+        <td rowspan="3" style="vertical-align:middle; height:4px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">07</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">刀具补偿取消/三维刀具补偿取消</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G41</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">刀具左补偿/三维刀具补偿</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G42</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">刀具右补偿</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-top:8px; page-break-before:always;"></para>
+    <para styleclass="Normal" style="margin-top:8px;"><table styleclass="Default" rowcount="34" colcount="3" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; head-row-background-color:#dddddd; alt-row-background-color:none;">
+      <thead style="vertical-align:middle">
+        <td style="width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">代码编号</text></para>
+        </td>
+        <td style="width:7%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">组别</text></para>
+        </td>
+        <td style="width:50%; height:11px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">功能</text></para>
+        </td>
+      </thead>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G40.1 (G150)</text></para>
+        </td>
+        <td rowspan="3" style="vertical-align:middle; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">19</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">正常方向控制 取消模式</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G41.1 (G151)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">正常方向控制左侧开启</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G42.1 (G152)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">正常方向控制右侧开启</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G43</text></para>
+        </td>
+        <td rowspan="2" style="vertical-align:middle; height:15px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">08</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">刀具长度补偿 + 方向</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G44</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">刀具长度补偿 - 方向</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G45</text></para>
+        </td>
+        <td rowspan="4" style="vertical-align:middle; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">00</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">刀具偏置增加</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G46</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">工具偏置减小</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G47</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">工具偏置双倍增加</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G48</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">刀具偏置双倍减小</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G49</text></para>
+        </td>
+        <td style="vertical-align:middle; width:7%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">08</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">刀具长度补偿取消</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G50</text></para>
+        </td>
+        <td rowspan="2" style="vertical-align:middle; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">11</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">缩放 取消</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G51</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">缩放</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G50.1</text></para>
+        </td>
+        <td rowspan="2" style="vertical-align:middle; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">22</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">可编程镜像控制</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G51.1</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">可编程镜像</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G52</text></para>
+        </td>
+        <td rowspan="2" style="vertical-align:middle; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">00</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">本地坐标系设置</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G53</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">机床坐标系选择</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G54</text></para>
+        </td>
+        <td rowspan="7" style="vertical-align:middle; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">14</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">工件坐标系 1 选择</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G54.1</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">其他工件坐标系选择</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G55</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">工件坐标系 2 选择</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G56</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">工件坐标系 3 选择</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G57</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">工件坐标系 4 选择</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G58</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">工件坐标系 5 选择</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G59</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">工件坐标系 6 选择</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G60</text></para>
+        </td>
+        <td style="vertical-align:middle; width:7%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">00</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">单向定位</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G61</text></para>
+        </td>
+        <td rowspan="4" style="vertical-align:middle; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">15</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">精确停止模式</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G62</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">自动转角覆盖</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G63</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">攻丝模式</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G64</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">切割模式</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G65</text></para>
+        </td>
+        <td style="vertical-align:middle; width:7%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">00</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">宏调用</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G66</text></para>
+        </td>
+        <td rowspan="2" style="vertical-align:middle; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">12</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">宏调用模式</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G67</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">宏调用取消</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G68</text></para>
+        </td>
+        <td rowspan="2" style="vertical-align:middle; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">16</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">坐标旋转/三维坐标转换</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:11%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G69</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">坐标旋转取消/三维坐标转换取消</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-top:8px; page-break-before:always;"></para>
+    <para styleclass="Normal" style="margin-top:8px;"><table styleclass="Default" rowcount="24" colcount="3" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; head-row-background-color:#dddddd; alt-row-background-color:none;">
+      <thead style="vertical-align:middle">
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">代码编号</text></para>
+        </td>
+        <td style="width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">组别</text></para>
+        </td>
+        <td style="width:50%; height:11px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">功能</text></para>
+        </td>
+      </thead>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G73</text></para>
+        </td>
+        <td rowspan="13" style="vertical-align:middle; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">09</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">啄钻循环</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G74</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">反向攻丝循环</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G76</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">精镗循环</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G80</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">罐装周期取消/外部操作功能取消</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G81</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">钻孔循环，点镗循环或外部操作功能</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G82</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">钻孔循环或埋头孔循环</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G83</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">啄钻循环</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G84</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">攻丝循环</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G85</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">镗孔循环</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G86</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">镗孔循环</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G87</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">反镗循环</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G88</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">镗孔循环</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G89</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">镗孔循环</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G90</text></para>
+        </td>
+        <td rowspan="2" style="vertical-align:middle; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">03</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">绝对命令</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G91</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">增量命令</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G92</text></para>
+        </td>
+        <td rowspan="2" style="vertical-align:middle; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">00</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">最大主轴转速下的工件坐标系或夹具设置</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G92.1</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">预设工件坐标系</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G94</text></para>
+        </td>
+        <td rowspan="2" style="vertical-align:middle; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">05</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">每分钟进给量</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G95</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">每转进给量</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G96</text></para>
+        </td>
+        <td rowspan="2" style="vertical-align:middle; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">13</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">恒定表面速度控制</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G97</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">取消表面恒速控制</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G98</text></para>
+        </td>
+        <td rowspan="2" style="vertical-align:middle; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">10</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">返回到预调周期中的初始点</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">G99</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50%; height:22px;">
+          <para styleclass="Normal" style="margin-right:4px; margin-left:4px;"><text style="font-size:10pt;">返回罐装周期中的 R 点</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-top:8px; page-break-before:always;"></para>
+  </body>
+</topic>

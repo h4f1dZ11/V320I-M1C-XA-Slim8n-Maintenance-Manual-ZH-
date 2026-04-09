@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:49:16.402Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.1.1 Drive</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">驾驶</para>
+    </header>
+    <para styleclass="Normal">每个轴都由滚珠丝杠和伺服电机驱动。轴的运动（速度和定位）由机床控制器控制。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text style="font-weight:bold;">标准规格（不含标尺装置）</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="Standard Specs. (Without Scale Unit)_flowchart.jpg" scale="30.00%" width="301" height="315" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal"><text style="font-weight:bold;">带刻度装置</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="With Scale Unit_flowchart.jpg" scale="30.00%" width="307" height="319" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

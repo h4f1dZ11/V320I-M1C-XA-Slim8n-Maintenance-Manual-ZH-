@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T08:59:13.062Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.8.3 Procedure for IAC Teaching</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">IAC 教学程序</para>
+    </header>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">将新夹具装载到托盘上。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">登录到 Makino 或主管级别。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">导航至 APC 维护屏幕。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">将光标移至 &quot;IAC 教师状态&quot;上并按下<text style="font-weight:bold;">[关闭]</text>软键。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">在 MDI/MEM 模式下给 M60 执行托盘更换。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">托盘升起。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">IAC 级别自动变为 8 级（慢速模式）。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">托盘转到<text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">90°</text>角。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">执行惯性估计循环。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">惯性估计完成。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">根据工作台上的负载，自动设置 IAC 等级 0<text style="font-family:Symbol;">~</text>8。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">托盘转到与上一个托盘位置相反的<text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">0°</text>至<text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">180°</text>角。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">从下一个循环开始，托盘将以新设定的 IAC 等级所设定的速度移动。</li>
+    </list>
+  </body>
+</topic>

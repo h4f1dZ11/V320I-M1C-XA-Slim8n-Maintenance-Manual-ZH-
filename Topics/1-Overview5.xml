@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:48:41.922Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>1 Overview</title>
+  <body>
+    <header>
+      <para styleclass="Heading2">概述</para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:10px;">X/ Y/ Z 坐标中的传输轴称为进给轴。对这三个轴的精确控制可确保较高的加工精度。进给轴由以下主要组件和部件组成。</para>
+    <list id="0" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:6px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:6px;">直线运动导轨</li>
+      <li styleclass="Normal" style="margin-bottom:6px;">滚珠丝杠</li>
+      <li styleclass="Normal" style="margin-bottom:6px;">伺服电机</li>
+      <li styleclass="Normal" style="margin-bottom:6px;">反馈刻度单元（选配）</li>
+    </list>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

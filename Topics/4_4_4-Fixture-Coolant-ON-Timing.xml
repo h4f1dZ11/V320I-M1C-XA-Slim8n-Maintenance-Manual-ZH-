@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:24:42.603Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>4.4.4 Fixture Coolant ON Timing</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">夹具冷却剂开启时间</para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:10px;">夹具清洁冷却液（基准面清洁）在以下时间段打开和关闭</para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">在自动循环中完成加工。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">夹具松开。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">门开口。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">操作员卸载工件。(通过座传感器关闭检查监控工件卸载）。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">夹具冷却液电磁阀打开。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:19px; margin-left:24px;">在机床参数 D0620 中设定的延迟时间后，夹具冷却液关闭。</li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:10px;"><table styleclass="Default" rowcount="2" colcount="4" style="border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; head-row-background-color:#dddddd; alt-row-background-color:none;">
+      <thead style="vertical-align:middle">
+        <td style="width:15%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-left:3px;"><text style="font-size:10pt; font-weight:bold;">参数</text></para>
+          <para styleclass="Normal" style="text-align:center; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt; font-weight:bold;">数量</text></para>
+        </td>
+        <td style="width:40%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt; font-weight:bold;">说明</text></para>
+        </td>
+        <td style="width:20%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-left:3px;"><text style="font-size:10pt; font-weight:bold;">默认值</text></para>
+          <para styleclass="Normal" style="text-align:center; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt; font-weight:bold;">设置值</text></para>
+        </td>
+        <td style="width:20%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-left:3px;"><text style="font-size:10pt; font-weight:bold;">含义</text></para>
+          <para styleclass="Normal" style="text-align:center; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt; font-weight:bold;">设置</text></para>
+        </td>
+      </thead>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:15%;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">D0620</text></para>
+        </td>
+        <td style="width:40%;">
+          <para styleclass="Normal" style="margin-top:3px; margin-bottom:3px; margin-left:3px;"><text style="font-size:10pt;">夹具松开和气座检查关闭后的夹具冷却剂开启时间</text></para>
+        </td>
+        <td style="vertical-align:middle; width:20%;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">5</text></para>
+        </td>
+        <td style="vertical-align:middle; width:20%;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt;">单位：秒秒</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

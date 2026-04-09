@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T15:52:53.172Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>4.3.11 Removal-of-Locking-Fixture</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">拆除锁定夹具</para>
+    </header>
+    <para styleclass="Normal">从 RWH 设备上取下锁定夹具。参照<text style="color:#0000ff;">工作台 4.5</text>了解锁定夹具的组件，以及<link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig4.19" style="color:#0000ff;">图 4.19</link>了解各组件的位置。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">首先卸下夹具项目 [9] 和 [12]。拆下这两个部件是为了安装驱动和支撑侧的底部四个螺钉 [15]。</para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Table_E" style="margin-bottom:11px;"><text style="font-size:11pt;">表 &#160;</text><var style="font-size:11pt;" translate="false">&lt;%HMTABLECOUNTER19=4%&gt;</var><text style="font-size:11pt;">.</text><var style="font-size:11pt;" translate="false">&lt;%HMTABLECOUNTER%&gt;</var><text style="font-size:11pt;"> &#160; </text><text styleclass="" style="font-family:Arial; font-size:11pt; color:#000000;">为锁定夹具准备的部件/工具 - MTV32-0037-01</text></para>
+    <para styleclass="Normal" style="text-align:center;"><table rowcount="17" colcount="4" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:middle">
+        <td style="width:9%; height:21px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">项目编号</text></para>
+        </td>
+        <td style="width:24%; height:21px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">组件编号</text></para>
+        </td>
+        <td style="width:46%; height:21px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">说明</text></para>
+        </td>
+        <td style="width:10%; height:21px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center;"><text style="font-size:10pt; font-weight:bold;">数量</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">1</text></para>
+        </td>
+        <td style="width:24%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">MTV32-0037A-01</text></para>
+        </td>
+        <td style="width:46%;">
+          <para styleclass="Normal" style="margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;"> RWH(AC) 锁紧夹具底座</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">1</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">2</text></para>
+        </td>
+        <td style="width:24%;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">Z273K1116000</text></para>
+        </td>
+        <td style="width:46%;">
+          <para styleclass="Normal" style="margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;"> M16 眼螺栓</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">2</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:9%; height:3px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">3</text></para>
+        </td>
+        <td style="vertical-align:middle; width:24%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">MTV32-0037B-01</text></para>
+        </td>
+        <td style="vertical-align:middle; width:46%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;"> RWH(AC) 支架 C 轴锁定夹具</text></para>
+        </td>
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">1 套</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:9%; height:3px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">4</text></para>
+        </td>
+        <td style="vertical-align:middle; width:24%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">Z271B1116035</text></para>
+        </td>
+        <td style="vertical-align:middle; width:46%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;"> SOC HD CAP SCR M16X35</text></para>
+        </td>
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">4</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:9%; height:3px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">5</text></para>
+        </td>
+        <td style="vertical-align:middle; width:24%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">Z271B1112030</text></para>
+        </td>
+        <td style="vertical-align:middle; width:46%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;"> SOC HD CAP SCR M10X30</text></para>
+        </td>
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">4</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:9%; height:3px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">6</text></para>
+        </td>
+        <td style="vertical-align:middle; width:24%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">MTV32-0037D-00</text></para>
+        </td>
+        <td style="vertical-align:middle; width:46%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;"> RWH(AC) 支架 RH1 A 轴锁定夹具</text></para>
+        </td>
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">1</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:9%; height:3px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">7</text></para>
+        </td>
+        <td style="vertical-align:middle; width:24%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">Z271B1112030</text></para>
+        </td>
+        <td style="vertical-align:middle; width:46%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;"> SOC HD CAP SCR M12X30</text></para>
+        </td>
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">2</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:9%; height:3px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">8</text></para>
+        </td>
+        <td style="vertical-align:middle; width:24%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">Z271B1110025</text></para>
+        </td>
+        <td style="vertical-align:middle; width:46%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;"> SOC HD CAP SCR M10X35</text></para>
+        </td>
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">2</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:9%; height:3px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">9</text></para>
+        </td>
+        <td style="vertical-align:middle; width:24%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">MTV32-0037E-00</text></para>
+        </td>
+        <td style="vertical-align:middle; width:46%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;"> RWH（交流）支架 RH2 A 轴锁定夹具</text></para>
+        </td>
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">1</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:9%; height:3px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">10</text></para>
+        </td>
+        <td style="vertical-align:middle; width:24%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">Z271B1112030</text></para>
+        </td>
+        <td style="vertical-align:middle; width:46%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;"> SOC HD CAP SCR M12X30</text></para>
+        </td>
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">2</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:9%; height:3px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">11</text></para>
+        </td>
+        <td style="vertical-align:middle; width:24%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">Z271B1110025</text></para>
+        </td>
+        <td style="vertical-align:middle; width:46%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;"> SOC HD CAP SCR M10X35</text></para>
+        </td>
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">2</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:9%; height:3px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">12</text></para>
+        </td>
+        <td style="vertical-align:middle; width:24%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">MTV32-0037C-00</text></para>
+        </td>
+        <td style="vertical-align:middle; width:46%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;"> RWH(AC) 支架 LH A 轴锁定夹具 </text></para>
+        </td>
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">1</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:9%; height:3px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">13</text></para>
+        </td>
+        <td style="vertical-align:middle; width:24%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">Z271B1110035</text></para>
+        </td>
+        <td style="vertical-align:middle; width:46%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;"> SOC HD CAP SCR M10X35</text></para>
+        </td>
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">4</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:9%; height:3px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">14</text></para>
+        </td>
+        <td style="vertical-align:middle; width:24%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">Z271B1108020</text></para>
+        </td>
+        <td style="vertical-align:middle; width:46%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;"> SOC HD CAP SCR M8X20</text></para>
+        </td>
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">4</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:9%; height:3px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">15</text></para>
+        </td>
+        <td style="vertical-align:middle; width:24%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">Z271B1120080</text></para>
+        </td>
+        <td style="vertical-align:middle; width:46%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;"> SOC HD CAP SCR M20X80</text></para>
+        </td>
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">4</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:9%; height:3px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">16</text></para>
+        </td>
+        <td style="vertical-align:middle; width:24%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">Z271B1116070</text></para>
+        </td>
+        <td style="vertical-align:middle; width:46%; height:22px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;"> SOC HD CAP SCR M16X70</text></para>
+        </td>
+        <td style="vertical-align:middle; width:10%; height:22px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">4</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="Fig 4.1.2 RWH with Locking Fixture.png" imagestyleclass="Default" scale="90.00%" width="473" height="535" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><anchor id="Fig4.19"></anchor><text style="font-size:11pt;">图</text> &lt;%HMFIGURECOUNTER18=4%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160;<text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">锁定夹具组件</text></para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:6px; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:6px;">按照<link displaytype="text" defaultstyle="false" type="topiclink" href="" anchor="Fig4.20" style="color:#0000ff;">图 4.20</link> 用吊环螺栓安装起重吊索。</li>
+      <li styleclass="Normal" style="margin-bottom:6px;">通过升起起重机来装载吊装带。 </li>
+      <li styleclass="Normal" style="margin-bottom:6px;">找到并完全拧紧驱动侧和支撑侧底部的 4 个安装螺钉 [15][16]。</li>
+      <li styleclass="Normal" style="margin-bottom:6px;">确保 RWH 设备已完全安装，然后松开吊装带和起重机，再拆除其余的夹具项目。</li>
+      <li styleclass="Normal" style="margin-bottom:6px;">对 RWH 装置进行对准检查。有关支持和更多细节，请联系牧野客户服务部。</li>
+    </list>
+    <para styleclass="Normal" style="text-align:center;"><image src="Fig 4.2.2 Assembly of Locking Fixture.png" imagestyleclass="Default" scale="70.00%" width="462" height="393" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:9px;"><anchor id="Fig4.20" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER18=4%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160;装配夹具</text></para>
+    <para styleclass="Normal" style="text-align:center;"><table rowcount="5" colcount="3" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:64px; background-color:#dddddd;">
+          <para styleclass="" style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:10pt; color:#000000;">编号</text></para>
+        </td>
+        <td style="width:160px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">说明</text></para>
+        </td>
+        <td style="width:50px; background-color:#dddddd;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">数量</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:64px; height:20px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">1</text></para>
+        </td>
+        <td style="vertical-align:middle; width:160px; height:20px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;"> 提升点</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50px; height:20px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">-</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:64px; height:20px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:160px; height:20px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;"> 吊装带</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50px; height:20px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">1</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:64px; height:20px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">3</text></para>
+        </td>
+        <td style="vertical-align:middle; width:160px; height:20px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;"> 锁定夹具</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50px; height:20px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">1</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:64px; height:20px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">4</text></para>
+        </td>
+        <td style="vertical-align:middle; width:160px; height:20px;">
+          <para styleclass="Normal" style="margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;"> M16 眼螺栓</text></para>
+        </td>
+        <td style="vertical-align:middle; width:50px; height:20px;">
+          <para styleclass="Normal" style="text-align:center; margin-top:3px; margin-bottom:3px;"><text style="font-size:10pt;">4</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

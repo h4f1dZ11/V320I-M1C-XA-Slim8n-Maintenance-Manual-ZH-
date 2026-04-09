@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:34:20.451Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>7.2 Outline</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">概述</para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:10px;">刀具破损传感器 (BTS) 用于在加工过程中发现刀具破损，从而避免加工工件报废，或在上一把参与切削的刀具破损时避免下一步操作。</para>
+    <para styleclass="Normal" style="margin-bottom:10px;">可通过 &quot;刀具数据&quot; 屏幕上的 &quot;刀具检查&quot; 选项是/否，对需要进行刀具破损（BT）检查的刀具进行检查。 </para>
+    <para styleclass="Normal">对于设置了 BT 检查的刀具，在将刀具送回刀库时，首先进行 BT 检查，如果没有刀具破损，则拾取新刀具。如果发现刀具破损，则发出警报并终止刀具更换周期。</para>
+    <para styleclass="Normal" style="margin-bottom:10px; page-break-before:always;"></para>
+  </body>
+</topic>

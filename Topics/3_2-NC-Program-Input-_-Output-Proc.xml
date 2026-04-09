@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" modified="2026-04-07T13:57:20.028Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.2 NC Program Input / Output Procedure</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">NC 程序输入/输出程序</para>
+    </header>
+    <para styleclass="Normal">NC 程序数据可从 CNC-MEM 输入/输出到外置卡或 U 盘。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="line-height:1.50;"><text style="font-weight:bold;">输出步骤</text></para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;"><text style="color:#000000;">将外置卡或 U 盘插入主操作面板上的 PCMCIA 端口或 USB 端口。(参照 </text><link displaytype="text" defaultstyle="false" type="topiclink" href="3_4-SRAM-Backup" anchor="Fig3.5" target="_blank" style="color:#0000ff;">图 3.5</link><text style="color:#000000;">）</text>。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;"><text style="color:#000000;">选择编辑模式。</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;"><text style="color:#000000;">按 </text><text style="font-weight:bold; color:#000000;">[系统]</text><text style="color:#000000;"> 功能键。 </text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;"><text style="color:#000000;">按 </text><text style="font-weight:bold; color:#000000;">[&gt;]</text><text style="color:#000000;"> 软键。</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;"><text style="color:#000000;">按 </text><text style="font-weight:bold; color:#000000;">[ALL IO]</text><text style="color:#000000;"> 软键。</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;"><text style="color:#000000;">按 </text><text style="font-weight:bold; color:#000000;">[计划]</text><text style="color:#000000;"> 软键，按</text><text style="font-weight:bold; color:#000000;"> [OPRT]</text><text style="color:#000000;">，按 </text><text style="font-weight:bold; color:#000000;">[FOUTPUT]</text><text style="color:#000000;">。</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;"><text style="color:#000000;">输入文件名称，按 </text><text style="font-weight:bold; color:#000000;">[F 名称] </text><text style="color:#000000;">软键。</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;"><text style="color:#000000;">按 </text><text style="font-weight:bold; color:#000000;">[EXEC]</text><text style="color:#000000;"> 软键。</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;"><text style="color:#000000;">开始将程序从 NC 输出到存储卡。程序传送期间，OUTPUT 文本在信息显示区域闪烁。</text></li>
+    </list>
+    <para styleclass="Normal" style="text-indent:-24px; margin-left:24px;"></para>
+    <para styleclass="Normal" style="text-align:center; text-indent:-24px; margin-bottom:10px; margin-left:24px; line-height:1.50;"><image src="Pic 9.png" scale="40.00%" width="320" height="240" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><anchor id="OutputProcedure" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER3=3%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160;NC 程序输出程序</text></para>
+    <para styleclass="Normal" style="line-height:1.50; page-break-before:always;"><text style="font-weight:bold;">输入程序</text></para>
+    <para styleclass="Normal" style="margin-bottom:14px;">向机床输入 NC 程序时，请按照以下步骤将外置卡或 U 盘中的文件复制到 CNC-MEM 文件夹。</para>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">将外置卡或 U 盘插入主操作面板上的 PCMCIA 端口或 USB 端口。(参照<link displaytype="text" defaultstyle="false" type="topiclink" href="3_4-SRAM-Backup" anchor="Fig3.5" target="_blank" style="color:#0000ff;">图 3.5</link>）。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">选择编辑模式。</li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;"><text style="color:#000000;">按 </text><text style="font-weight:bold; color:#000000;">[系统]</text><text style="color:#000000;"> 功能键。 </text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;"><text style="color:#000000;">按 </text><text style="font-weight:bold; color:#000000;">[&gt;]</text><text style="color:#000000;"> 软键。</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;"><text style="color:#000000;">按 </text><text style="font-weight:bold; color:#000000;">[所有 IO]</text><text style="color:#000000;"> 软键。</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;"><text style="color:#000000;">按 </text><text style="font-weight:bold; color:#000000;">[计划]</text><text style="color:#000000;"> 软键，按</text><text style="font-weight:bold; color:#000000;"> [OPRT]</text><text style="color:#000000;">，按 </text><text style="font-weight:bold; color:#000000;">[FINPUT]</text><text style="color:#000000;">。</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;"><text style="color:#000000;">输入文件编号，按 </text><text style="font-weight:bold; color:#000000;">[F SET]</text><text style="color:#000000;"> 软键。</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;"><text style="color:#000000;">按 </text><text style="font-weight:bold; color:#000000;">[EXEC]</text><text style="color:#000000;"> 软键。</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-bottom:10px; margin-left:24px;">开始从 USB 或存储卡输入程序。在程序传输过程中，输入文本在信息显示区域闪烁。</li>
+    </list>
+    <para styleclass="Normal" style="text-indent:-24px; margin-left:24px;"></para>
+    <para styleclass="Normal" style="text-align:center; text-indent:-34px; margin-bottom:10px; margin-left:34px; line-height:1.50;"><image src="Pic 10.png" scale="40.00%" width="320" height="240" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><anchor id="InputProcedure" style="font-size:11pt;"></anchor><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER3=3%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160;NC 程序输入步骤</text></para>
+    <para styleclass="Normal" style="text-align:center; page-break-before:always;"></para>
+  </body>
+</topic>

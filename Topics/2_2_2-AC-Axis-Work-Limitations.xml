@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T14:28:50.264Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.2.2 AC-Axis Work Limitations</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">AC 轴工作限制</para>
+    </header>
+    <para styleclass="Normal">AC 轴对工件有特定的工作限制。下图概述了这些限制，并指出了主轴的安全换刀区域。</para>
+    <para styleclass="Normal">&#32;</para>
+    <para styleclass="Normal" style="text-align:center;"><image src="Fig 2.14 AC-Axis Work Limitations_Edit01.jpg" imagestyleclass="Default" scale="48.00%" width="485" height="246" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="Fig 2.14 AC-Axis Work Limitations_Edit02.jpg" imagestyleclass="Default" scale="48.00%" width="436" height="561" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER18=2%&gt;.&lt;%HMFIGURECOUNTER%&gt; </text>主轴刀具更换区</para>
+    <para styleclass="Normal" style="text-align:center; page-break-before:always;"></para>
+  </body>
+</topic>

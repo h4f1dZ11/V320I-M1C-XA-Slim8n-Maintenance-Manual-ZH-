@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T13:36:31.648Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2.4.1 Warning Labels Locations on Standard Machine</title>
+  <keywords>
+    <keyword>#MCVIEW</keyword>
+    <keyword>#MECHOK</keyword>
+    <keyword>#MTC</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading4">标准机床上的警告标签位置</para>
+    </header>
+    <para styleclass="Normal" style="text-align:center;"><image src="Sticker Location on Std MC_View A.png" scale="65.00%" width="396" height="816" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center; page-break-before:always;"><image src="Sticker Location on Std MC_View B.png" scale="65.00%" width="391" height="374" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center; page-break-before:always;"></para>
+  </body>
+</topic>

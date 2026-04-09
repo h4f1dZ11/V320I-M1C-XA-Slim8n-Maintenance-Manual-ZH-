@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T15:16:39.300Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>4.1 General Safety Precautions</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">总则 安全防范措施</para>
+    </header>
+    <list id="0" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="" style="text-align:left; text-indent:-12px; margin-top:0px; margin-right:0px; margin-bottom:11px; margin-left:12px; line-height:1.15; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="" style="text-align:left; text-indent:-12px; margin-top:0px; margin-right:0px; margin-bottom:11px; margin-left:12px; line-height:1.15; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">只有经过培训并具备相关知识的人员才能进行安装。</text></li>
+      <li styleclass="" style="text-align:left; text-indent:-12px; margin-top:0px; margin-right:0px; margin-bottom:11px; margin-left:12px; line-height:1.15; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">只有合格的电气工程师才能从事电气工作。</text></li>
+      <li styleclass="" style="text-align:left; text-indent:-12px; margin-top:0px; margin-right:0px; margin-bottom:11px; margin-left:12px; line-height:1.15; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">只有合格人员才能操作起重机或叉车。</text></li>
+      <li styleclass="" style="text-align:left; text-indent:-12px; margin-top:0px; margin-right:0px; margin-bottom:11px; margin-left:12px; line-height:1.15; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">确保按要求佩戴手套等适当的个人防护设备 (PPE)。</text></li>
+      <li styleclass="" style="text-align:left; text-indent:-12px; margin-top:0px; margin-right:0px; margin-bottom:11px; margin-left:12px; line-height:1.15; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">确保在进行安装之前执行正确的锁定和标记程序。</text></li>
+      <li styleclass="" style="text-align:left; text-indent:-12px; margin-top:0px; margin-right:0px; margin-bottom:11px; margin-left:12px; line-height:1.15; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">切勿在安装过程中禁用或拆除任何安全装置。 </text></li>
+      <li styleclass="" style="text-align:left; text-indent:-12px; margin-top:0px; margin-right:0px; margin-bottom:11px; margin-left:12px; line-height:1.15; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">遵守机床随附手册中的安全说明。</text></li>
+      <li styleclass="" style="text-align:left; text-indent:-12px; margin-top:0px; margin-right:0px; margin-bottom:11px; margin-left:12px; line-height:1.15; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">遵守现场规定的所有安全要求。</text></li>
+    </list>
+  </body>
+</topic>

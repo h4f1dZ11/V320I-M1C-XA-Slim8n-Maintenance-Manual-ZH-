@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T13:35:48.460Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>2 Warning Labels</title>
+  <keywords>
+    <keyword>#MECHOK</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading2" style="page-break-before:always;">警告标签</para>
+    </header>
+    <para styleclass="" style="text-align:left; text-indent:0px; margin-top:8px; margin-right:0px; margin-bottom:15px; margin-left:0px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:714px right ;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">在具有潜在危险的机床零件上黏贴有警告标签，它警告操作员这些零件的危险情况以及危险级别，确保操作员的安全。 </text></para>
+    <para styleclass="" style="text-align:justify; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.18; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="" style="font-family:SimSun; font-size:11pt; color:#000000;">警告标签包括易于识别的危险源标志，危险级别的信号词，以及指示如何避免出现危险状况的警告标语。当操作黏贴有警告标签的零件时，一定要完全理解警告标签所含的警告信息及其寓意，然后遵守所述警告标语的指示。忽略警告标签中的信息可能导致死亡或严重事故或损坏机床。</text></para>
+  </body>
+</topic>

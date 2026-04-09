@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:24:08.002Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>4.4 Work Setup Side Operation</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">工作设置侧操作</para>
+    </header>
+    <para styleclass="Normal">本部分介绍工件设置侧操作。其中包括工件设置,手动操作和自动模式下的操作。</para>
+  </body>
+</topic>

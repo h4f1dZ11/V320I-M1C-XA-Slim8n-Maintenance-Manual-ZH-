@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-08T15:27:11.604Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>4.3.5 Rotation of RWH Unit to 180° Position</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">将 RWH 设备旋转到 180°位置</para>
+    </header>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="line-height:1.50; font-family:SimSun; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="line-height:1.50;">拧下并取下支撑装置上的机械挡块。</li>
+      <li styleclass="Normal" style="line-height:1.50;">在旋转旋转工作头(RWH)之前，确保 A 轴和 C 轴均已禁用。</li>
+      <li styleclass="Normal" style="line-height:1.50;">使用相应参数将倾斜轴限制从 +120.2°更改为 +180.2°（初始工作轴限制为 +120.2°）。</li>
+      <li styleclass="Normal" style="line-height:1.50;">通过倾斜 RWH 设备将其旋转至 +180°位置。这将使输送机和锁定夹具卡入到位。</li>
+    </list>
+    <para styleclass="Normal" style="text-align:center; margin-bottom:6px; line-height:1.50;"><image src="Fig 4.9 Rotation of RWH Unit at +0 deg.png" imagestyleclass="Default" scale="42.00%" width="234" height="270" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER18=4%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160;将 RWH 设备旋转至 +180°</text>位置</para>
+  </body>
+</topic>

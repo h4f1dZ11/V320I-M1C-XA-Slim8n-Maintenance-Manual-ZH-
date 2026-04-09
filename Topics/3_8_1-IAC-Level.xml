@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:02:30.636Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.8.1 IAC Level</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">IAC 级</para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:8px;">IAC LEVEL 从 0 级到 8 级。</para>
+    <para styleclass="Normal" style="margin-bottom:8px;">0 级：无负载。</para>
+    <para styleclass="Normal" style="margin-bottom:8px;">第 8 级：最大负载。</para>
+  </body>
+</topic>

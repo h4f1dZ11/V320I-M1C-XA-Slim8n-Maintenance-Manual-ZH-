@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T15:52:57.232Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.2 Low Oil Level Alarm in the Power Pack</title>
+  <body>
+    <header>
+      <para styleclass="Heading3">动力组件中的低油位警报</para>
+    </header>
+    <para styleclass="Normal">当动力组出现低油位警报时，请采取以下纠正措施：</para>
+    <para styleclass="Normal"></para>
+    <list id="0" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:9px; font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:9px;">检查整个软管线路和接头是否有任何泄漏。如果发现泄漏，应立即处理。</li>
+      <li styleclass="Normal" style="margin-bottom:9px;">为动力组件重新注油。</li>
+      <li styleclass="Normal">检查 A 轴旋转接头处是否漏油。如有必要，更换旋转接头子单元。</li>
+    </list>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">如需进一步帮助，请联系牧野服务代表。</para>
+    <para styleclass="Normal" style="margin-bottom:9px; margin-left:13px; page-break-before:always;"></para>
+  </body>
+</topic>

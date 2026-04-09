@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:02:57.284Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>3.8.4 Reset of IAC Teach Status When Abnormal Torque Detection Alarm Occurrence</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">扭矩检测异常警报发生时 IAC 教状态的复位</para>
+    </header>
+    <para styleclass="Normal">如果在托盘旋转过程中出现异常扭矩检测警报，IAC 的示教状态将被复位。</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text style="font-weight:bold;">异常扭矩检测报警时的步骤</text></para>
+    <para styleclass="Normal"></para>
+    <list id="0" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-bottom:8px; font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal" style="margin-bottom:8px;">托盘更换时，出现异常扭矩检测警报。</li>
+      <li styleclass="Normal" style="margin-bottom:8px;">托盘 IAC示教状态自动复位。</li>
+      <li styleclass="Normal" style="margin-bottom:8px;">在维护屏幕中将托盘恢复到待机（主页）位置。</li>
+      <li styleclass="Normal" style="margin-bottom:8px;">在 MDI 或 MEM 模式下通过命令 M60 执行托盘更换。</li>
+      <li styleclass="Normal" style="margin-bottom:8px;">托盘 IAC 显示完成。(参照<link displaytype="text" defaultstyle="false" type="topiclink" href="3_8_3-Procedure-for-IAC-Teaching" style="color:#0000ff;">3.8.3 IAC示教步骤</link>）。</li>
+    </list>
+    <para styleclass="Normal" style="margin-bottom:8px; page-break-before:always;"></para>
+  </body>
+</topic>

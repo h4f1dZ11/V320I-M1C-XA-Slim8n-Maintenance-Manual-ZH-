@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T14:34:08.530Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>7 Broken Tool Sensor Unit Setup Procedure (OMRON BTS)</title>
+  <body>
+    <header>
+      <para styleclass="Heading2">刀具破损传感器装置设置步骤（OMRON BTS）</para>
+    </header>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2026-04-07T15:54:03.335Z" lasteditedby="noorhbo" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>4.3.3 Disconnecting of the Chiller Oil In &amp; Out</title>
+  <body>
+    <header>
+      <para styleclass="Heading4">断开冷冻机进出油连接</para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:9px;">将冷冻机油输入管和输出管从各自的连接器上断开。使用 10 毫米弯头推入式连接器创建一个闭合回路。</para>
+    <para styleclass="Normal" style="text-align:center;"><image src="Fig 4.27 Connecting of the Chiller Oil In &amp; Out 2.png" imagestyleclass="Default" scale="72.00%" width="343" height="140" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text style="font-size:11pt;">图 &lt;%HMFIGURECOUNTER17=4%&gt;.&lt;%HMFIGURECOUNTER%&gt; &#160;冷水机进出管的断开</text></para>
+  </body>
+</topic>
